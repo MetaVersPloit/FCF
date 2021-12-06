@@ -1,15 +1,15 @@
 (window.webpackJsonp = window.webpackJsonp || []).push([
     [28], {
-        116: function(e, t, r) {
+        116: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     children: t,
                     className: r,
                     hideUnderline: a
-                } = e, l = function(e) {
+                } = e, l = function (e) {
                     return null != e.onClick ? e.onClick : t => {
                         n.default.platform.openExternalURL(e.href), t.preventDefault()
                     }
@@ -36,7 +36,7 @@
             }
 
             function s() {
-                return (s = Object.assign || function(e) {
+                return (s = Object.assign || function (e) {
                     for (var t = 1; t < arguments.length; t++) {
                         var r = arguments[t];
                         for (var n in r) Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n])
@@ -59,7 +59,7 @@
                 cursor: "pointer"
             }))
         },
-        125: function(e, t, r) {
+        125: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -74,7 +74,7 @@
                 c = r(35),
                 d = w(r(600)),
                 f = w(r(326)),
-                h = function(e) {
+                h = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -100,7 +100,7 @@
             function _() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return _ = function() {
+                return _ = function () {
                     return e
                 }, e
             }
@@ -111,8 +111,8 @@
                 }
             }
             const C = (0, u.default)(p.default)({
-                    flex: "auto"
-                }),
+                flex: "auto"
+            }),
                 E = (0, u.default)(p.default)({
                     padding: "5px 12px",
                     flexDirection: "row"
@@ -134,10 +134,10 @@
                 }));
             t.MessageTagText = M;
             const S = (0, u.default)(M)({
-                    marginLeft: 12,
-                    marginBottom: 2,
-                    direction: "ltr"
-                }),
+                marginLeft: 12,
+                marginBottom: 2,
+                direction: "ltr"
+            }),
                 O = (0, u.default)(p.default)(e => ({
                     flexDirection: "row",
                     marginLeft: e.isSenderViewer ? "auto" : 10,
@@ -145,7 +145,7 @@
                     paddingRight: 28,
                     marginBottom: 2
                 }));
-            var T = (0, h.memo)((function({
+            var T = (0, h.memo)((function ({
                 messageOTIDs: e,
                 threadKey: t,
                 parentThreadKey: r,
@@ -241,11 +241,11 @@
             }), a.caution_deepEquals);
             t.default = T
         },
-        142: function(e, t, r) {
+        142: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function({
+            }), t.default = function ({
                 currentEmoji: e,
                 isWorkplace: t,
                 threadTheme: r,
@@ -262,11 +262,11 @@
                     color: w
                 }).color, E = "normal" === c ? 52 : 39, M = "normal" === c ? 6 : 8, T = "normal" === c || !d || d && 0 === d.length ? Object.values(o.EmojiCategory).filter(e => e !== o.EmojiCategory.FrequentlyUsed) : Object.values(o.EmojiCategory), I = (0, y.useMemo)(() => {
                     const e = {
-                            ...o.default
-                        },
+                        ...o.default
+                    },
                         t = d ? d.slice(0, 16) : [];
                     return e[o.EmojiCategory.FrequentlyUsed] = t,
-                        function(e, t, r, n, a) {
+                        function (e, t, r, n, a) {
                             const l = [];
                             for (const i of e) {
                                 const e = Object.values(o.EmojiCategory).includes(i);
@@ -344,7 +344,7 @@
             function w() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return w = function() {
+                return w = function () {
                     return e
                 }, e
             }
@@ -378,11 +378,11 @@
             t.NORMAL_PICKER_BUTTON_DIMS = 36;
             t.COMPACT_PICKER_BUTTON_DIMS = 32;
             const k = (0, i.default)(v.default)({
-                    borderRadius: 4,
-                    pointerEvents: "auto",
-                    paddingTop: 4,
-                    flex: 1
-                }),
+                borderRadius: 4,
+                pointerEvents: "auto",
+                paddingTop: 4,
+                flex: 1
+            }),
                 x = (0, i.default)(v.default)(e => ({
                     flex: "1 1 0px",
                     overflow: "hidden"
@@ -438,11 +438,11 @@
             }
             t.HOTLIKE = "HOTLIKE", o.default[o.EmojiCategory.SmileysAndPeople].unshift("HOTLIKE")
         },
-        1481: function(e, t, r) {
+        1481: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     ctaItem: t,
                     sendPostback: r
@@ -457,8 +457,8 @@
                 }))
             };
             var n, a = (n = r(1)) && n.__esModule ? n : {
-                    default: n
-                },
+                default: n
+            },
                 o = u(r(127)),
                 l = r(149),
                 i = u(r(0));
@@ -466,7 +466,7 @@
             function s() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return s = function() {
+                return s = function () {
                     return e
                 }, e
             }
@@ -490,7 +490,7 @@
                 margin: "8px 4px"
             })
         },
-        1487: function(e, t, r) {
+        1487: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -504,21 +504,21 @@
                     default: e
                 }
             }
-            var i = e => function(e) {
+            var i = e => function (e) {
                 const t = /^\/groups\/\S+\/permalink\/\d+\//;
                 try {
                     const r = new URL(e.actionUrl);
                     return (r.hostname.endsWith("facebook.com") || r.hostname.endsWith("workplace.com")) && t.test(r.pathname)
-                } catch (e) {}
+                } catch (e) { }
                 return !1
             }(e.attachment) ? o.default.createElement(n.default, e) : o.default.createElement(a.RegularXMA, e);
             t.default = i
         },
-        1488: function(e, t, r) {
+        1488: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 var t;
                 const {
                     attachment: r
@@ -557,7 +557,7 @@
             }
 
             function p() {
-                return (p = Object.assign || function(e) {
+                return (p = Object.assign || function (e) {
                     for (var t = 1; t < arguments.length; t++) {
                         var r = arguments[t];
                         for (var n in r) Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n])
@@ -566,9 +566,9 @@
                 }).apply(this, arguments)
             }
             const m = (0, l.default)(d.default)({
-                    width: 600,
-                    minHeight: 62
-                }),
+                width: 600,
+                minHeight: 62
+            }),
                 g = (0, l.default)(d.default)(e => ({
                     backgroundColor: e.theme.semanticColors.bgSurfaceSecondary,
                     padding: "10px 12px",
@@ -598,13 +598,13 @@
                 }, t), e))
             }
             const _ = (0, l.default)(b)(({
-                    theme: e
-                }) => ({
-                    paddingLeft: 6,
-                    marginLeft: 4,
-                    fontStyle: "italic",
-                    borderLeft: `2px solid ${e.semanticColors.textTertiary}`
-                })),
+                theme: e
+            }) => ({
+                paddingLeft: 6,
+                marginLeft: 4,
+                fontStyle: "italic",
+                borderLeft: `2px solid ${e.semanticColors.textTertiary}`
+            })),
                 w = (0, l.default)(b)(({
                     listStyle: e
                 }) => ({
@@ -660,18 +660,18 @@
                     }, e)
                 }
         },
-        1489: function(e, t, r) {
+        1489: function (e, t, r) {
             "use strict";
 
             function n(e) {
-                return function(e) {
+                return function (e) {
                     if (Array.isArray(e)) {
                         for (var t = 0, r = new Array(e.length); t < e.length; t++) r[t] = e[t];
                         return r
                     }
-                }(e) || function(e) {
+                }(e) || function (e) {
                     if (Symbol.iterator in Object(e) || "[object Arguments]" === Object.prototype.toString.call(e)) return Array.from(e)
-                }(e) || function() {
+                }(e) || function () {
                     throw new TypeError("Invalid attempt to spread non-iterable instance")
                 }()
             }
@@ -689,7 +689,7 @@
                 m = r(1567),
                 g = r(1568),
                 y = Object.keys(m),
-                v = function(e) {
+                v = function (e) {
                     var t = e.source || e.children || "",
                         r = e.parserOptions;
                     if (e.allowedTypes && e.disallowedTypes) throw new Error("Only one of `allowedTypes` and `disallowedTypes` should be defined");
@@ -702,24 +702,24 @@
                             renderers: n,
                             definitions: h(p)
                         }),
-                        _ = function(e) {
+                        _ = function (e) {
                             var t = [f, s()],
                                 r = e.disallowedTypes;
-                            e.allowedTypes && (r = y.filter((function(t) {
+                            e.allowedTypes && (r = y.filter((function (t) {
                                 return "root" !== t && -1 === e.allowedTypes.indexOf(t)
                             })));
                             var n = e.unwrapDisallowed ? "unwrap" : "remove";
                             r && r.length > 0 && t.push(c.ofType(r, n));
                             e.allowNode && t.push(c.ifNotMatch(e.allowNode, n));
                             var a = !e.escapeHtml && !e.skipHtml,
-                                o = (e.astPlugins || []).some((function(e) {
+                                o = (e.astPlugins || []).some((function (e) {
                                     return (Array.isArray(e) ? e[0] : e).identity === g.HtmlParser
                                 }));
                             a && !o && t.push(u);
                             return e.astPlugins ? t.concat(e.astPlugins) : t
                         }(e),
                         w = i.runSync(p),
-                        C = _.reduce((function(e, t) {
+                        C = _.reduce((function (e, t) {
                             return t(e, v)
                         }), w);
                     return d(C, v)
@@ -759,7 +759,7 @@
                 parserOptions: i.object
             }, v.types = y, v.renderers = m, v.uriTransformer = p, e.exports = v
         },
-        1490: function(e, t, r) {
+        1490: function (e, t, r) {
             "use strict";
             var n = r(1491),
                 a = r(1492),
@@ -773,11 +773,11 @@
                     v = {},
                     b = !1,
                     _ = -1;
-                return w.data = function(e, t) {
+                return w.data = function (e, t) {
                     if (i(e)) return 2 === arguments.length ? (m("data", b), v[e] = t, w) : c.call(v, e) && v[e] || null;
                     if (e) return m("data", b), v = e, w;
                     return v
-                }, w.freeze = C, w.attachers = t, w.use = function(e) {
+                }, w.freeze = C, w.attachers = t, w.use = function (e) {
                     var r;
                     if (m("use", b), null == e);
                     else if ("function" == typeof e) i.apply(null, arguments);
@@ -813,22 +813,22 @@
                         var a = E(e);
                         a ? (s(a[1]) && s(r) && (r = n(a[1], r)), a[1] = r) : t.push(u.call(arguments))
                     }
-                }, w.parse = function(e) {
+                }, w.parse = function (e) {
                     var t, r = o(e);
                     if (C(), h("parse", t = w.Parser), f(t)) return new t(String(r), r).parse();
                     return t(String(r), r)
-                }, w.stringify = function(e, t) {
+                }, w.stringify = function (e, t) {
                     var r, n = o(t);
                     if (C(), p("stringify", r = w.Compiler), g(e), f(r)) return new r(e, n).compile();
                     return r(e, n)
-                }, w.run = k, w.runSync = function(e, t) {
+                }, w.run = k, w.runSync = function (e, t) {
                     var r, n = !1;
-                    return k(e, t, (function(e, t) {
+                    return k(e, t, (function (e, t) {
                         n = !0, a(e), r = t
                     })), y("runSync", "run", n), r
-                }, w.process = x, w.processSync = function(e) {
+                }, w.process = x, w.processSync = function (e) {
                     var t, r = !1;
-                    return C(), h("processSync", w.Parser), p("processSync", w.Compiler), x(t = o(e), (function(e) {
+                    return C(), h("processSync", w.Parser), p("processSync", w.Compiler), x(t = o(e), (function (e) {
                         r = !0, a(e)
                     })), y("processSync", "process", r), t
                 }, w;
@@ -841,7 +841,7 @@
                 function C() {
                     var e, n, a, o;
                     if (b) return w;
-                    for (; ++_ < t.length;) n = (e = t[_])[0], null, !1 !== (a = e[1]) && (!0 === a && (e[1] = void 0), "function" == typeof(o = n.apply(w, e.slice(1))) && r.use(o));
+                    for (; ++_ < t.length;) n = (e = t[_])[0], null, !1 !== (a = e[1]) && (!0 === a && (e[1] = void 0), "function" == typeof (o = n.apply(w, e.slice(1))) && r.use(o));
                     return b = !0, _ = 1 / 0, w
                 }
 
@@ -854,7 +854,7 @@
                     if (g(e), C(), n || "function" != typeof t || (n = t, t = null), !n) return new Promise(a);
 
                     function a(a, l) {
-                        r.run(e, o(t), (function(t, r, o) {
+                        r.run(e, o(t), (function (t, r, o) {
                             r = r || e, t ? l(t) : a ? a(r) : n(null, r, o)
                         }))
                     }
@@ -868,7 +868,7 @@
                         var a = o(e);
                         d.run(w, {
                             file: a
-                        }, (function(e) {
+                        }, (function (e) {
                             e ? n(e) : r ? r(a) : t(null, a)
                         }))
                     }
@@ -877,18 +877,18 @@
             }().freeze();
             var u = [].slice,
                 c = {}.hasOwnProperty,
-                d = l().use((function(e, t) {
+                d = l().use((function (e, t) {
                     t.tree = e.parse(t.file)
-                })).use((function(e, t, r) {
-                    e.run(t.tree, t.file, (function(e, n, a) {
+                })).use((function (e, t, r) {
+                    e.run(t.tree, t.file, (function (e, n, a) {
                         e ? r(e) : (t.tree = n, t.file = a, r())
                     }))
-                })).use((function(e, t) {
+                })).use((function (e, t) {
                     t.file.contents = e.stringify(t.tree, t.file)
                 }));
 
             function f(e) {
-                return "function" == typeof e && function(e) {
+                return "function" == typeof e && function (e) {
                     var t;
                     for (t in e) return !0;
                     return !1
@@ -915,16 +915,16 @@
                 if (!r) throw new Error("`" + e + "` finished async. Use `" + t + "` instead")
             }
         },
-        1491: function(e, t, r) {
+        1491: function (e, t, r) {
             "use strict";
             var n = Object.prototype.hasOwnProperty,
                 a = Object.prototype.toString,
                 o = Object.defineProperty,
                 l = Object.getOwnPropertyDescriptor,
-                i = function(e) {
+                i = function (e) {
                     return "function" == typeof Array.isArray ? Array.isArray(e) : "[object Array]" === a.call(e)
                 },
-                s = function(e) {
+                s = function (e) {
                     if (!e || "[object Object]" !== a.call(e)) return !1;
                     var t, r = n.call(e, "constructor"),
                         o = e.constructor && e.constructor.prototype && n.call(e.constructor.prototype, "isPrototypeOf");
@@ -932,7 +932,7 @@
                     for (t in e);
                     return void 0 === t || n.call(e, t)
                 },
-                u = function(e, t) {
+                u = function (e, t) {
                     o && "__proto__" === t.name ? o(e, t.name, {
                         enumerable: !0,
                         configurable: !0,
@@ -940,7 +940,7 @@
                         writable: !0
                     }) : e[t.name] = t.newValue
                 },
-                c = function(e, t) {
+                c = function (e, t) {
                     if ("__proto__" === t) {
                         if (!n.call(e, t)) return;
                         if (l) return l(e, t).value
@@ -964,13 +964,13 @@
                 return d
             }
         },
-        1492: function(e, t, r) {
+        1492: function (e, t, r) {
             "use strict";
-            e.exports = function(e) {
+            e.exports = function (e) {
                 if (e) throw e
             }
         },
-        1493: function(e, t, r) {
+        1493: function (e, t, r) {
             "use strict";
             var n = r(1494),
                 a = r(1496);
@@ -982,25 +982,25 @@
                     o = new n(e, t, r);
                 return a && (o.name = a + ":" + o.name, o.file = a), o.fatal = !1, this.messages.push(o), o
             }
-            o.message = l, o.info = function() {
+            o.message = l, o.info = function () {
                 var e = this.message.apply(this, arguments);
                 return e.fatal = null, e
-            }, o.fail = function() {
+            }, o.fail = function () {
                 var e = this.message.apply(this, arguments);
                 throw e.fatal = !0, e
             }, o.warn = l
         },
-        1494: function(e, t, r) {
+        1494: function (e, t, r) {
             "use strict";
             var n = r(1495);
 
-            function a() {}
+            function a() { }
             e.exports = l, a.prototype = Error.prototype, l.prototype = new a;
             var o = l.prototype;
 
             function l(e, t, r) {
                 var a, o, l;
-                "string" == typeof t && (r = t, t = null), a = function(e) {
+                "string" == typeof t && (r = t, t = null), a = function (e) {
                     var t, r = [null, null];
                     "string" == typeof e && (-1 === (t = e.indexOf(":")) ? r[1] = e : (r[0] = e.slice(0, t), r[1] = e.slice(t + 1)));
                     return r
@@ -1017,7 +1017,7 @@
             }
             o.file = "", o.name = "", o.reason = "", o.message = "", o.stack = "", o.fatal = null, o.column = null, o.line = null
         },
-        1495: function(e, t, r) {
+        1495: function (e, t, r) {
             "use strict";
             var n = {}.hasOwnProperty;
 
@@ -1032,7 +1032,7 @@
             function l(e) {
                 return e && "number" == typeof e ? e : 1
             }
-            e.exports = function(e) {
+            e.exports = function (e) {
                 if (!e || "object" != typeof e) return null;
                 if (n.call(e, "position") || n.call(e, "type")) return o(e.position);
                 if (n.call(e, "start") || n.call(e, "end")) return o(e);
@@ -1040,16 +1040,16 @@
                 return null
             }
         },
-        1496: function(e, t, r) {
+        1496: function (e, t, r) {
             "use strict";
-            (function(t) {
+            (function (t) {
                 var n = r(227),
                     a = r(1497),
                     o = r(1498);
                 e.exports = u;
                 var l = {}.hasOwnProperty,
                     i = u.prototype;
-                i.toString = function(e) {
+                i.toString = function (e) {
                     var t = this.contents || "";
                     return o(t) ? t.toString(e) : String(t)
                 };
@@ -1080,31 +1080,31 @@
                     if (!e) throw new Error("Setting `" + t + "` requires `path` to be set too")
                 }
                 Object.defineProperty(i, "path", {
-                    get: function() {
+                    get: function () {
                         return this.history[this.history.length - 1]
                     },
-                    set: function(e) {
+                    set: function (e) {
                         d(e, "path"), e !== this.path && this.history.push(e)
                     }
                 }), Object.defineProperty(i, "dirname", {
-                    get: function() {
+                    get: function () {
                         return "string" == typeof this.path ? n.dirname(this.path) : void 0
                     },
-                    set: function(e) {
+                    set: function (e) {
                         f(this.path, "dirname"), this.path = n.join(e || "", this.basename)
                     }
                 }), Object.defineProperty(i, "basename", {
-                    get: function() {
+                    get: function () {
                         return "string" == typeof this.path ? n.basename(this.path) : void 0
                     },
-                    set: function(e) {
+                    set: function (e) {
                         d(e, "basename"), c(e, "basename"), this.path = n.join(this.dirname || "", e)
                     }
                 }), Object.defineProperty(i, "extname", {
-                    get: function() {
+                    get: function () {
                         return "string" == typeof this.path ? n.extname(this.path) : void 0
                     },
-                    set: function(e) {
+                    set: function (e) {
                         var t = e || "";
                         if (c(t, "extname"), f(this.path, "extname"), t) {
                             if ("." !== t.charAt(0)) throw new Error("`extname` must start with `.`");
@@ -1113,26 +1113,26 @@
                         this.path = a(this.path, t)
                     }
                 }), Object.defineProperty(i, "stem", {
-                    get: function() {
+                    get: function () {
                         return "string" == typeof this.path ? n.basename(this.path, this.extname) : void 0
                     },
-                    set: function(e) {
+                    set: function (e) {
                         d(e, "stem"), c(e, "stem"), this.path = n.join(this.dirname || "", e + (this.extname || ""))
                     }
                 })
             }).call(this, r(223))
         },
-        1497: function(e, t, r) {
+        1497: function (e, t, r) {
             "use strict";
             var n = r(227);
-            e.exports = function(e, t) {
+            e.exports = function (e, t) {
                 if ("string" != typeof e) return e;
                 if (0 === e.length) return e;
                 var r = n.basename(e, n.extname(e)) + t;
                 return n.join(n.dirname(e), r)
             }
         },
-        1498: function(e, t) {
+        1498: function (e, t) {
             function r(e) {
                 return !!e.constructor && "function" == typeof e.constructor.isBuffer && e.constructor.isBuffer(e)
             }
@@ -1142,13 +1142,13 @@
              * @author   Feross Aboukhadijeh <https://feross.org>
              * @license  MIT
              */
-            e.exports = function(e) {
-                return null != e && (r(e) || function(e) {
+            e.exports = function (e) {
+                return null != e && (r(e) || function (e) {
                     return "function" == typeof e.readFloatLE && "function" == typeof e.slice && r(e.slice(0, 0))
                 }(e) || !!e._isBuffer)
             }
         },
-        1499: function(e, t, r) {
+        1499: function (e, t, r) {
             "use strict";
             var n = r(1500);
             e.exports = o, o.wrap = n;
@@ -1157,7 +1157,7 @@
             function o() {
                 var e = [],
                     t = {
-                        run: function() {
+                        run: function () {
                             var t = -1,
                                 r = a.call(arguments, 0, -1),
                                 o = arguments[arguments.length - 1];
@@ -1177,7 +1177,7 @@
                             }
                             l.apply(null, [null].concat(r))
                         },
-                        use: function(r) {
+                        use: function (r) {
                             if ("function" != typeof r) throw new Error("Expected `fn` to be a function, not " + r);
                             return e.push(r), t
                         }
@@ -1185,12 +1185,12 @@
                 return t
             }
         },
-        1500: function(e, t, r) {
+        1500: function (e, t, r) {
             "use strict";
             var n = [].slice;
-            e.exports = function(e, t) {
+            e.exports = function (e, t) {
                 var r;
-                return function() {
+                return function () {
                     var t, l = n.call(arguments, 0),
                         i = e.length > l.length;
                     i && l.push(a);
@@ -1212,21 +1212,21 @@
                 }
             }
         },
-        1501: function(e, t) {
+        1501: function (e, t) {
             var r = Object.prototype.toString;
-            e.exports = function(e) {
+            e.exports = function (e) {
                 return "[object String]" === r.call(e)
             }
         },
-        1502: function(e, t, r) {
+        1502: function (e, t, r) {
             "use strict";
             var n = Object.prototype.toString;
-            e.exports = function(e) {
+            e.exports = function (e) {
                 var t;
                 return "[object Object]" === n.call(e) && (null === (t = Object.getPrototypeOf(e)) || t === Object.getPrototypeOf({}))
             }
         },
-        1503: function(e, t, r) {
+        1503: function (e, t, r) {
             "use strict";
             var n = r(1504),
                 a = r(95),
@@ -1238,13 +1238,13 @@
             }
             e.exports = l, l.Parser = o
         },
-        1504: function(e, t, r) {
+        1504: function (e, t, r) {
             "use strict";
             var n = r(95),
                 a = r(1505);
-            e.exports = function(e) {
+            e.exports = function (e) {
                 var t, r, o;
-                for (r in a(i, e), a(l, i), t = i.prototype)(o = t[r]) && "object" == typeof o && (t[r] = "concat" in o ? o.concat() : n(o));
+                for (r in a(i, e), a(l, i), t = i.prototype) (o = t[r]) && "object" == typeof o && (t[r] = "concat" in o ? o.concat() : n(o));
                 return i;
 
                 function l(t) {
@@ -1256,8 +1256,8 @@
                 }
             }
         },
-        1505: function(e, t) {
-            "function" == typeof Object.create ? e.exports = function(e, t) {
+        1505: function (e, t) {
+            "function" == typeof Object.create ? e.exports = function (e, t) {
                 t && (e.super_ = t, e.prototype = Object.create(t.prototype, {
                     constructor: {
                         value: e,
@@ -1266,15 +1266,15 @@
                         configurable: !0
                     }
                 }))
-            } : e.exports = function(e, t) {
+            } : e.exports = function (e, t) {
                 if (t) {
                     e.super_ = t;
-                    var r = function() {};
+                    var r = function () { };
                     r.prototype = t.prototype, e.prototype = new r, e.prototype.constructor = e
                 }
             }
         },
-        1506: function(e, t, r) {
+        1506: function (e, t, r) {
             "use strict";
             var n = r(95),
                 a = r(1507),
@@ -1382,24 +1382,24 @@
                 text: r(1558)
             }, c.blockMethods = d(c.blockTokenizers), c.inlineMethods = d(c.inlineTokenizers), c.tokenizeBlock = s("block"), c.tokenizeInline = s("inline"), c.tokenizeFactory = s
         },
-        1507: function(e, t, r) {
+        1507: function (e, t, r) {
             "use strict";
-            e.exports = function(e, t, r) {
-                return function() {
+            e.exports = function (e, t, r) {
+                return function () {
                     var n = r || this,
                         a = n[e];
                     return n[e] = !t,
-                        function() {
+                        function () {
                             n[e] = a
                         }
                 }
             }
         },
-        1508: function(e, t, r) {
+        1508: function (e, t, r) {
             "use strict";
 
             function n(e) {
-                return function(t) {
+                return function (t) {
                     var r = -1,
                         n = e.length;
                     if (t < 0) return {};
@@ -1414,15 +1414,15 @@
             }
 
             function a(e) {
-                return function(t) {
+                return function (t) {
                     var r = t && t.line,
                         n = t && t.column;
                     if (!isNaN(r) && !isNaN(n) && r - 1 in e) return (e[r - 2] || 0) + n - 1 || 0;
                     return -1
                 }
             }
-            e.exports = function(e) {
-                var t = function(e) {
+            e.exports = function (e) {
+                var t = function (e) {
                     var t = [],
                         r = e.indexOf("\n");
                     for (; - 1 !== r;) t.push(r + 1), r = e.indexOf("\n", r + 1);
@@ -1434,10 +1434,10 @@
                 }
             }
         },
-        1509: function(e, t, r) {
+        1509: function (e, t, r) {
             "use strict";
-            e.exports = function(e, t) {
-                return function(r) {
+            e.exports = function (e, t) {
+                return function (r) {
                     var n, a = 0,
                         o = r.indexOf("\\"),
                         l = e[t],
@@ -1447,12 +1447,12 @@
                 }
             }
         },
-        1510: function(e, t, r) {
+        1510: function (e, t, r) {
             "use strict";
             var n = r(95),
                 a = r(317);
-            e.exports = function(e) {
-                return o.raw = function(e, o, l) {
+            e.exports = function (e) {
+                return o.raw = function (e, o, l) {
                     return a(e, n(l, {
                         position: t(o),
                         warning: r
@@ -1483,40 +1483,40 @@
                 }
             }
         },
-        1511: function(e) {
+        1511: function (e) {
             e.exports = JSON.parse('{"AElig":"Æ","AMP":"&","Aacute":"Á","Acirc":"Â","Agrave":"À","Aring":"Å","Atilde":"Ã","Auml":"Ä","COPY":"©","Ccedil":"Ç","ETH":"Ð","Eacute":"É","Ecirc":"Ê","Egrave":"È","Euml":"Ë","GT":">","Iacute":"Í","Icirc":"Î","Igrave":"Ì","Iuml":"Ï","LT":"<","Ntilde":"Ñ","Oacute":"Ó","Ocirc":"Ô","Ograve":"Ò","Oslash":"Ø","Otilde":"Õ","Ouml":"Ö","QUOT":"\\"","REG":"®","THORN":"Þ","Uacute":"Ú","Ucirc":"Û","Ugrave":"Ù","Uuml":"Ü","Yacute":"Ý","aacute":"á","acirc":"â","acute":"´","aelig":"æ","agrave":"à","amp":"&","aring":"å","atilde":"ã","auml":"ä","brvbar":"¦","ccedil":"ç","cedil":"¸","cent":"¢","copy":"©","curren":"¤","deg":"°","divide":"÷","eacute":"é","ecirc":"ê","egrave":"è","eth":"ð","euml":"ë","frac12":"½","frac14":"¼","frac34":"¾","gt":">","iacute":"í","icirc":"î","iexcl":"¡","igrave":"ì","iquest":"¿","iuml":"ï","laquo":"«","lt":"<","macr":"¯","micro":"µ","middot":"·","nbsp":" ","not":"¬","ntilde":"ñ","oacute":"ó","ocirc":"ô","ograve":"ò","ordf":"ª","ordm":"º","oslash":"ø","otilde":"õ","ouml":"ö","para":"¶","plusmn":"±","pound":"£","quot":"\\"","raquo":"»","reg":"®","sect":"§","shy":"­","sup1":"¹","sup2":"²","sup3":"³","szlig":"ß","thorn":"þ","times":"×","uacute":"ú","ucirc":"û","ugrave":"ù","uml":"¨","uuml":"ü","yacute":"ý","yen":"¥","yuml":"ÿ"}')
         },
-        1512: function(e) {
+        1512: function (e) {
             e.exports = JSON.parse('{"0":"�","128":"€","130":"‚","131":"ƒ","132":"„","133":"…","134":"†","135":"‡","136":"ˆ","137":"‰","138":"Š","139":"‹","140":"Œ","142":"Ž","145":"‘","146":"’","147":"“","148":"”","149":"•","150":"–","151":"—","152":"˜","153":"™","154":"š","155":"›","156":"œ","158":"ž","159":"Ÿ"}')
         },
-        1513: function(e, t, r) {
+        1513: function (e, t, r) {
             "use strict";
-            e.exports = function(e) {
+            e.exports = function (e) {
                 var t = "string" == typeof e ? e.charCodeAt(0) : e;
                 return t >= 97 && t <= 102 || t >= 65 && t <= 70 || t >= 48 && t <= 57
             }
         },
-        1514: function(e, t, r) {
+        1514: function (e, t, r) {
             "use strict";
             var n = r(532),
                 a = r(228);
-            e.exports = function(e) {
+            e.exports = function (e) {
                 return n(e) || a(e)
             }
         },
-        1515: function(e, t, r) {
+        1515: function (e, t, r) {
             "use strict";
             var n;
-            e.exports = function(e) {
+            e.exports = function (e) {
                 var t, r = "&" + e + ";";
                 if ((n = n || document.createElement("i")).innerHTML = r, 59 === (t = n.textContent).charCodeAt(t.length - 1) && "semi" !== e) return !1;
                 return t !== r && t
             }
         },
-        1516: function(e, t, r) {
+        1516: function (e, t, r) {
             "use strict";
-            e.exports = function(e) {
-                return function(t, r) {
+            e.exports = function (e) {
+                return function (t, r) {
                     var o, l, i, s, u, c, d = this,
                         f = d.offset,
                         h = [],
@@ -1549,15 +1549,15 @@
                     }
 
                     function w(e) {
-                        var r, o = function() {
-                                var e = [],
-                                    t = g + 1;
-                                return function() {
-                                    for (var r = g + 1; t < r;) e.push((f[t] || 0) + 1), t++;
-                                    return e
-                                }
-                            }(),
-                            l = (r = b(), function(e, t) {
+                        var r, o = function () {
+                            var e = [],
+                                t = g + 1;
+                            return function () {
+                                for (var r = g + 1; t < r;) e.push((f[t] || 0) + 1), t++;
+                                return e
+                            }
+                        }(),
+                            l = (r = b(), function (e, t) {
                                 var n = e.position,
                                     a = n ? n.start : r,
                                     o = [],
@@ -1573,12 +1573,12 @@
                                 return e.position.indent = t || [], e
                             }),
                             i = b();
-                        return function(e) {
+                        return function (e) {
                             t.substring(0, e.length) !== e && d.file.fail(new Error("Incorrectly eaten value: please report this warning on http://git.io/vg5Ft"), b())
                         }(e), s.reset = u, u.test = c, s.test = c, t = t.substring(e.length), v(e), o = o(), s;
 
                         function s(e, t) {
-                            return l(function(e, t) {
+                            return l(function (e, t) {
                                 var r = t ? t.children : h,
                                     o = r[r.length - 1];
                                 return o && e.type === o.type && e.type in n && a(o) && a(e) && (e = n[e.type].call(d, o, e)), e !== o && r.push(e), d.atStart && 0 !== h.length && d.exitStart(), e
@@ -1598,10 +1598,10 @@
                 }
             };
             var n = {
-                text: function(e, t) {
+                text: function (e, t) {
                     return e.value += t.value, e
                 },
-                blockquote: function(e, t) {
+                blockquote: function (e, t) {
                     if (this.options.commonmark) return t;
                     return e.children = e.children.concat(t.children), e
                 }
@@ -1612,12 +1612,12 @@
                 return "text" !== e.type || !e.position || (t = e.position.start, r = e.position.end, t.line !== r.line || r.column - t.column === e.value.length)
             }
         },
-        1517: function(e, t, r) {
+        1517: function (e, t, r) {
             "use strict";
             var n = r(95),
                 a = r(1518),
                 o = r(533);
-            e.exports = function(e) {
+            e.exports = function (e) {
                 var t, r, l = this.options;
                 if (null == e) e = {};
                 else {
@@ -1631,7 +1631,7 @@
                 return this.options = e, this.escape = a(e), this
             }
         },
-        1518: function(e, t, r) {
+        1518: function (e, t, r) {
             "use strict";
             e.exports = l;
             var n = ["\\", "`", "*", "{", "}", "[", "]", "(", ")", "#", "+", "-", ".", "!", "_", ">"],
@@ -1644,14 +1644,14 @@
             }
             l.default = n, l.gfm = a, l.commonmark = o
         },
-        1519: function(e) {
+        1519: function (e) {
             e.exports = JSON.parse('["address","article","aside","base","basefont","blockquote","body","caption","center","col","colgroup","dd","details","dialog","dir","div","dl","dt","fieldset","figcaption","figure","footer","form","frame","frameset","h1","h2","h3","h4","h5","h6","head","header","hgroup","hr","html","iframe","legend","li","link","main","menu","menuitem","meta","nav","noframes","ol","optgroup","option","p","param","pre","section","source","title","summary","table","tbody","td","tfoot","th","thead","title","tr","track","ul"]')
         },
-        1520: function(e, t, r) {
+        1520: function (e, t, r) {
             "use strict";
             var n = r(95),
                 a = r(1521);
-            e.exports = function() {
+            e.exports = function () {
                 var e, t = String(this.file),
                     r = {
                         line: 1,
@@ -1672,7 +1672,7 @@
             };
             var o = /\r\n|\r/g
         },
-        1521: function(e, t, r) {
+        1521: function (e, t, r) {
             "use strict";
             var n = r(229);
 
@@ -1683,11 +1683,11 @@
             function o(e) {
                 e.position = void 0
             }
-            e.exports = function(e, t) {
+            e.exports = function (e, t) {
                 return n(e, t ? a : o), e
             }
         },
-        1522: function(e, t, r) {
+        1522: function (e, t, r) {
             "use strict";
             e.exports = a;
             var n = r(1523);
@@ -1697,7 +1697,7 @@
 
                 function i(e, n, s) {
                     var u, c = [];
-                    return (t && !l(e, n, s[s.length - 1] || null) || !1 !== (c = o(r(e, s)))[0]) && e.children && "skip" !== c[0] && !1 === (u = o(function(e, t) {
+                    return (t && !l(e, n, s[s.length - 1] || null) || !1 !== (c = o(r(e, s)))[0]) && e.children && "skip" !== c[0] && !1 === (u = o(function (e, t) {
                         var r, n = a ? -1 : 1,
                             o = (a ? e.length : -1) + n;
                         for (; o > -1 && o < e.length;) {
@@ -1714,12 +1714,12 @@
             }
             a.CONTINUE = !0, a.SKIP = "skip", a.EXIT = !1
         },
-        1523: function(e, t, r) {
+        1523: function (e, t, r) {
             "use strict";
 
             function n(e) {
-                if ("string" == typeof e) return function(e) {
-                    return function(t) {
+                if ("string" == typeof e) return function (e) {
+                    return function (t) {
                         return Boolean(t && t.type === e)
                     }
                 }(e);
@@ -1730,7 +1730,7 @@
             }
 
             function a(e) {
-                return function(t) {
+                return function (t) {
                     var r;
                     for (r in e)
                         if (t[r] !== e[r]) return !1;
@@ -1739,12 +1739,12 @@
             }
 
             function o(e) {
-                var t = function(e) {
-                        for (var t = [], r = e.length, a = -1; ++a < r;) t[a] = n(e[a]);
-                        return t
-                    }(e),
+                var t = function (e) {
+                    for (var t = [], r = e.length, a = -1; ++a < r;) t[a] = n(e[a]);
+                    return t
+                }(e),
                     r = t.length;
-                return function() {
+                return function () {
                     var e = -1;
                     for (; ++e < r;)
                         if (t[e].apply(this, arguments)) return !0;
@@ -1757,10 +1757,10 @@
             }
             e.exports = n
         },
-        1524: function(e, t, r) {
+        1524: function (e, t, r) {
             "use strict";
             var n = r(71);
-            e.exports = function(e, t, r) {
+            e.exports = function (e, t, r) {
                 var a, o, l, i, s = t.charAt(0);
                 if ("\n" !== s) return;
                 if (r) return !0;
@@ -1769,11 +1769,11 @@
                 e(o)
             }
         },
-        1525: function(e, t, r) {
+        1525: function (e, t, r) {
             "use strict";
             var n = r(318),
                 a = r(319);
-            e.exports = function(e, t, r) {
+            e.exports = function (e, t, r) {
                 var n, l, i, s = -1,
                     u = t.length,
                     c = "",
@@ -1791,13 +1791,13 @@
                                 }
                                 c += n, d += n
                             } else if (" " === n && t.charAt(s + 1) === n && t.charAt(s + 2) === n && t.charAt(s + 3) === n) f += o, s += 3, i = !0;
-                            else if ("\t" === n) f += n, i = !0;
-                else {
-                    for (l = "";
-                        "\t" === n || " " === n;) l += n, n = t.charAt(++s);
-                    if ("\n" !== n) break;
-                    f += l + n, h += n
-                }
+                    else if ("\t" === n) f += n, i = !0;
+                    else {
+                        for (l = "";
+                            "\t" === n || " " === n;) l += n, n = t.charAt(++s);
+                        if ("\n" !== n) break;
+                        f += l + n, h += n
+                    }
                 if (d) return !!r || e(c)({
                     type: "code",
                     lang: null,
@@ -1806,10 +1806,10 @@
             };
             var o = n(" ", 4)
         },
-        1526: function(e, t, r) {
+        1526: function (e, t, r) {
             "use strict";
             var n = r(319);
-            e.exports = function(e, t, r) {
+            e.exports = function (e, t, r) {
                 var a, o, l, i, s, u, c, d, f, h, p, m = this.options,
                     g = t.length + 1,
                     y = 0,
@@ -1845,11 +1845,11 @@
                 })
             }
         },
-        1527: function(e, t, r) {
+        1527: function (e, t, r) {
             "use strict";
             var n = r(156),
                 a = r(320);
-            e.exports = function(e, t, r) {
+            e.exports = function (e, t, r) {
                 var o, l, i, s, u, c, d, f, h, p = this.offset,
                     m = this.blockTokenizers,
                     g = this.interruptBlockquote,
@@ -1881,9 +1881,9 @@
                 })
             }
         },
-        1528: function(e, t, r) {
+        1528: function (e, t, r) {
             "use strict";
-            e.exports = function(e, t, r) {
+            e.exports = function (e, t, r) {
                 var n, a, o, l = this.options,
                     i = t.length + 1,
                     s = -1,
@@ -1935,9 +1935,9 @@
                 })
             }
         },
-        1529: function(e, t, r) {
+        1529: function (e, t, r) {
             "use strict";
-            e.exports = function(e, t, r) {
+            e.exports = function (e, t, r) {
                 var n, a, o, l, i = -1,
                     s = t.length + 1,
                     u = "";
@@ -1954,7 +1954,7 @@
                     }
             }
         },
-        1530: function(e, t, r) {
+        1530: function (e, t, r) {
             "use strict";
             var n = r(156),
                 a = r(318),
@@ -1962,7 +1962,7 @@
                 l = r(534),
                 i = r(1531),
                 s = r(320);
-            e.exports = function(e, t, r) {
+            e.exports = function (e, t, r) {
                 var a, l, i, u, c, d, f, h, v, b, _, w, C, E, k, x, M, S, O, T, I, R, A, P, j = this.options.commonmark,
                     D = this.options.pedantic,
                     z = this.blockTokenizers,
@@ -2007,9 +2007,9 @@
                         if (v)
                             if ("\t" === (u = t.charAt(B))) U += 4 - U % 4, B++;
                             else if (" " === u) {
-                            for (A = B + 4; B < A && " " === t.charAt(B);) B++, U++;
-                            B === A && " " === t.charAt(B) && (B -= 3, U -= 3)
-                        } else "\n" !== u && "" !== u && (v = null)
+                                for (A = B + 4; B < A && " " === t.charAt(B);) B++, U++;
+                                B === A && " " === t.charAt(B) && (B -= 3, U -= 3)
+                            } else "\n" !== u && "" !== u && (v = null)
                     }
                     if (v) {
                         if (!D && c !== v) break;
@@ -2082,20 +2082,20 @@
             function b(e, t, r) {
                 var n, o, s, u, c, f, h, p = e.offset,
                     m = r.line;
-                for (u = (t = t.replace(d, (function(e, t, r, l, i) {
-                        o = t + r + l, s = i, Number(r) < 10 && o.length % 2 == 1 && (r = " " + r);
-                        return (n = t + a(" ", r.length) + l) + s
-                    }))).split("\n"), (c = i(t, l(n).indent).split("\n"))[0] = s, p[m] = (p[m] || 0) + o.length, m++, f = 0, h = u.length; ++f < h;) p[m] = (p[m] || 0) + u[f].length - c[f].length, m++;
+                for (u = (t = t.replace(d, (function (e, t, r, l, i) {
+                    o = t + r + l, s = i, Number(r) < 10 && o.length % 2 == 1 && (r = " " + r);
+                    return (n = t + a(" ", r.length) + l) + s
+                }))).split("\n"), (c = i(t, l(n).indent).split("\n"))[0] = s, p[m] = (p[m] || 0) + o.length, m++, f = 0, h = u.length; ++f < h;) p[m] = (p[m] || 0) + u[f].length - c[f].length, m++;
                 return c.join("\n")
             }
             g["."] = !0, g[")"] = !0
         },
-        1531: function(e, t, r) {
+        1531: function (e, t, r) {
             "use strict";
             var n = r(156),
                 a = r(318),
                 o = r(534);
-            e.exports = function(e, t) {
+            e.exports = function (e, t) {
                 var r, l, i, s, u = e.split("\n"),
                     c = u.length + 1,
                     d = 1 / 0,
@@ -2116,9 +2116,9 @@
                 return u.shift(), u.join("\n")
             }
         },
-        1532: function(e, t, r) {
+        1532: function (e, t, r) {
             "use strict";
-            e.exports = function(e, t, r) {
+            e.exports = function (e, t, r) {
                 var a, o, l, i, s, u = e.now(),
                     c = t.length,
                     d = -1,
@@ -2158,10 +2158,10 @@
             var n = {};
             n["="] = 1, n["-"] = 2
         },
-        1533: function(e, t, r) {
+        1533: function (e, t, r) {
             "use strict";
             var n = r(535).openCloseTag;
-            e.exports = function(e, t, r) {
+            e.exports = function (e, t, r) {
                 var a, o, l, i, s, u, c, d = this.options.blocks,
                     f = t.length,
                     h = 0,
@@ -2197,7 +2197,7 @@
                 })
             }
         },
-        1534: function(e, t, r) {
+        1534: function (e, t, r) {
             "use strict";
             var n = r(71),
                 a = r(321);
@@ -2222,7 +2222,7 @@
                                 }
                                 f && (d += f, f = ""), d += p, l++
                             }
-                            return s += d, d = d.replace(o, (function(e) {
+                            return s += d, d = d.replace(o, (function (e) {
                                 return v[c] = (v[c] || 0) + e.length, c++, ""
                             })), g = e(s), y = this.enterBlock(), d = this.tokenizeBlock(d, u), y(), g({
                                 type: "footnoteDefinition",
@@ -2234,13 +2234,13 @@
                 }
             }
         },
-        1535: function(e, t, r) {
+        1535: function (e, t, r) {
             "use strict";
-            e.exports = function(e) {
+            e.exports = function (e) {
                 return String(e).replace(/\s+/g, " ")
             }
         },
-        1536: function(e, t, r) {
+        1536: function (e, t, r) {
             "use strict";
             var n = r(71),
                 a = r(321);
@@ -2301,10 +2301,10 @@
             }
             l.delimiter = ">"
         },
-        1537: function(e, t, r) {
+        1537: function (e, t, r) {
             "use strict";
             var n = r(71);
-            e.exports = function(e, t, r) {
+            e.exports = function (e, t, r) {
                 var a, o, l, i, s, u, c, d, f, h, p, m, g, y, v, b, _, w, C, E, k, x, M, S;
                 if (!this.options.gfm) return;
                 a = 0, w = 0, u = t.length + 1, c = [];
@@ -2326,7 +2326,7 @@
                     else if (":" === f) l = "left" === l ? "center" : h && null === l ? "right" : "left";
                     else if (!n(f)) return;
                     a++
-                }!1 !== l && p.push(l);
+                } !1 !== l && p.push(l);
                 if (p.length < 1) return;
                 if (r) return !0;
                 _ = -1, E = [], k = e(i).reset({
@@ -2336,9 +2336,9 @@
                 });
                 for (; ++_ < w;) {
                     for (C = c[_], s = {
-                            type: "tableRow",
-                            children: []
-                        }, _ && e("\n"), e(C).reset(s, k), u = C.length + 1, a = 0, d = "", m = "", g = !0, y = null, v = null; a < u;)
+                        type: "tableRow",
+                        children: []
+                    }, _ && e("\n"), e(C).reset(s, k), u = C.length + 1, a = 0, d = "", m = "", g = !0, y = null, v = null; a < u;)
                         if ("\t" !== (f = C.charAt(a)) && " " !== f) {
                             if ("" === f || "|" === f)
                                 if (g) e(f);
@@ -2346,7 +2346,7 @@
                                     if (f && v) {
                                         d += f, a++;
                                         continue
-                                    }!m && !f || g || (i = m, d.length > 1 && (f ? (i += d.slice(0, d.length - 1), d = d.charAt(d.length - 1)) : (i += d, d = "")), b = e.now(), e(i)({
+                                    } !m && !f || g || (i = m, d.length > 1 && (f ? (i += d.slice(0, d.length - 1), d = d.charAt(d.length - 1)) : (i += d, d = "")), b = e.now(), e(i)({
                                         type: "tableCell",
                                         children: this.tokenizeInline(m, b)
                                     }, s)), e(d + f), d = "", m = ""
@@ -2362,13 +2362,13 @@
                 return k
             }
         },
-        1538: function(e, t, r) {
+        1538: function (e, t, r) {
             "use strict";
             var n = r(156),
                 a = r(228),
                 o = r(319),
                 l = r(320);
-            e.exports = function(e, t, r) {
+            e.exports = function (e, t, r) {
                 var i, s, u, c, d, f = this.options,
                     h = f.commonmark,
                     p = f.gfm,
@@ -2411,7 +2411,7 @@
                 })
             }
         },
-        1539: function(e, t, r) {
+        1539: function (e, t, r) {
             "use strict";
             var n = r(1540);
 
@@ -2426,13 +2426,13 @@
             }
             e.exports = a, a.locator = n
         },
-        1540: function(e, t, r) {
+        1540: function (e, t, r) {
             "use strict";
-            e.exports = function(e, t) {
+            e.exports = function (e, t) {
                 return e.indexOf("\\", t)
             }
         },
-        1541: function(e, t, r) {
+        1541: function (e, t, r) {
             "use strict";
             var n = r(71),
                 a = r(317),
@@ -2465,7 +2465,7 @@
                 }
             }
         },
-        1542: function(e, t, r) {
+        1542: function (e, t, r) {
             "use strict";
             var n = r(317),
                 a = r(71),
@@ -2482,28 +2482,28 @@
                             o = h;
                             break
                         } if (o) {
-                        for (c = o.length, p = t.length, m = "", g = 0; c < p && (u = t.charAt(c), !a(u) && "<" !== u) && ("." !== u && "," !== u && ":" !== u && ";" !== u && '"' !== u && "'" !== u && ")" !== u && "]" !== u || (y = t.charAt(c + 1)) && !a(y)) && ("(" !== u && "[" !== u || g++, ")" !== u && "]" !== u || !(--g < 0));) m += u, c++;
-                        if (m) {
-                            if (s = o += m, "mailto:" === f) {
-                                if (-1 === (d = m.indexOf("@")) || d === p - 1) return;
-                                s = s.substr("mailto:".length)
+                            for (c = o.length, p = t.length, m = "", g = 0; c < p && (u = t.charAt(c), !a(u) && "<" !== u) && ("." !== u && "," !== u && ":" !== u && ";" !== u && '"' !== u && "'" !== u && ")" !== u && "]" !== u || (y = t.charAt(c + 1)) && !a(y)) && ("(" !== u && "[" !== u || g++, ")" !== u && "]" !== u || !(--g < 0));) m += u, c++;
+                            if (m) {
+                                if (s = o += m, "mailto:" === f) {
+                                    if (-1 === (d = m.indexOf("@")) || d === p - 1) return;
+                                    s = s.substr("mailto:".length)
+                                }
+                                return !!r || (v = this.enterLink(), s = this.tokenizeInline(s, e.now()), v(), e(o)({
+                                    type: "link",
+                                    title: null,
+                                    url: n(o, {
+                                        nonTerminated: !1
+                                    }),
+                                    children: s
+                                }))
                             }
-                            return !!r || (v = this.enterLink(), s = this.tokenizeInline(s, e.now()), v(), e(o)({
-                                type: "link",
-                                title: null,
-                                url: n(o, {
-                                    nonTerminated: !1
-                                }),
-                                children: s
-                            }))
                         }
-                    }
                 }
             }
         },
-        1543: function(e, t, r) {
+        1543: function (e, t, r) {
             "use strict";
-            e.exports = function(e, t) {
+            e.exports = function (e, t) {
                 var r, a = n.length,
                     o = -1,
                     l = -1;
@@ -2513,7 +2513,7 @@
             };
             var n = ["https://", "http://", "mailto:"]
         },
-        1544: function(e, t, r) {
+        1544: function (e, t, r) {
             "use strict";
             var n = r(532),
                 a = r(536),
@@ -2530,7 +2530,7 @@
                 }))
             }
         },
-        1545: function(e, t, r) {
+        1545: function (e, t, r) {
             "use strict";
             var n = r(71),
                 a = r(537);
@@ -2626,7 +2626,7 @@
             }
             i['"'] = '"', i["'"] = "'", i["("] = ")"
         },
-        1546: function(e, t, r) {
+        1546: function (e, t, r) {
             "use strict";
             var n = r(71),
                 a = r(537),
@@ -2674,7 +2674,7 @@
                 }
             }
         },
-        1547: function(e, t, r) {
+        1547: function (e, t, r) {
             "use strict";
             var n = r(156),
                 a = r(71),
@@ -2697,9 +2697,9 @@
                     }
             }
         },
-        1548: function(e, t, r) {
+        1548: function (e, t, r) {
             "use strict";
-            e.exports = function(e, t) {
+            e.exports = function (e, t) {
                 var r = e.indexOf("**", t),
                     n = e.indexOf("__", t);
                 if (-1 === n) return r;
@@ -2707,7 +2707,7 @@
                 return n < r ? n : r
             }
         },
-        1549: function(e, t, r) {
+        1549: function (e, t, r) {
             "use strict";
             var n = r(156),
                 a = r(1550),
@@ -2738,17 +2738,17 @@
                     }
             }
         },
-        1550: function(e, t, r) {
+        1550: function (e, t, r) {
             "use strict";
-            e.exports = function(e) {
+            e.exports = function (e) {
                 return a.test("number" == typeof e ? n(e) : e.charAt(0))
             };
             var n = String.fromCharCode,
                 a = /\w/
         },
-        1551: function(e, t, r) {
+        1551: function (e, t, r) {
             "use strict";
-            e.exports = function(e, t) {
+            e.exports = function (e, t) {
                 var r = e.indexOf("*", t),
                     n = e.indexOf("_", t);
                 if (-1 === n) return r;
@@ -2756,7 +2756,7 @@
                 return n < r ? n : r
             }
         },
-        1552: function(e, t, r) {
+        1552: function (e, t, r) {
             "use strict";
             var n = r(71),
                 a = r(1553);
@@ -2777,13 +2777,13 @@
                     }
             }
         },
-        1553: function(e, t, r) {
+        1553: function (e, t, r) {
             "use strict";
-            e.exports = function(e, t) {
+            e.exports = function (e, t) {
                 return e.indexOf("~~", t)
             }
         },
-        1554: function(e, t, r) {
+        1554: function (e, t, r) {
             "use strict";
             var n = r(71),
                 a = r(1555);
@@ -2815,13 +2815,13 @@
                 }
             }
         },
-        1555: function(e, t, r) {
+        1555: function (e, t, r) {
             "use strict";
-            e.exports = function(e, t) {
+            e.exports = function (e, t) {
                 return e.indexOf("`", t)
             }
         },
-        1556: function(e, t, r) {
+        1556: function (e, t, r) {
             "use strict";
             var n = r(1557);
             e.exports = a, a.locator = n;
@@ -2839,22 +2839,22 @@
                 }
             }
         },
-        1557: function(e, t, r) {
+        1557: function (e, t, r) {
             "use strict";
-            e.exports = function(e, t) {
+            e.exports = function (e, t) {
                 var r = e.indexOf("\n", t);
                 for (; r > t && " " === e.charAt(r - 1);) r--;
                 return r
             }
         },
-        1558: function(e, t, r) {
+        1558: function (e, t, r) {
             "use strict";
-            e.exports = function(e, t, r) {
+            e.exports = function (e, t, r) {
                 var n, a, o, l, i, s, u, c, d, f;
                 if (r) return !0;
                 n = this.inlineMethods, l = n.length, a = this.inlineTokenizers, o = -1, d = t.length;
                 for (; ++o < l;) "text" !== (c = n[o]) && a[c] && ((u = a[c].locator) || e.file.fail("Missing locator: `" + c + "`"), -1 !== (s = u.call(this, t, 1)) && s < d && (d = s));
-                i = t.slice(0, d), f = e.now(), this.decode(i, f, (function(t, r, n) {
+                i = t.slice(0, d), f = e.now(), this.decode(i, f, (function (t, r, n) {
                     e(n || t)({
                         type: "text",
                         value: t
@@ -2862,11 +2862,11 @@
                 }))
             }
         },
-        1559: function(e, t, r) {
+        1559: function (e, t, r) {
             var n = r(1560);
-            e.exports = function() {
-                return function(e) {
-                    return n(e, "list", (function(e, t) {
+            e.exports = function () {
+                return function (e) {
+                    return n(e, "list", (function (e, t) {
                         var r, n, a = 0;
                         for (r = 0, n = t.length; r < n; r++) "list" === t[r].type && (a += 1);
                         for (r = 0, n = e.children.length; r < n; r++) {
@@ -2878,24 +2878,24 @@
                 }
             }
         },
-        156: function(e, t) {
-            (t = e.exports = function(e) {
+        156: function (e, t) {
+            (t = e.exports = function (e) {
                 return e.replace(/^\s*|\s*$/g, "")
-            }).left = function(e) {
+            }).left = function (e) {
                 return e.replace(/^\s*/, "")
-            }, t.right = function(e) {
+            }, t.right = function (e) {
                 return e.replace(/\s*$/, "")
             }
         },
-        1560: function(e, t, r) {
+        1560: function (e, t, r) {
             "use strict";
-            e.exports = function(e, t, r) {
+            e.exports = function (e, t, r) {
                 var n = [];
                 "function" == typeof t && (r = t, t = null);
 
                 function a(e) {
                     var o;
-                    return t && e.type !== t || (o = r(e, n.concat())), e.children && !1 !== o ? function(e, t) {
+                    return t && e.type !== t || (o = r(e, n.concat())), e.children && !1 !== o ? function (e, t) {
                         var r, o = e.length,
                             l = -1;
                         n.push(t);
@@ -2907,16 +2907,16 @@
                 a(e)
             }
         },
-        1561: function(e, t, r) {
+        1561: function (e, t, r) {
             "use strict";
             var n = r(229),
                 a = /^<(area|base|br|col|embed|hr|img|input|keygen|link|meta|param|source|track|wbr)\s*\/?>$/i,
                 o = /^<(\/?)([a-z]+)\s*>$/;
-            e.exports = function(e) {
+            e.exports = function (e) {
                 var t, r;
-                return n(e, "html", (function(e, n, l) {
+                return n(e, "html", (function (e, n, l) {
                     r !== l && (t = [], r = l);
-                    var i = function(e) {
+                    var i = function (e) {
                         var t = e.value.match(a);
                         return !!t && t[1]
                     }(e);
@@ -2925,7 +2925,7 @@
                         tag: i,
                         position: e.position
                     }), !0;
-                    var s = function(e, t) {
+                    var s = function (e, t) {
                         var r = e.value.match(o);
                         return !!r && {
                             tag: r[2],
@@ -2934,13 +2934,13 @@
                         }
                     }(e);
                     if (!s) return !0;
-                    var u = function(e, t) {
+                    var u = function (e, t) {
                         var r = e.length;
                         for (; r--;)
                             if (e[r].tag === t) return e.splice(r, 1)[0];
                         return !1
                     }(t, s.tag);
-                    return u ? l.children.splice(n, 0, function(e, t, r) {
+                    return u ? l.children.splice(n, 0, function (e, t, r) {
                         var n = r.children.indexOf(e.node),
                             a = r.children.indexOf(t.node),
                             o = r.children.splice(n, a - n + 1).slice(1, -1);
@@ -2958,7 +2958,7 @@
                 }), !0), e
             }
         },
-        1562: function(e, t, r) {
+        1562: function (e, t, r) {
             "use strict";
             var n = r(229);
 
@@ -2969,9 +2969,9 @@
                     e.children && (a = a.concat(e.children)), Array.prototype.splice.apply(r.children, a)
                 }
             }
-            t.ofType = function(e, t) {
-                return function(t) {
-                    return e.forEach((function(e) {
+            t.ofType = function (e, t) {
+                return function (t) {
+                    return e.forEach((function (e) {
                         return n(t, e, r, !0)
                     })), t
                 };
@@ -2979,8 +2979,8 @@
                 function r(e, r, n) {
                     n && a(e, r, n, t)
                 }
-            }, t.ifNotMatch = function(e, t) {
-                return function(e) {
+            }, t.ifNotMatch = function (e, t) {
+                return function (e) {
                     return n(e, r, !0), e
                 };
 
@@ -2989,7 +2989,7 @@
                 }
             }
         },
-        1563: function(e, t, r) {
+        1563: function (e, t, r) {
             "use strict";
             var n = r(0),
                 a = r(95),
@@ -3019,7 +3019,7 @@
                 return n.createElement(u, f, f.children || h() || void 0);
 
                 function h() {
-                    return e.children && e.children.map((function(r, n) {
+                    return e.children && e.children.map((function (r, n) {
                         return i(r, t, {
                             node: e,
                             props: f
@@ -3030,8 +3030,8 @@
 
             function s(e, t, r, o, l, s) {
                 var c, d = {
-                        key: t
-                    },
+                    key: t
+                },
                     f = "string" == typeof o;
                 r.sourcePos && e.position && (d["data-sourcepos"] = [(c = e.position).start.line, ":", c.start.column, "-", c.end.line, ":", c.end.column].map(String).join("")), r.rawSourcePos && !f && (d.sourcePosition = e.position), r.includeNodeIndex && l.node && l.node.children && !f && (d.index = l.node.children.indexOf(e), d.parentChildCount = l.node.children.length);
                 var h = null !== e.identifier && void 0 !== e.identifier ? r.definitions[e.identifier] || {} : null;
@@ -3051,15 +3051,15 @@
                         d.start = e.start, d.ordered = e.ordered, d.tight = !e.loose, d.depth = e.depth;
                         break;
                     case "listItem":
-                        d.checked = e.checked, d.tight = !e.loose, d.ordered = e.ordered, d.index = e.index, d.children = function(e, t) {
+                        d.checked = e.checked, d.tight = !e.loose, d.ordered = e.ordered, d.index = e.index, d.children = function (e, t) {
                             if (e.loose) return e.children;
                             if (t.node && e.index > 0 && t.node.children[e.index - 1].loose) return e.children;
-                            return function(e) {
-                                return e.children.reduce((function(e, t) {
+                            return function (e) {
+                                return e.children.reduce((function (e, t) {
                                     return e.concat("paragraph" === t.type ? t.children || [] : [t])
                                 }), [])
                             }(e)
-                        }(e, l).map((function(t, n) {
+                        }(e, l).map((function (t, n) {
                             return i(t, r, {
                                 node: e,
                                 props: d
@@ -3129,12 +3129,12 @@
                         break;
                     case "parsedHtml":
                         var p;
-                        e.children && (p = e.children.map((function(t, n) {
+                        e.children && (p = e.children.map((function (t, n) {
                             return i(t, r, {
                                 node: e,
                                 props: d
                             }, n)
-                        }))), d.escapeHtml = r.escapeHtml, d.skipHtml = r.skipHtml, d.element = function(e, t) {
+                        }))), d.escapeHtml = r.escapeHtml, d.skipHtml = r.skipHtml, d.element = function (e, t) {
                             var r = e.element;
                             if (Array.isArray(r)) {
                                 var a = n.Fragment || "div";
@@ -3162,7 +3162,7 @@
             }
             e.exports = i
         },
-        1564: function(e, t, r) {
+        1564: function (e, t, r) {
             "use strict";
             var n = r(229);
 
@@ -3183,15 +3183,15 @@
                     }
                 })
             }
-            e.exports = function(e) {
+            e.exports = function (e) {
                 return n(e, "table", a), e
             }
         },
-        1565: function(e, t, r) {
+        1565: function (e, t, r) {
             "use strict";
             e.exports = function e(t) {
                 var r = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {};
-                return (t.children || []).reduce((function(t, r) {
+                return (t.children || []).reduce((function (t, r) {
                     return "definition" === r.type && (t[r.identifier] = {
                         href: r.url,
                         title: r.title
@@ -3199,10 +3199,10 @@
                 }), r)
             }
         },
-        1566: function(e, t, r) {
+        1566: function (e, t, r) {
             "use strict";
             var n = ["http", "https", "mailto", "tel"];
-            e.exports = function(e) {
+            e.exports = function (e) {
                 var t = (e || "").trim(),
                     r = t.charAt(0);
                 if ("#" === r || "/" === r) return t;
@@ -3215,7 +3215,7 @@
                 return -1 !== (l = t.indexOf("?")) && a > l ? t : -1 !== (l = t.indexOf("#")) && a > l ? t : "javascript:void(0)"
             }
         },
-        1567: function(e, t, r) {
+        1567: function (e, t, r) {
             "use strict";
             var n = r(95),
                 a = r(0),
@@ -3247,29 +3247,29 @@
                 tableHead: i.bind(null, "thead"),
                 tableBody: i.bind(null, "tbody"),
                 tableRow: i.bind(null, "tr"),
-                tableCell: function(e) {
+                tableCell: function (e) {
                     var t = e.align ? {
-                            textAlign: e.align
-                        } : void 0,
+                        textAlign: e.align
+                    } : void 0,
                         r = s(e);
                     return l(e.isHeader ? "th" : "td", t ? n({
                         style: t
                     }, r) : r, e.children)
                 },
-                root: function(e) {
+                root: function (e) {
                     var t = !e.className,
                         r = t && a.Fragment || "div";
                     return l(r, t ? null : e, e.children)
                 },
-                text: function(e) {
+                text: function (e) {
                     return o ? e.children : l("span", null, e.children)
                 },
-                list: function(e) {
+                list: function (e) {
                     var t = s(e);
                     null !== e.start && 1 !== e.start && void 0 !== e.start && (t.start = e.start.toString());
                     return l(e.ordered ? "ol" : "ul", t, e.children)
                 },
-                listItem: function(e) {
+                listItem: function (e) {
                     var t = null;
                     if (null !== e.checked && void 0 !== e.checked) {
                         var r = e.checked;
@@ -3281,23 +3281,23 @@
                     }
                     return l("li", s(e), t, e.children)
                 },
-                definition: function() {
+                definition: function () {
                     return null
                 },
-                heading: function(e) {
+                heading: function (e) {
                     return l("h".concat(e.level), s(e), e.children)
                 },
-                inlineCode: function(e) {
+                inlineCode: function (e) {
                     return l("code", s(e), e.children)
                 },
-                code: function(e) {
+                code: function (e) {
                     var t = e.language && "language-".concat(e.language),
                         r = l("code", t ? {
                             className: t
                         } : null, e.value);
                     return l("pre", s(e), r)
                 },
-                html: function(e) {
+                html: function (e) {
                     if (e.skipHtml) return null;
                     var t = e.isBlock ? "div" : "span";
                     if (e.escapeHtml) {
@@ -3311,29 +3311,29 @@
                     };
                     return l(t, n)
                 },
-                virtualHtml: function(e) {
+                virtualHtml: function (e) {
                     return l(e.tag, s(e), e.children)
                 },
-                parsedHtml: function(e) {
+                parsedHtml: function (e) {
                     return e["data-sourcepos"] ? a.cloneElement(e.element, {
                         "data-sourcepos": e["data-sourcepos"]
                     }) : e.element
                 }
             }
         },
-        1568: function(e, t, r) {
+        1568: function (e, t, r) {
             "use strict";
             t.HtmlParser = "undefined" == typeof Symbol ? "__RMD_HTML_PARSER__" : Symbol("__RMD_HTML_PARSER__")
         },
-        1574: function(e, t, r) {
+        1574: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     quickReply: t,
                     sendQuickReply: r
-                } = e, n = function(e) {
+                } = e, n = function (e) {
                     switch (e.type) {
                         case a.QuickReplyType.PhoneNumber:
                             return e.viewerPhoneNumber;
@@ -3369,7 +3369,7 @@
             function u() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return u = function() {
+                return u = function () {
                     return e
                 }, e
             }
@@ -3393,11 +3393,11 @@
                 margin: "8px 4px 8px 4px"
             })
         },
-        1579: function(e, t, r) {
+        1579: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function({
+            }), t.default = function ({
                 children: e,
                 isMessageSelected: t
             }) {
@@ -3421,13 +3421,13 @@
                 }
             }
             const i = (0, n.default)(o.default)({
-                    position: "absolute",
-                    flexDirection: "row",
-                    right: 0,
-                    bottom: -22,
-                    fontSize: 12,
-                    lineHeight: "13px"
-                }),
+                position: "absolute",
+                flexDirection: "row",
+                right: 0,
+                bottom: -22,
+                fontSize: 12,
+                lineHeight: "13px"
+            }),
                 s = (0, n.default)(o.default)(e => ({
                     backgroundColor: e.theme.semanticColors.bgSurfaceSecondary,
                     border: e.isMessageSelected ? e.theme.select({
@@ -3439,11 +3439,11 @@
                     borderRadius: 100
                 }))
         },
-        1580: function(e, t, r) {
+        1580: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function({
+            }), t.default = function ({
                 mentionCount: e,
                 theme: t
             }) {
@@ -3478,11 +3478,11 @@
                 color: e.theme.semanticColors.textWhite
             }))
         },
-        1581: function(e, t, r) {
+        1581: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     viewBox: "0 0 16 16",
@@ -3501,13 +3501,13 @@
                 default: n
             }
         },
-        1582: function(e, t, r) {
+        1582: function (e, t, r) {
             e.exports = r.p + "assets/assets/icons/static-icons/status-sending.static.svg"
         },
-        1583: function(e, t, r) {
+        1583: function (e, t, r) {
             e.exports = r.p + "assets/assets/icons/static-icons/status-sent.static.svg"
         },
-        1584: function(e, t, r) {
+        1584: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -3528,7 +3528,7 @@
             function m() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return m = function() {
+                return m = function () {
                     return e
                 }, e
             }
@@ -3555,12 +3555,12 @@
                 }
             }
             const v = (0, i.default)(h.default)({
-                    flexDirection: "row",
-                    alignItems: "center",
-                    textAlign: "center",
-                    fontSize: 12,
-                    lineHeight: "13px"
-                }),
+                flexDirection: "row",
+                alignItems: "center",
+                textAlign: "center",
+                fontSize: 12,
+                lineHeight: "13px"
+            }),
                 b = (0, i.default)(f.default)({
                     margin: "5px 0px",
                     flexDirection: "row",
@@ -3597,7 +3597,7 @@
             const x = {
                 showModal: l.AppContextActions.showModal
             };
-            var M = (0, c.connect)(null, x)((function({
+            var M = (0, c.connect)(null, x)((function ({
                 reactions: e,
                 onReactionTooltipOpened: t,
                 onReactionTooltipHidden: r,
@@ -3605,7 +3605,7 @@
             }) {
                 const {
                     windowKey: i
-                } = (0, s.useWindowContext)(), c = function(e) {
+                } = (0, s.useWindowContext)(), c = function (e) {
                     const t = {};
                     for (const r of e) t[r.reaction] || (t[r.reaction] = 0), t[r.reaction]++;
                     return t
@@ -3618,7 +3618,7 @@
                 })), f = Object.values(c).map(Number).reduce((e, t) => e + t), h = Object.keys(c).sort((e, t) => c[t] - c[e]).slice(0, 3), m = h.map((e, t) => n.default[e] ? n.default[e].messageNub : d.default.createElement(C, {
                     key: t,
                     isLast: t === h.length - 1
-                }, e)), g = (0, d.useMemo)(() => o.default._("Reactions. {list of reaction details}", [o.default._param("list of reaction details", e.map(e => `${e.actorName} ${(0,u.getReactionLabels)()[e.reaction]}`))], {
+                }, e)), g = (0, d.useMemo)(() => o.default._("Reactions. {list of reaction details}", [o.default._param("list of reaction details", e.map(e => `${e.actorName} ${(0, u.getReactionLabels)()[e.reaction]}`))], {
                     hk: "2UErA8"
                 }).toString(), [e]);
                 return d.default.createElement(v, {
@@ -3651,7 +3651,7 @@
             }));
             t.default = M
         },
-        1585: function(e, t, r) {
+        1585: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -3674,11 +3674,11 @@
             }));
             t.default = l
         },
-        1586: function(e, t, r) {
+        1586: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     viewBox: "0 0 16 16",
@@ -3869,11 +3869,11 @@
                 default: n
             }
         },
-        1587: function(e, t, r) {
+        1587: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     viewBox: "0 0 180 180",
@@ -4338,11 +4338,11 @@
                 default: n
             }
         },
-        1588: function(e, t, r) {
+        1588: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     viewBox: "0 0 16 16",
@@ -4407,11 +4407,11 @@
                 default: n
             }
         },
-        1589: function(e, t, r) {
+        1589: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     viewBox: "0 0 16 16",
@@ -4506,11 +4506,11 @@
                 default: n
             }
         },
-        1590: function(e, t, r) {
+        1590: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     viewBox: "0 0 16 16",
@@ -4683,11 +4683,11 @@
                 default: n
             }
         },
-        1591: function(e, t, r) {
+        1591: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     viewBox: "0 0 16 16",
@@ -4752,11 +4752,11 @@
                 default: n
             }
         },
-        1592: function(e, t, r) {
+        1592: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     viewBox: "0 0 16 16",
@@ -4922,11 +4922,11 @@
                 default: n
             }
         },
-        1593: function(e, t, r) {
+        1593: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const t = e.lastReadBy.length - 9;
                 return (l.default.createElement(f, {
                     singleHead: 1 == e.lastReadBy.length,
@@ -4977,20 +4977,20 @@
                 }
             }
             const f = (0, o.default)(i.default)(e => {
-                    return {
-                        ...e.singleHead ? (t = e.hasReaction, {
-                            bottom: t ? "15px" : "0",
-                            paddingBottom: t ? "4px" : "2px",
-                            position: "absolute",
-                            right: 0
-                        }) : {
-                            flexDirection: "row",
-                            alignSelf: "flex-end",
-                            margin: "4px 0 4px 0"
-                        }
-                    };
-                    var t
-                }),
+                return {
+                    ...e.singleHead ? (t = e.hasReaction, {
+                        bottom: t ? "15px" : "0",
+                        paddingBottom: t ? "4px" : "2px",
+                        position: "absolute",
+                        right: 0
+                    }) : {
+                        flexDirection: "row",
+                        alignSelf: "flex-end",
+                        margin: "4px 0 4px 0"
+                    }
+                };
+                var t
+            }),
                 h = (0, o.default)(i.default)(e => ({
                     backgroundColor: e.theme.colors.base50,
                     borderRadius: 100,
@@ -5018,20 +5018,20 @@
                 }, e.name)))
             }
         },
-        1594: function(e, t, r) {
+        1594: function (e, t, r) {
             e.exports = r.p + "assets/assets/icons/static-icons/pause.static.svg"
         },
-        1595: function(e, t, r) {
+        1595: function (e, t, r) {
             e.exports = r.p + "assets/assets/icons/static-icons/play.static.svg"
         },
-        1596: function(e, t, r) {
+        1596: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
             }), t.default = void 0;
             var n, a = (n = r(1)) && n.__esModule ? n : {
-                    default: n
-                },
+                default: n
+            },
                 o = r(89),
                 l = d(r(0)),
                 i = r(40),
@@ -5041,7 +5041,7 @@
             function c() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return c = function() {
+                return c = function () {
                     return e
                 }, e
             }
@@ -5062,10 +5062,10 @@
                     } return r.default = e, t && t.set(e, r), r
             }
             const f = (0, a.default)(i.MessageBubbleContainer)(e => ({
-                    backgroundColor: "transparent",
-                    paddingLeft: 0,
-                    paddingRight: 0
-                })),
+                backgroundColor: "transparent",
+                paddingLeft: 0,
+                paddingRight: 0
+            })),
                 h = (0, a.default)(u.default)(e => ({
                     fontSize: (0, u.rem)(3.2),
                     lineHeight: e.theme.select({
@@ -5077,7 +5077,7 @@
                         windows: 0
                     })
                 }));
-            var p = (0, l.memo)((function({
+            var p = (0, l.memo)((function ({
                 isSenderViewer: e,
                 messageText: t,
                 onActivate: r,
@@ -5101,11 +5101,11 @@
             }));
             t.default = p
         },
-        1597: function(e, t, r) {
+        1597: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function({
+            }), t.default = function ({
                 onRetrySend: e
             }) {
                 const t = (0, i.useTheme)(),
@@ -5141,11 +5141,11 @@
                 paddingLeft: 2
             })
         },
-        1598: function(e, t, r) {
+        1598: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     viewBox: "0 0 36 36",
@@ -5168,11 +5168,11 @@
                 default: n
             }
         },
-        1599: function(e, t, r) {
+        1599: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -5191,11 +5191,11 @@
                 default: n
             }
         },
-        1600: function(e, t, r) {
+        1600: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -5212,11 +5212,11 @@
                 default: n
             }
         },
-        1601: function(e, t, r) {
+        1601: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function({
+            }), t.default = function ({
                 attachments: e,
                 isFirst: t,
                 isLast: r,
@@ -5256,13 +5256,13 @@
                 }
             }
             const u = (0, a.default)(l.default)(e => ({
-                    display: "grid",
-                    gridColumnGap: "3px",
-                    gridRowGap: "3px",
-                    overflow: "hidden",
-                    marginBottom: "3px",
-                    ...(0, i.getBorderRadiusStyles)(e.isSenderViewer, e.isFirst, e.isLast)
-                })),
+                display: "grid",
+                gridColumnGap: "3px",
+                gridRowGap: "3px",
+                overflow: "hidden",
+                marginBottom: "3px",
+                ...(0, i.getBorderRadiusStyles)(e.isSenderViewer, e.isFirst, e.isLast)
+            })),
                 c = (0, a.default)(u)({
                     gridTemplateColumns: "auto auto"
                 }),
@@ -5326,11 +5326,11 @@
                 })
             }
         },
-        1602: function(e, t, r) {
+        1602: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     viewBox: "0 0 72 36",
@@ -5389,11 +5389,11 @@
                 default: n
             }
         },
-        1603: function(e, t, r) {
+        1603: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     viewBox: "0 0 72 36",
@@ -5452,11 +5452,11 @@
                 default: n
             }
         },
-        1604: function(e, t, r) {
+        1604: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     viewBox: "0 0 72 36",
@@ -5515,7 +5515,7 @@
                 default: n
             }
         },
-        1605: function(e, t, r) {
+        1605: function (e, t, r) {
             "use strict";
             const n = r(1606),
                 a = Symbol("max"),
@@ -5530,15 +5530,15 @@
                 h = Symbol("updateAgeOnGet"),
                 p = () => 1;
             const m = (e, t, r) => {
-                    const n = e[f].get(t);
-                    if (n) {
-                        const t = n.value;
-                        if (g(e, t)) {
-                            if (v(e, n), !e[i]) return
-                        } else r && (e[h] && (n.value.now = Date.now()), e[d].unshiftNode(n));
-                        return t.value
-                    }
-                },
+                const n = e[f].get(t);
+                if (n) {
+                    const t = n.value;
+                    if (g(e, t)) {
+                        if (v(e, n), !e[i]) return
+                    } else r && (e[h] && (n.value.now = Date.now()), e[d].unshiftNode(n));
+                    return t.value
+                }
+            },
                 g = (e, t) => {
                     if (!t || !t.maxAge && !e[s]) return !1;
                     const r = Date.now() - t.now;
@@ -5569,8 +5569,8 @@
             e.exports = class {
                 constructor(e) {
                     if ("number" == typeof e && (e = {
-                            max: e
-                        }), e || (e = {}), e.max && ("number" != typeof e.max || e.max < 0)) throw new TypeError("max must be a non-negative number");
+                        max: e
+                    }), e || (e = {}), e.max && ("number" != typeof e.max || e.max < 0)) throw new TypeError("max must be a non-negative number");
                     this[a] = e.max || 1 / 0;
                     const t = e.length || p;
                     if (this[l] = "function" != typeof t ? p : t, this[i] = e.stale || !1, e.maxAge && "number" != typeof e.maxAge) throw new TypeError("maxAge must be a number");
@@ -5691,12 +5691,12 @@
                 }
             }
         },
-        1606: function(e, t, r) {
+        1606: function (e, t, r) {
             "use strict";
 
             function n(e) {
                 var t = this;
-                if (t instanceof n || (t = new n), t.tail = null, t.head = null, t.length = 0, e && "function" == typeof e.forEach) e.forEach((function(e) {
+                if (t instanceof n || (t = new n), t.tail = null, t.head = null, t.length = 0, e && "function" == typeof e.forEach) e.forEach((function (e) {
                     t.push(e)
                 }));
                 else if (arguments.length > 0)
@@ -5721,60 +5721,60 @@
                 if (!(this instanceof i)) return new i(e, t, r, n);
                 this.list = n, this.value = e, t ? (t.next = this, this.prev = t) : this.prev = null, r ? (r.prev = this, this.next = r) : this.next = null
             }
-            e.exports = n, n.Node = i, n.create = n, n.prototype.removeNode = function(e) {
+            e.exports = n, n.Node = i, n.create = n, n.prototype.removeNode = function (e) {
                 if (e.list !== this) throw new Error("removing node which does not belong to this list");
                 var t = e.next,
                     r = e.prev;
                 return t && (t.prev = r), r && (r.next = t), e === this.head && (this.head = t), e === this.tail && (this.tail = r), e.list.length--, e.next = null, e.prev = null, e.list = null, t
-            }, n.prototype.unshiftNode = function(e) {
+            }, n.prototype.unshiftNode = function (e) {
                 if (e !== this.head) {
                     e.list && e.list.removeNode(e);
                     var t = this.head;
                     e.list = this, e.next = t, t && (t.prev = e), this.head = e, this.tail || (this.tail = e), this.length++
                 }
-            }, n.prototype.pushNode = function(e) {
+            }, n.prototype.pushNode = function (e) {
                 if (e !== this.tail) {
                     e.list && e.list.removeNode(e);
                     var t = this.tail;
                     e.list = this, e.prev = t, t && (t.next = e), this.tail = e, this.head || (this.head = e), this.length++
                 }
-            }, n.prototype.push = function() {
+            }, n.prototype.push = function () {
                 for (var e = 0, t = arguments.length; e < t; e++) o(this, arguments[e]);
                 return this.length
-            }, n.prototype.unshift = function() {
+            }, n.prototype.unshift = function () {
                 for (var e = 0, t = arguments.length; e < t; e++) l(this, arguments[e]);
                 return this.length
-            }, n.prototype.pop = function() {
+            }, n.prototype.pop = function () {
                 if (this.tail) {
                     var e = this.tail.value;
                     return this.tail = this.tail.prev, this.tail ? this.tail.next = null : this.head = null, this.length--, e
                 }
-            }, n.prototype.shift = function() {
+            }, n.prototype.shift = function () {
                 if (this.head) {
                     var e = this.head.value;
                     return this.head = this.head.next, this.head ? this.head.prev = null : this.tail = null, this.length--, e
                 }
-            }, n.prototype.forEach = function(e, t) {
+            }, n.prototype.forEach = function (e, t) {
                 t = t || this;
                 for (var r = this.head, n = 0; null !== r; n++) e.call(t, r.value, n, this), r = r.next
-            }, n.prototype.forEachReverse = function(e, t) {
+            }, n.prototype.forEachReverse = function (e, t) {
                 t = t || this;
                 for (var r = this.tail, n = this.length - 1; null !== r; n--) e.call(t, r.value, n, this), r = r.prev
-            }, n.prototype.get = function(e) {
+            }, n.prototype.get = function (e) {
                 for (var t = 0, r = this.head; null !== r && t < e; t++) r = r.next;
                 if (t === e && null !== r) return r.value
-            }, n.prototype.getReverse = function(e) {
+            }, n.prototype.getReverse = function (e) {
                 for (var t = 0, r = this.tail; null !== r && t < e; t++) r = r.prev;
                 if (t === e && null !== r) return r.value
-            }, n.prototype.map = function(e, t) {
+            }, n.prototype.map = function (e, t) {
                 t = t || this;
                 for (var r = new n, a = this.head; null !== a;) r.push(e.call(t, a.value, this)), a = a.next;
                 return r
-            }, n.prototype.mapReverse = function(e, t) {
+            }, n.prototype.mapReverse = function (e, t) {
                 t = t || this;
                 for (var r = new n, a = this.tail; null !== a;) r.push(e.call(t, a.value, this)), a = a.prev;
                 return r
-            }, n.prototype.reduce = function(e, t) {
+            }, n.prototype.reduce = function (e, t) {
                 var r, n = this.head;
                 if (arguments.length > 1) r = t;
                 else {
@@ -5783,7 +5783,7 @@
                 }
                 for (var a = 0; null !== n; a++) r = e(r, n.value, a), n = n.next;
                 return r
-            }, n.prototype.reduceReverse = function(e, t) {
+            }, n.prototype.reduceReverse = function (e, t) {
                 var r, n = this.tail;
                 if (arguments.length > 1) r = t;
                 else {
@@ -5792,13 +5792,13 @@
                 }
                 for (var a = this.length - 1; null !== n; a--) r = e(r, n.value, a), n = n.prev;
                 return r
-            }, n.prototype.toArray = function() {
+            }, n.prototype.toArray = function () {
                 for (var e = new Array(this.length), t = 0, r = this.head; null !== r; t++) e[t] = r.value, r = r.next;
                 return e
-            }, n.prototype.toArrayReverse = function() {
+            }, n.prototype.toArrayReverse = function () {
                 for (var e = new Array(this.length), t = 0, r = this.tail; null !== r; t++) e[t] = r.value, r = r.prev;
                 return e
-            }, n.prototype.slice = function(e, t) {
+            }, n.prototype.slice = function (e, t) {
                 (t = t || this.length) < 0 && (t += this.length), (e = e || 0) < 0 && (e += this.length);
                 var r = new n;
                 if (t < e || t < 0) return r;
@@ -5806,7 +5806,7 @@
                 for (var a = 0, o = this.head; null !== o && a < e; a++) o = o.next;
                 for (; null !== o && a < t; a++, o = o.next) r.push(o.value);
                 return r
-            }, n.prototype.sliceReverse = function(e, t) {
+            }, n.prototype.sliceReverse = function (e, t) {
                 (t = t || this.length) < 0 && (t += this.length), (e = e || 0) < 0 && (e += this.length);
                 var r = new n;
                 if (t < e || t < 0) return r;
@@ -5814,7 +5814,7 @@
                 for (var a = this.length, o = this.tail; null !== o && a > t; a--) o = o.prev;
                 for (; null !== o && a > e; a--, o = o.prev) r.push(o.value);
                 return r
-            }, n.prototype.splice = function(e, t, ...r) {
+            }, n.prototype.splice = function (e, t, ...r) {
                 e > this.length && (e = this.length - 1), e < 0 && (e = this.length + e);
                 for (var n = 0, o = this.head; null !== o && n < e; n++) o = o.next;
                 var l = [];
@@ -5822,7 +5822,7 @@
                 null === o && (o = this.tail), o !== this.head && o !== this.tail && (o = o.prev);
                 for (n = 0; n < r.length; n++) o = a(this, o, r[n]);
                 return l
-            }, n.prototype.reverse = function() {
+            }, n.prototype.reverse = function () {
                 for (var e = this.head, t = this.tail, r = e; null !== r; r = r.prev) {
                     var n = r.prev;
                     r.prev = r.next, r.next = n
@@ -5831,21 +5831,21 @@
             };
             try {
                 r(1607)(n)
-            } catch (e) {}
+            } catch (e) { }
         },
-        1607: function(e, t, r) {
+        1607: function (e, t, r) {
             "use strict";
-            e.exports = function(e) {
-                e.prototype[Symbol.iterator] = function*() {
+            e.exports = function (e) {
+                e.prototype[Symbol.iterator] = function* () {
                     for (let e = this.head; e; e = e.next) yield e.value
                 }
             }
         },
-        1608: function(e, t, r) {
+        1608: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function({
+            }), t.default = function ({
                 onClick: e,
                 className: t,
                 ...r
@@ -5865,7 +5865,7 @@
             var n = u(r(1)),
                 a = u(r(412)),
                 o = u(r(0)),
-                l = function(e) {
+                l = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -5886,7 +5886,7 @@
             function s() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return s = function() {
+                return s = function () {
                     return e
                 }, e
             }
@@ -5898,7 +5898,7 @@
             }
 
             function c() {
-                return (c = Object.assign || function(e) {
+                return (c = Object.assign || function (e) {
                     for (var t = 1; t < arguments.length; t++) {
                         var r = arguments[t];
                         for (var n in r) Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n])
@@ -5913,11 +5913,11 @@
                 opacity: 0
             }))
         },
-        1609: function(e, t, r) {
+        1609: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function({
+            }), t.default = function ({
                 isSenderViewer: e,
                 bubbleContextMenuHandler: t,
                 isFirst: r,
@@ -5944,7 +5944,7 @@
             var n = c(r(1)),
                 a = r(6),
                 o = r(89),
-                l = function(e) {
+                l = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -5966,7 +5966,7 @@
             function u() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return u = function() {
+                return u = function () {
                     return e
                 }, e
             }
@@ -5984,7 +5984,7 @@
                 display: "inline"
             }))
         },
-        1610: function(e, t, r) {
+        1610: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -6007,7 +6007,7 @@
             function y() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return y = function() {
+                return y = function () {
                     return e
                 }, e
             }
@@ -6034,13 +6034,13 @@
                 }
             }
             const _ = e => ({
-                    paddingBottom: e.replyingToText ? 24 : 0,
-                    paddingTop: e.replyingToText ? 6 : 0,
-                    paddingLeft: e.isSenderViewer || e.replyingToText ? 12 : 0,
-                    paddingRight: e.isSenderViewer && !e.replyingToText ? 0 : 12,
-                    marginBottom: -19,
-                    ...e.replyBorderStyles
-                }),
+                paddingBottom: e.replyingToText ? 24 : 0,
+                paddingTop: e.replyingToText ? 6 : 0,
+                paddingLeft: e.isSenderViewer || e.replyingToText ? 12 : 0,
+                paddingRight: e.isSenderViewer && !e.replyingToText ? 0 : 12,
+                marginBottom: -19,
+                ...e.replyBorderStyles
+            }),
                 w = (0, u.default)(h.MessageBubbleContainer)(e => ({
                     backgroundColor: e.backgroundColor,
                     ..._(e)
@@ -6151,7 +6151,7 @@
                         }))
                 }
             }
-            var T = (0, d.memo)((function({
+            var T = (0, d.memo)((function ({
                 message: e,
                 isSenderViewer: t,
                 userID: r,
@@ -6216,11 +6216,11 @@
             }));
             t.default = T
         },
-        1611: function(e, t, r) {
+        1611: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -6239,7 +6239,7 @@
                 default: n
             }
         },
-        1612: function(e, t, r) {
+        1612: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -6263,11 +6263,11 @@
                 return !0
             })(e))))
         },
-        1613: function(e, t, r) {
+        1613: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.getFormattingRanges = function(e) {
+            }), t.getFormattingRanges = function (e) {
                 const t = [];
                 return Object.values(o.TextFormatting).filter(e => "string" == typeof e).forEach(r => {
                     const n = o.TextFormatting[r],
@@ -6276,7 +6276,7 @@
                             getCleanText: i,
                             tagIndex: s,
                             hasClosingTag: u
-                        } = function(e) {
+                        } = function (e) {
                             let t, r = e => e[2],
                                 n = !0;
                             switch (e) {
@@ -6320,10 +6320,10 @@
                             r = c[0].length;
                         u && (e += c[s].length, r -= c[s].length);
                         const a = t => {
-                                const n = e + r,
-                                    a = t.startIndex + t.length;
-                                return n > t.startIndex && e < a
-                            },
+                            const n = e + r,
+                                a = t.startIndex + t.length;
+                            return n > t.startIndex && e < a
+                        },
                             o = i(c);
                         if (!t.find(a)) {
                             if (t.length > 0) {
@@ -6345,11 +6345,11 @@
                 }), t
             };
             var n, a = (n = r(1614)) && n.__esModule ? n : {
-                    default: n
-                },
+                default: n
+            },
                 o = r(548)
         },
-        1614: function(e, t, r) {
+        1614: function (e, t, r) {
             "use strict";
             e.exports = Object.freeze({
                 boldConfig: {
@@ -6390,7 +6390,7 @@
                 }
             })
         },
-        1615: function(e, t, r) {
+        1615: function (e, t, r) {
             "use strict";
 
             function n(e, t) {
@@ -6420,41 +6420,41 @@
             }
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.getTicketMatches = function(e) {
+            }), t.getTicketMatches = function (e) {
                 return a(e, /(?<=\b)T(\d{4,})(?=\b)/gi, "https://www.internalfb.com/intern/tasks/?t=")
-            }, t.getBloksFiddleMatches = function(e) {
+            }, t.getBloksFiddleMatches = function (e) {
                 return a(e, /(?<=\b)BK(\d{3,})(?=\b)/g, "https://www.internalfb.com/intern/bloks/fiddle/", "/")
-            }, t.getDiffMatches = function(e) {
+            }, t.getDiffMatches = function (e) {
                 return a(e, /(?<=\b)D(\d{4,})(?=\b)/g, "https://www.internalfb.com/intern/diff/D", "/")
-            }, t.getSevMatches = function(e) {
+            }, t.getSevMatches = function (e) {
                 return a(e, /(?<=\b)S(\d{4,})(?=\b)/gi, "https://www.internalfb.com/intern/sevmanager/view/s/", "/")
-            }, t.getPasteMatches = function(e) {
+            }, t.getPasteMatches = function (e) {
                 return a(e, /(?<=\b)P(\d{4,})(?=\b)/gi, "https://www.internalfb.com/intern/paste/P", "/")
-            }, t.getNotebookMatches = function(e) {
+            }, t.getNotebookMatches = function (e) {
                 return a(e, /(?<=\b)n(\d{4,})(?=\b)/gi, "https://www.internalfb.com/intern/anp/view/?id=")
-            }, t.getResortMatches = function(e) {
+            }, t.getResortMatches = function (e) {
                 return a(e, /(?<=\b)re(\d{4,})(?=\b)/gi, "https://www.internalfb.com/intern/resort/?ticket_num=")
-            }, t.getCaseMatches = function(e) {
+            }, t.getCaseMatches = function (e) {
                 return a(e, /(?<=\b)(C|C#|CASE)(\d{3,})(?<=\b)/gi, "https://internalfb.com/cases/", "", 1)
-            }, t.getMetric360Matches = function(e) {
+            }, t.getMetric360Matches = function (e) {
                 return a(e, /(?<=\b)(ME[0-9]{3,11})(?<=\b)/gi, "https://internalfb.com/intern/bunny/?q=", "", 0)
-            }, t.getGoalsMatches = function(e) {
+            }, t.getGoalsMatches = function (e) {
                 return a(e, /(?<=\b)(G[1-9][0-9]*)(?<=\b)/gi, "https://internalfb.com/intern/bunny/?q=", "", 0)
-            }, t.getSRTMatches = function(e) {
+            }, t.getSRTMatches = function (e) {
                 return a(e, /(?<=\b)j(\d{4,})(?=\b)/gi, "https://internalfb.com/intern/bunny/?srt ")
-            }, t.getLaunchManagerMatches = function(e) {
+            }, t.getLaunchManagerMatches = function (e) {
                 return a(e, /(?<=\b)(L\d{5,}(?:[A-Z]{1,5}\d{0,})?)(?=\b)/gi, "https://internalfb.com/intern/bunny/?q=")
-            }, t.getAsyncJobTypeMatches = function(e) {
+            }, t.getAsyncJobTypeMatches = function (e) {
                 return a(e, /(?<=\b)async(?:\sjobtype)?\s?#?(\d+)(?=\b)/gi, "https://www.internalfb.com/intern/async/home/job/")
-            }, t.getFlowMatches = function(e) {
+            }, t.getFlowMatches = function (e) {
                 return a(e, /(?<=\b)f(\d{4,})(?=\b)/gi, "https://our.intern.facebook.com/intern/fblearner/details/", "/")
-            }, t.getBugReportMatches = function(e) {
+            }, t.getBugReportMatches = function (e) {
                 return a(e, /(?<=\b)(br\d{4,})(?=\b)/gi, "https://internalfb.com/intern/bunny/?q=")
-            }, t.getCaseConnectMatches = function(e) {
+            }, t.getCaseConnectMatches = function (e) {
                 return a(e, /(?<=\b)([Cc][Cc][Nn]\d+)(?=\b)/gi, "https://internalfb.com/intern/bunny/?q=")
-            }, t.getCustomerCareMatches = function(e) {
+            }, t.getCustomerCareMatches = function (e) {
                 return a(e, /(?<=\b)cc(\d{4,})(?=\b)/gi, "https://www.internalfb.com/intern/customer-care?case_id=")
-            }, t.getCommitCloudMatches = function(e) {
+            }, t.getCommitCloudMatches = function (e) {
                 return n(e, /(?<=\b)r(WWW|FBS|OVRSOURCE|IGSRVHG|OPSFILES)([0-9a-fA-F]{9,40})(?=\b)/g).map(({
                     index: e,
                     length: t,
@@ -6464,19 +6464,19 @@
                     length: t,
                     href: `https://www.internalfb.com/intern/commit/cloud/${r[0]}/${r[1]}`
                 }))
-            }, t.getQaMatches = function(e) {
+            }, t.getQaMatches = function (e) {
                 return a(e, /(?<=\b)Q([0-9]{4,})(?=\b)/gi, "https://www.internalfb.com/intern/qa/")
-            }, t.getProgramsMatches = function(e) {
+            }, t.getProgramsMatches = function (e) {
                 return a(e, /(?<=\b)(PROG[PWA](\d+))(?=\b)/gi, "https://internalfb.com/intern/bunny/?q=")
             }, t.getMatchUrl = a
         },
-        1616: function(e, t, r) {
+        1616: function (e, t, r) {
             "use strict";
 
             function n(e) {
                 var t = Array.prototype.slice.call(arguments, 1);
-                return t.forEach((function(t) {
-                    t && Object.keys(t).forEach((function(r) {
+                return t.forEach((function (t) {
+                    t && Object.keys(t).forEach((function (r) {
                         e[r] = t[r]
                     }))
                 })), e
@@ -6499,27 +6499,27 @@
                 fuzzyIP: !1
             };
             var s = {
-                    "http:": {
-                        validate: function(e, t, r) {
-                            var n = e.slice(t);
-                            return r.re.http || (r.re.http = new RegExp("^\\/\\/" + r.re.src_auth + r.re.src_host_port_strict + r.re.src_path, "i")), r.re.http.test(n) ? n.match(r.re.http)[0].length : 0
-                        }
-                    },
-                    "https:": "http:",
-                    "ftp:": "http:",
-                    "//": {
-                        validate: function(e, t, r) {
-                            var n = e.slice(t);
-                            return r.re.no_http || (r.re.no_http = new RegExp("^" + r.re.src_auth + "(?:localhost|(?:(?:" + r.re.src_domain + ")\\.)+" + r.re.src_domain_root + ")" + r.re.src_port + r.re.src_host_terminator + r.re.src_path, "i")), r.re.no_http.test(n) ? t >= 3 && ":" === e[t - 3] ? 0 : t >= 3 && "/" === e[t - 3] ? 0 : n.match(r.re.no_http)[0].length : 0
-                        }
-                    },
-                    "mailto:": {
-                        validate: function(e, t, r) {
-                            var n = e.slice(t);
-                            return r.re.mailto || (r.re.mailto = new RegExp("^" + r.re.src_email_name + "@" + r.re.src_host_strict, "i")), r.re.mailto.test(n) ? n.match(r.re.mailto)[0].length : 0
-                        }
+                "http:": {
+                    validate: function (e, t, r) {
+                        var n = e.slice(t);
+                        return r.re.http || (r.re.http = new RegExp("^\\/\\/" + r.re.src_auth + r.re.src_host_port_strict + r.re.src_path, "i")), r.re.http.test(n) ? n.match(r.re.http)[0].length : 0
                     }
                 },
+                "https:": "http:",
+                "ftp:": "http:",
+                "//": {
+                    validate: function (e, t, r) {
+                        var n = e.slice(t);
+                        return r.re.no_http || (r.re.no_http = new RegExp("^" + r.re.src_auth + "(?:localhost|(?:(?:" + r.re.src_domain + ")\\.)+" + r.re.src_domain_root + ")" + r.re.src_port + r.re.src_host_terminator + r.re.src_path, "i")), r.re.no_http.test(n) ? t >= 3 && ":" === e[t - 3] ? 0 : t >= 3 && "/" === e[t - 3] ? 0 : n.match(r.re.no_http)[0].length : 0
+                    }
+                },
+                "mailto:": {
+                    validate: function (e, t, r) {
+                        var n = e.slice(t);
+                        return r.re.mailto || (r.re.mailto = new RegExp("^" + r.re.src_email_name + "@" + r.re.src_host_strict, "i")), r.re.mailto.test(n) ? n.match(r.re.mailto)[0].length : 0
+                    }
+                }
+            },
                 u = "biz|com|edu|gov|net|org|pro|web|xxx|aero|asia|coop|info|museum|name|shop|рф".split("|");
 
             function c(e) {
@@ -6535,40 +6535,40 @@
                 function u(e, t) {
                     throw new Error('(LinkifyIt) Invalid schema "' + e + '": ' + t)
                 }
-                e.__compiled__ = {}, Object.keys(e.__schemas__).forEach((function(t) {
+                e.__compiled__ = {}, Object.keys(e.__schemas__).forEach((function (t) {
                     var r = e.__schemas__[t];
                     if (null !== r) {
                         var n = {
                             validate: null,
                             link: null
                         };
-                        if (e.__compiled__[t] = n, "[object Object]" === a(r)) return ! function(e) {
+                        if (e.__compiled__[t] = n, "[object Object]" === a(r)) return ! function (e) {
                             return "[object RegExp]" === a(e)
-                        }(r.validate) ? o(r.validate) ? n.validate = r.validate : u(t, r) : n.validate = function(e) {
-                            return function(t, r) {
+                        }(r.validate) ? o(r.validate) ? n.validate = r.validate : u(t, r) : n.validate = function (e) {
+                            return function (t, r) {
                                 var n = t.slice(r);
                                 return e.test(n) ? n.match(e)[0].length : 0
                             }
-                        }(r.validate), void(o(r.normalize) ? n.normalize = r.normalize : r.normalize ? u(t, r) : n.normalize = function(e, t) {
+                        }(r.validate), void (o(r.normalize) ? n.normalize = r.normalize : r.normalize ? u(t, r) : n.normalize = function (e, t) {
                             t.normalize(e)
                         });
-                        ! function(e) {
+                        ! function (e) {
                             return "[object String]" === a(e)
-                        }(r) ? u(t, r): s.push(t)
+                        }(r) ? u(t, r) : s.push(t)
                     }
-                })), s.forEach((function(t) {
+                })), s.forEach((function (t) {
                     e.__compiled__[e.__schemas__[t]] && (e.__compiled__[t].validate = e.__compiled__[e.__schemas__[t]].validate, e.__compiled__[t].normalize = e.__compiled__[e.__schemas__[t]].normalize)
                 })), e.__compiled__[""] = {
                     validate: null,
-                    normalize: function(e, t) {
+                    normalize: function (e, t) {
                         t.normalize(e)
                     }
                 };
-                var c = Object.keys(e.__compiled__).filter((function(t) {
+                var c = Object.keys(e.__compiled__).filter((function (t) {
                     return t.length > 0 && e.__compiled__[t]
                 })).map(l).join("|");
                 e.re.schema_test = RegExp("(^|(?!_)(?:[><｜]|" + t.src_ZPCc + "))(" + c + ")", "i"), e.re.schema_search = RegExp("(^|(?!_)(?:[><｜]|" + t.src_ZPCc + "))(" + c + ")", "ig"), e.re.pretest = RegExp("(" + e.re.schema_test.source + ")|(" + e.re.host_fuzzy_test.source + ")|@", "i"),
-                    function(e) {
+                    function (e) {
                         e.__index__ = -1, e.__text_cache__ = ""
                     }(e)
             }
@@ -6588,16 +6588,17 @@
             function h(e, t) {
                 if (!(this instanceof h)) return new h(e, t);
                 var r;
-                t || (r = e, Object.keys(r || {}).reduce((function(e, t) {
+                t || (r = e, Object.keys(r || {}).reduce((function (e, t) {
                     return e || i.hasOwnProperty(t)
                 }), !1) && (t = e, e = {})), this.__opts__ = n({}, i, t), this.__index__ = -1, this.__last_index__ = -1, this.__schema__ = "", this.__text_cache__ = "", this.__schemas__ = n({}, s, e), this.__compiled__ = {}, this.__tlds__ = u, this.__tlds_replaced__ = !1, this.re = {}, c(this)
             }
-            h.prototype.add = function(e, t) {
+            h.prototype.add = function (e, t) {
                 return this.__schemas__[e] = t, c(this), this
-            }, h.prototype.set = function(e) {
+            }, h.prototype.set = function (e) {
                 return this.__opts__ = n(this.__opts__, e), this
-            }, h.prototype.test = function(e) {
-                if (this.__text_cache__ = e, this.__index__ = -1, !e.length) return !1;
+                // [URL:REGEX]#3
+            }, h.prototype.test = function (e) {
+                if (this.__text_cache__ = e, this.__index__ = -1, !e.length) return !1; // input data null check -> return 0 
                 var t, r, n, a, o, l, i, s;
                 if (this.re.schema_test.test(e))
                     for ((i = this.re.schema_search).lastIndex = 0; null !== (t = i.exec(e));)
@@ -6605,52 +6606,54 @@
                             this.__schema__ = t[2], this.__index__ = t.index + t[1].length, this.__last_index__ = t.index + t[0].length + a;
                             break
                         } return this.__opts__.fuzzyLink && this.__compiled__["http:"] && (s = e.search(this.re.host_fuzzy_test)) >= 0 && (this.__index__ < 0 || s < this.__index__) && null !== (r = e.match(this.__opts__.fuzzyIP ? this.re.link_fuzzy : this.re.link_no_ip_fuzzy)) && (o = r.index + r[1].length, (this.__index__ < 0 || o < this.__index__) && (this.__schema__ = "", this.__index__ = o, this.__last_index__ = r.index + r[0].length)), this.__opts__.fuzzyEmail && this.__compiled__["mailto:"] && e.indexOf("@") >= 0 && null !== (n = e.match(this.re.email_fuzzy)) && (o = n.index + n[1].length, l = n.index + n[0].length, (this.__index__ < 0 || o < this.__index__ || o === this.__index__ && l > this.__last_index__) && (this.__schema__ = "mailto:", this.__index__ = o, this.__last_index__ = l)), this.__index__ >= 0
-            }, h.prototype.pretest = function(e) {
+            }, h.prototype.pretest = function (e) {
                 return this.re.pretest.test(e)
-            }, h.prototype.testSchemaAt = function(e, t, r) {
+            }, h.prototype.testSchemaAt = function (e, t, r) {
                 return this.__compiled__[t.toLowerCase()] ? this.__compiled__[t.toLowerCase()].validate(e, r, this) : 0
-            }, h.prototype.match = function(e) {
+                // [URL:REGEX]#2 
+            }, h.prototype.match = function (e) {
                 var t = 0,
                     r = [];
                 this.__index__ >= 0 && this.__text_cache__ === e && (r.push(f(this, t)), t = this.__last_index__);
                 for (var n = t ? e.slice(t) : e; this.test(n);) r.push(f(this, t)), n = n.slice(this.__last_index__), t += this.__last_index__;
+                // [URL:REGEX]#2-1 -> null check return 0
                 return r.length ? r : null
-            }, h.prototype.tlds = function(e, t) {
-                return e = Array.isArray(e) ? e : [e], t ? (this.__tlds__ = this.__tlds__.concat(e).sort().filter((function(e, t, r) {
+            }, h.prototype.tlds = function (e, t) {
+                return e = Array.isArray(e) ? e : [e], t ? (this.__tlds__ = this.__tlds__.concat(e).sort().filter((function (e, t, r) {
                     return e !== r[t - 1]
                 })).reverse(), c(this), this) : (this.__tlds__ = e.slice(), this.__tlds_replaced__ = !0, c(this), this)
-            }, h.prototype.normalize = function(e) {
+            }, h.prototype.normalize = function (e) {
                 e.schema || (e.url = "http://" + e.url), "mailto:" !== e.schema || /^mailto:/i.test(e.url) || (e.url = "mailto:" + e.url)
-            }, h.prototype.onCompile = function() {}, e.exports = h
+            }, h.prototype.onCompile = function () { }, e.exports = h
         },
-        1617: function(e, t, r) {
+        1617: function (e, t, r) {
             "use strict";
-            e.exports = function(e) {
+            e.exports = function (e) {
                 var t = {};
                 t.src_Any = r(1618).source, t.src_Cc = r(1619).source, t.src_Z = r(1620).source, t.src_P = r(1621).source, t.src_ZPCc = [t.src_Z, t.src_P, t.src_Cc].join("|"), t.src_ZCc = [t.src_Z, t.src_Cc].join("|");
                 return t.src_pseudo_letter = "(?:(?![><｜]|" + t.src_ZPCc + ")" + t.src_Any + ")", t.src_ip4 = "(?:(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)", t.src_auth = "(?:(?:(?!" + t.src_ZCc + "|[@/\\[\\]()]).)+@)?", t.src_port = "(?::(?:6(?:[0-4]\\d{3}|5(?:[0-4]\\d{2}|5(?:[0-2]\\d|3[0-5])))|[1-5]?\\d{1,4}))?", t.src_host_terminator = "(?=$|[><｜]|" + t.src_ZPCc + ")(?!-|_|:\\d|\\.-|\\.(?!$|" + t.src_ZPCc + "))", t.src_path = "(?:[/?#](?:(?!" + t.src_ZCc + "|[><｜]|[()[\\]{}.,\"'?!\\-]).|\\[(?:(?!" + t.src_ZCc + "|\\]).)*\\]|\\((?:(?!" + t.src_ZCc + "|[)]).)*\\)|\\{(?:(?!" + t.src_ZCc + '|[}]).)*\\}|\\"(?:(?!' + t.src_ZCc + '|["]).)+\\"|\\\'(?:(?!' + t.src_ZCc + "|[']).)+\\'|\\'(?=" + t.src_pseudo_letter + "|[-]).|\\.{2,4}[a-zA-Z0-9%/]|\\.(?!" + t.src_ZCc + "|[.]).|" + (e && e["---"] ? "\\-(?!--(?:[^-]|$))(?:-*)|" : "\\-+|") + "\\,(?!" + t.src_ZCc + ").|\\!(?!" + t.src_ZCc + "|[!]).|\\?(?!" + t.src_ZCc + "|[?]).)+|\\/)?", t.src_email_name = '[\\-;:&=\\+\\$,\\.a-zA-Z0-9_][\\-;:&=\\+\\$,\\"\\.a-zA-Z0-9_]*', t.src_xn = "xn--[a-z0-9\\-]{1,59}", t.src_domain_root = "(?:" + t.src_xn + "|" + t.src_pseudo_letter + "{1,63})", t.src_domain = "(?:" + t.src_xn + "|(?:" + t.src_pseudo_letter + ")|(?:" + t.src_pseudo_letter + "(?:-|" + t.src_pseudo_letter + "){0,61}" + t.src_pseudo_letter + "))", t.src_host = "(?:(?:(?:(?:" + t.src_domain + ")\\.)*" + t.src_domain + "))", t.tpl_host_fuzzy = "(?:" + t.src_ip4 + "|(?:(?:(?:" + t.src_domain + ")\\.)+(?:%TLDS%)))", t.tpl_host_no_ip_fuzzy = "(?:(?:(?:" + t.src_domain + ")\\.)+(?:%TLDS%))", t.src_host_strict = t.src_host + t.src_host_terminator, t.tpl_host_fuzzy_strict = t.tpl_host_fuzzy + t.src_host_terminator, t.src_host_port_strict = t.src_host + t.src_port + t.src_host_terminator, t.tpl_host_port_fuzzy_strict = t.tpl_host_fuzzy + t.src_port + t.src_host_terminator, t.tpl_host_port_no_ip_fuzzy_strict = t.tpl_host_no_ip_fuzzy + t.src_port + t.src_host_terminator, t.tpl_host_fuzzy_test = "localhost|www\\.|\\.\\d{1,3}\\.|(?:\\.(?:%TLDS%)(?:" + t.src_ZPCc + "|>|$))", t.tpl_email_fuzzy = '(^|[><｜]|"|\\(|' + t.src_ZCc + ")(" + t.src_email_name + "@" + t.tpl_host_fuzzy_strict + ")", t.tpl_link_fuzzy = "(^|(?![.:/\\-_@])(?:[$+<=>^`|｜]|" + t.src_ZPCc + "))((?![$+<=>^`|｜])" + t.tpl_host_port_fuzzy_strict + t.src_path + ")", t.tpl_link_no_ip_fuzzy = "(^|(?![.:/\\-_@])(?:[$+<=>^`|｜]|" + t.src_ZPCc + "))((?![$+<=>^`|｜])" + t.tpl_host_port_no_ip_fuzzy_strict + t.src_path + ")", t
             }
         },
-        1618: function(e, t) {
+        1618: function (e, t) {
             e.exports = /[\0-\uD7FF\uE000-\uFFFF]|[\uD800-\uDBFF][\uDC00-\uDFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF]/
         },
-        1619: function(e, t) {
+        1619: function (e, t) {
             e.exports = /[\0-\x1F\x7F-\x9F]/
         },
-        1620: function(e, t) {
+        1620: function (e, t) {
             e.exports = /[ \xA0\u1680\u2000-\u200A\u2028\u2029\u202F\u205F\u3000]/
         },
-        1621: function(e, t) {
+        1621: function (e, t) {
             e.exports = /[!-#%-\*,-\/:;\?@\[-\]_\{\}\xA1\xA7\xAB\xB6\xB7\xBB\xBF\u037E\u0387\u055A-\u055F\u0589\u058A\u05BE\u05C0\u05C3\u05C6\u05F3\u05F4\u0609\u060A\u060C\u060D\u061B\u061E\u061F\u066A-\u066D\u06D4\u0700-\u070D\u07F7-\u07F9\u0830-\u083E\u085E\u0964\u0965\u0970\u09FD\u0A76\u0AF0\u0C84\u0DF4\u0E4F\u0E5A\u0E5B\u0F04-\u0F12\u0F14\u0F3A-\u0F3D\u0F85\u0FD0-\u0FD4\u0FD9\u0FDA\u104A-\u104F\u10FB\u1360-\u1368\u1400\u166D\u166E\u169B\u169C\u16EB-\u16ED\u1735\u1736\u17D4-\u17D6\u17D8-\u17DA\u1800-\u180A\u1944\u1945\u1A1E\u1A1F\u1AA0-\u1AA6\u1AA8-\u1AAD\u1B5A-\u1B60\u1BFC-\u1BFF\u1C3B-\u1C3F\u1C7E\u1C7F\u1CC0-\u1CC7\u1CD3\u2010-\u2027\u2030-\u2043\u2045-\u2051\u2053-\u205E\u207D\u207E\u208D\u208E\u2308-\u230B\u2329\u232A\u2768-\u2775\u27C5\u27C6\u27E6-\u27EF\u2983-\u2998\u29D8-\u29DB\u29FC\u29FD\u2CF9-\u2CFC\u2CFE\u2CFF\u2D70\u2E00-\u2E2E\u2E30-\u2E4E\u3001-\u3003\u3008-\u3011\u3014-\u301F\u3030\u303D\u30A0\u30FB\uA4FE\uA4FF\uA60D-\uA60F\uA673\uA67E\uA6F2-\uA6F7\uA874-\uA877\uA8CE\uA8CF\uA8F8-\uA8FA\uA8FC\uA92E\uA92F\uA95F\uA9C1-\uA9CD\uA9DE\uA9DF\uAA5C-\uAA5F\uAADE\uAADF\uAAF0\uAAF1\uABEB\uFD3E\uFD3F\uFE10-\uFE19\uFE30-\uFE52\uFE54-\uFE61\uFE63\uFE68\uFE6A\uFE6B\uFF01-\uFF03\uFF05-\uFF0A\uFF0C-\uFF0F\uFF1A\uFF1B\uFF1F\uFF20\uFF3B-\uFF3D\uFF3F\uFF5B\uFF5D\uFF5F-\uFF65]|\uD800[\uDD00-\uDD02\uDF9F\uDFD0]|\uD801\uDD6F|\uD802[\uDC57\uDD1F\uDD3F\uDE50-\uDE58\uDE7F\uDEF0-\uDEF6\uDF39-\uDF3F\uDF99-\uDF9C]|\uD803[\uDF55-\uDF59]|\uD804[\uDC47-\uDC4D\uDCBB\uDCBC\uDCBE-\uDCC1\uDD40-\uDD43\uDD74\uDD75\uDDC5-\uDDC8\uDDCD\uDDDB\uDDDD-\uDDDF\uDE38-\uDE3D\uDEA9]|\uD805[\uDC4B-\uDC4F\uDC5B\uDC5D\uDCC6\uDDC1-\uDDD7\uDE41-\uDE43\uDE60-\uDE6C\uDF3C-\uDF3E]|\uD806[\uDC3B\uDE3F-\uDE46\uDE9A-\uDE9C\uDE9E-\uDEA2]|\uD807[\uDC41-\uDC45\uDC70\uDC71\uDEF7\uDEF8]|\uD809[\uDC70-\uDC74]|\uD81A[\uDE6E\uDE6F\uDEF5\uDF37-\uDF3B\uDF44]|\uD81B[\uDE97-\uDE9A]|\uD82F\uDC9F|\uD836[\uDE87-\uDE8B]|\uD83A[\uDD5E\uDD5F]/
         },
-        1622: function(e, t) {
+        1622: function (e, t) {
             e.exports = ["aaa", "aarp", "abarth", "abb", "abbott", "abbvie", "abc", "able", "abogado", "abudhabi", "ac", "academy", "accenture", "accountant", "accountants", "aco", "actor", "ad", "adac", "ads", "adult", "ae", "aeg", "aero", "aetna", "af", "afamilycompany", "afl", "africa", "ag", "agakhan", "agency", "ai", "aig", "aigo", "airbus", "airforce", "airtel", "akdn", "al", "alfaromeo", "alibaba", "alipay", "allfinanz", "allstate", "ally", "alsace", "alstom", "am", "americanexpress", "americanfamily", "amex", "amfam", "amica", "amsterdam", "analytics", "android", "anquan", "anz", "ao", "aol", "apartments", "app", "apple", "aq", "aquarelle", "ar", "arab", "aramco", "archi", "army", "arpa", "art", "arte", "as", "asda", "asia", "associates", "at", "athleta", "attorney", "au", "auction", "audi", "audible", "audio", "auspost", "author", "auto", "autos", "avianca", "aw", "aws", "ax", "axa", "az", "azure", "ba", "baby", "baidu", "banamex", "bananarepublic", "band", "bank", "bar", "barcelona", "barclaycard", "barclays", "barefoot", "bargains", "baseball", "basketball", "bauhaus", "bayern", "bb", "bbc", "bbt", "bbva", "bcg", "bcn", "bd", "be", "beats", "beauty", "beer", "bentley", "berlin", "best", "bestbuy", "bet", "bf", "bg", "bh", "bharti", "bi", "bible", "bid", "bike", "bing", "bingo", "bio", "biz", "bj", "black", "blackfriday", "blockbuster", "blog", "bloomberg", "blue", "bm", "bms", "bmw", "bn", "bnpparibas", "bo", "boats", "boehringer", "bofa", "bom", "bond", "boo", "book", "booking", "bosch", "bostik", "boston", "bot", "boutique", "box", "br", "bradesco", "bridgestone", "broadway", "broker", "brother", "brussels", "bs", "bt", "budapest", "bugatti", "build", "builders", "business", "buy", "buzz", "bv", "bw", "by", "bz", "bzh", "ca", "cab", "cafe", "cal", "call", "calvinklein", "cam", "camera", "camp", "cancerresearch", "canon", "capetown", "capital", "capitalone", "car", "caravan", "cards", "care", "career", "careers", "cars", "casa", "case", "caseih", "cash", "casino", "cat", "catering", "catholic", "cba", "cbn", "cbre", "cbs", "cc", "cd", "ceb", "center", "ceo", "cern", "cf", "cfa", "cfd", "cg", "ch", "chanel", "channel", "charity", "chase", "chat", "cheap", "chintai", "christmas", "chrome", "church", "ci", "cipriani", "circle", "cisco", "citadel", "citi", "citic", "city", "cityeats", "ck", "cl", "claims", "cleaning", "click", "clinic", "clinique", "clothing", "cloud", "club", "clubmed", "cm", "cn", "co", "coach", "codes", "coffee", "college", "cologne", "com", "comcast", "commbank", "community", "company", "compare", "computer", "comsec", "condos", "construction", "consulting", "contact", "contractors", "cooking", "cookingchannel", "cool", "coop", "corsica", "country", "coupon", "coupons", "courses", "cpa", "cr", "credit", "creditcard", "creditunion", "cricket", "crown", "crs", "cruise", "cruises", "csc", "cu", "cuisinella", "cv", "cw", "cx", "cy", "cymru", "cyou", "cz", "dabur", "dad", "dance", "data", "date", "dating", "datsun", "day", "dclk", "dds", "de", "deal", "dealer", "deals", "degree", "delivery", "dell", "deloitte", "delta", "democrat", "dental", "dentist", "desi", "design", "dev", "dhl", "diamonds", "diet", "digital", "direct", "directory", "discount", "discover", "dish", "diy", "dj", "dk", "dm", "dnp", "do", "docs", "doctor", "dog", "domains", "dot", "download", "drive", "dtv", "dubai", "duck", "dunlop", "dupont", "durban", "dvag", "dvr", "dz", "earth", "eat", "ec", "eco", "edeka", "edu", "education", "ee", "eg", "email", "emerck", "energy", "engineer", "engineering", "enterprises", "epson", "equipment", "er", "ericsson", "erni", "es", "esq", "estate", "esurance", "et", "etisalat", "eu", "eurovision", "eus", "events", "exchange", "expert", "exposed", "express", "extraspace", "fage", "fail", "fairwinds", "faith", "family", "fan", "fans", "farm", "farmers", "fashion", "fast", "fedex", "feedback", "ferrari", "ferrero", "fi", "fiat", "fidelity", "fido", "film", "final", "finance", "financial", "fire", "firestone", "firmdale", "fish", "fishing", "fit", "fitness", "fj", "fk", "flickr", "flights", "flir", "florist", "flowers", "fly", "fm", "fo", "foo", "food", "foodnetwork", "football", "ford", "forex", "forsale", "forum", "foundation", "fox", "fr", "free", "fresenius", "frl", "frogans", "frontdoor", "frontier", "ftr", "fujitsu", "fujixerox", "fun", "fund", "furniture", "futbol", "fyi", "ga", "gal", "gallery", "gallo", "gallup", "game", "games", "gap", "garden", "gay", "gb", "gbiz", "gd", "gdn", "ge", "gea", "gent", "genting", "george", "gf", "gg", "ggee", "gh", "gi", "gift", "gifts", "gives", "giving", "gl", "glade", "glass", "gle", "global", "globo", "gm", "gmail", "gmbh", "gmo", "gmx", "gn", "godaddy", "gold", "goldpoint", "golf", "goo", "goodyear", "goog", "google", "gop", "got", "gov", "gp", "gq", "gr", "grainger", "graphics", "gratis", "green", "gripe", "grocery", "group", "gs", "gt", "gu", "guardian", "gucci", "guge", "guide", "guitars", "guru", "gw", "gy", "hair", "hamburg", "hangout", "haus", "hbo", "hdfc", "hdfcbank", "health", "healthcare", "help", "helsinki", "here", "hermes", "hgtv", "hiphop", "hisamitsu", "hitachi", "hiv", "hk", "hkt", "hm", "hn", "hockey", "holdings", "holiday", "homedepot", "homegoods", "homes", "homesense", "honda", "horse", "hospital", "host", "hosting", "hot", "hoteles", "hotels", "hotmail", "house", "how", "hr", "hsbc", "ht", "hu", "hughes", "hyatt", "hyundai", "ibm", "icbc", "ice", "icu", "id", "ie", "ieee", "ifm", "ikano", "il", "im", "imamat", "imdb", "immo", "immobilien", "in", "inc", "industries", "infiniti", "info", "ing", "ink", "institute", "insurance", "insure", "int", "intel", "international", "intuit", "investments", "io", "ipiranga", "iq", "ir", "irish", "is", "ismaili", "ist", "istanbul", "it", "itau", "itv", "iveco", "jaguar", "java", "jcb", "jcp", "je", "jeep", "jetzt", "jewelry", "jio", "jll", "jm", "jmp", "jnj", "jo", "jobs", "joburg", "jot", "joy", "jp", "jpmorgan", "jprs", "juegos", "juniper", "kaufen", "kddi", "ke", "kerryhotels", "kerrylogistics", "kerryproperties", "kfh", "kg", "kh", "ki", "kia", "kim", "kinder", "kindle", "kitchen", "kiwi", "km", "kn", "koeln", "komatsu", "kosher", "kp", "kpmg", "kpn", "kr", "krd", "kred", "kuokgroup", "kw", "ky", "kyoto", "kz", "la", "lacaixa", "lamborghini", "lamer", "lancaster", "lancia", "land", "landrover", "lanxess", "lasalle", "lat", "latino", "latrobe", "law", "lawyer", "lb", "lc", "lds", "lease", "leclerc", "lefrak", "legal", "lego", "lexus", "lgbt", "li", "liaison", "lidl", "life", "lifeinsurance", "lifestyle", "lighting", "like", "lilly", "limited", "limo", "lincoln", "linde", "link", "lipsy", "live", "living", "lixil", "lk", "llc", "loan", "loans", "locker", "locus", "loft", "lol", "london", "lotte", "lotto", "love", "lpl", "lplfinancial", "lr", "ls", "lt", "ltd", "ltda", "lu", "lundbeck", "lupin", "luxe", "luxury", "lv", "ly", "ma", "macys", "madrid", "maif", "maison", "makeup", "man", "management", "mango", "map", "market", "marketing", "markets", "marriott", "marshalls", "maserati", "mattel", "mba", "mc", "mckinsey", "md", "me", "med", "media", "meet", "melbourne", "meme", "memorial", "men", "menu", "merckmsd", "metlife", "mg", "mh", "miami", "microsoft", "mil", "mini", "mint", "mit", "mitsubishi", "mk", "ml", "mlb", "mls", "mm", "mma", "mn", "mo", "mobi", "mobile", "moda", "moe", "moi", "mom", "monash", "money", "monster", "mormon", "mortgage", "moscow", "moto", "motorcycles", "mov", "movie", "movistar", "mp", "mq", "mr", "ms", "msd", "mt", "mtn", "mtr", "mu", "museum", "mutual", "mv", "mw", "mx", "my", "mz", "na", "nab", "nadex", "nagoya", "name", "nationwide", "natura", "navy", "nba", "nc", "ne", "nec", "net", "netbank", "netflix", "network", "neustar", "new", "newholland", "news", "next", "nextdirect", "nexus", "nf", "nfl", "ng", "ngo", "nhk", "ni", "nico", "nike", "nikon", "ninja", "nissan", "nissay", "nl", "no", "nokia", "northwesternmutual", "norton", "now", "nowruz", "nowtv", "np", "nr", "nra", "nrw", "ntt", "nu", "nyc", "nz", "obi", "observer", "off", "office", "okinawa", "olayan", "olayangroup", "oldnavy", "ollo", "om", "omega", "one", "ong", "onl", "online", "onyourside", "ooo", "open", "oracle", "orange", "org", "organic", "origins", "osaka", "otsuka", "ott", "ovh", "pa", "page", "panasonic", "paris", "pars", "partners", "parts", "party", "passagens", "pay", "pccw", "pe", "pet", "pf", "pfizer", "pg", "ph", "pharmacy", "phd", "philips", "phone", "photo", "photography", "photos", "physio", "pics", "pictet", "pictures", "pid", "pin", "ping", "pink", "pioneer", "pizza", "pk", "pl", "place", "play", "playstation", "plumbing", "plus", "pm", "pn", "pnc", "pohl", "poker", "politie", "porn", "post", "pr", "pramerica", "praxi", "press", "prime", "pro", "prod", "productions", "prof", "progressive", "promo", "properties", "property", "protection", "pru", "prudential", "ps", "pt", "pub", "pw", "pwc", "py", "qa", "qpon", "quebec", "quest", "qvc", "racing", "radio", "raid", "re", "read", "realestate", "realtor", "realty", "recipes", "red", "redstone", "redumbrella", "rehab", "reise", "reisen", "reit", "reliance", "ren", "rent", "rentals", "repair", "report", "republican", "rest", "restaurant", "review", "reviews", "rexroth", "rich", "richardli", "ricoh", "rightathome", "ril", "rio", "rip", "rmit", "ro", "rocher", "rocks", "rodeo", "rogers", "room", "rs", "rsvp", "ru", "rugby", "ruhr", "run", "rw", "rwe", "ryukyu", "sa", "saarland", "safe", "safety", "sakura", "sale", "salon", "samsclub", "samsung", "sandvik", "sandvikcoromant", "sanofi", "sap", "sarl", "sas", "save", "saxo", "sb", "sbi", "sbs", "sc", "sca", "scb", "schaeffler", "schmidt", "scholarships", "school", "schule", "schwarz", "science", "scjohnson", "scor", "scot", "sd", "se", "search", "seat", "secure", "security", "seek", "select", "sener", "services", "ses", "seven", "sew", "sex", "sexy", "sfr", "sg", "sh", "shangrila", "sharp", "shaw", "shell", "shia", "shiksha", "shoes", "shop", "shopping", "shouji", "show", "showtime", "shriram", "si", "silk", "sina", "singles", "site", "sj", "sk", "ski", "skin", "sky", "skype", "sl", "sling", "sm", "smart", "smile", "sn", "sncf", "so", "soccer", "social", "softbank", "software", "sohu", "solar", "solutions", "song", "sony", "soy", "space", "sport", "spot", "spreadbetting", "sr", "srl", "ss", "st", "stada", "staples", "star", "statebank", "statefarm", "stc", "stcgroup", "stockholm", "storage", "store", "stream", "studio", "study", "style", "su", "sucks", "supplies", "supply", "support", "surf", "surgery", "suzuki", "sv", "swatch", "swiftcover", "swiss", "sx", "sy", "sydney", "symantec", "systems", "sz", "tab", "taipei", "talk", "taobao", "target", "tatamotors", "tatar", "tattoo", "tax", "taxi", "tc", "tci", "td", "tdk", "team", "tech", "technology", "tel", "telefonica", "temasek", "tennis", "teva", "tf", "tg", "th", "thd", "theater", "theatre", "tiaa", "tickets", "tienda", "tiffany", "tips", "tires", "tirol", "tj", "tjmaxx", "tjx", "tk", "tkmaxx", "tl", "tm", "tmall", "tn", "to", "today", "tokyo", "tools", "top", "toray", "toshiba", "total", "tours", "town", "toyota", "toys", "tr", "trade", "trading", "training", "travel", "travelchannel", "travelers", "travelersinsurance", "trust", "trv", "tt", "tube", "tui", "tunes", "tushu", "tv", "tvs", "tw", "tz", "ua", "ubank", "ubs", "ug", "uk", "unicom", "university", "uno", "uol", "ups", "us", "uy", "uz", "va", "vacations", "vana", "vanguard", "vc", "ve", "vegas", "ventures", "verisign", "versicherung", "vet", "vg", "vi", "viajes", "video", "vig", "viking", "villas", "vin", "vip", "virgin", "visa", "vision", "vistaprint", "viva", "vivo", "vlaanderen", "vn", "vodka", "volkswagen", "volvo", "vote", "voting", "voto", "voyage", "vu", "vuelos", "wales", "walmart", "walter", "wang", "wanggou", "watch", "watches", "weather", "weatherchannel", "webcam", "weber", "website", "wed", "wedding", "weibo", "weir", "wf", "whoswho", "wien", "wiki", "williamhill", "win", "windows", "wine", "winners", "wme", "wolterskluwer", "woodside", "work", "works", "world", "wow", "ws", "wtc", "wtf", "xbox", "xerox", "xfinity", "xihuan", "xin", "कॉम", "セール", "佛山", "ಭಾರತ", "慈善", "集团", "在线", "한국", "ଭାରତ", "大众汽车", "点看", "คอม", "ভাৰত", "ভারত", "八卦", "موقع", "বাংলা", "公益", "公司", "香格里拉", "网站", "移动", "我爱你", "москва", "қаз", "католик", "онлайн", "сайт", "联通", "срб", "бг", "бел", "קום", "时尚", "微博", "淡马锡", "ファッション", "орг", "नेट", "ストア", "삼성", "சிங்கப்பூர்", "商标", "商店", "商城", "дети", "мкд", "ею", "ポイント", "新闻", "工行", "家電", "كوم", "中文网", "中信", "中国", "中國", "娱乐", "谷歌", "భారత్", "ලංකා", "電訊盈科", "购物", "クラウド", "ભારત", "通販", "भारतम्", "भारत", "भारोत", "网店", "संगठन", "餐厅", "网络", "ком", "укр", "香港", "诺基亚", "食品", "飞利浦", "台湾", "台灣", "手表", "手机", "мон", "الجزائر", "عمان", "ارامكو", "ایران", "العليان", "اتصالات", "امارات", "بازار", "موريتانيا", "پاکستان", "الاردن", "بارت", "بھارت", "المغرب", "ابوظبي", "السعودية", "ڀارت", "كاثوليك", "سودان", "همراه", "عراق", "مليسيا", "澳門", "닷컴", "政府", "شبكة", "بيتك", "عرب", "გე", "机构", "组织机构", "健康", "ไทย", "سورية", "招聘", "рус", "рф", "珠宝", "تونس", "大拿", "みんな", "グーグル", "ευ", "ελ", "世界", "書籍", "ഭാരതം", "ਭਾਰਤ", "网址", "닷넷", "コム", "天主教", "游戏", "vermögensberater", "vermögensberatung", "企业", "信息", "嘉里大酒店", "嘉里", "مصر", "قطر", "广东", "இலங்கை", "இந்தியா", "հայ", "新加坡", "فلسطين", "政务", "xxx", "xyz", "yachts", "yahoo", "yamaxun", "yandex", "ye", "yodobashi", "yoga", "yokohama", "you", "youtube", "yt", "yun", "za", "zappos", "zara", "zero", "zip", "zm", "zone", "zuerich", "zw"]
         },
-        1623: function(e, t, r) {
+        1623: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -6672,11 +6675,11 @@
                 default: n
             }
         },
-        1624: function(e, t, r) {
+        1624: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     viewBox: "0 0 36 36",
@@ -6702,11 +6705,11 @@
                 default: n
             }
         },
-        1625: function(e, t, r) {
+        1625: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e, t) {
+            }), t.default = function (e, t) {
                 return !t || !e.some(e => (e => {
                     try {
                         const t = new URL(e);
@@ -6718,11 +6721,11 @@
             };
             const n = ["facebook.com", "workplace.com", "messenger.com"]
         },
-        1650: function(e, t, r) {
+        1650: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function({
+            }), t.default = function ({
                 children: e
             }) {
                 const t = (0, n.useTheme)();
@@ -6751,7 +6754,7 @@
                 justifyContent: "center"
             }))
         },
-        1651: function(e, t, r) {
+        1651: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -6788,7 +6791,7 @@
             };
             t.default = c
         },
-        1652: function(e, t, r) {
+        1652: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -6826,7 +6829,7 @@
             };
             t.default = i
         },
-        1653: function(e, t, r) {
+        1653: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -6841,15 +6844,15 @@
                 }
             }
             let l = {
-                    AND: "AND",
-                    NONE: "NONE",
-                    OR: "OR"
-                },
+                AND: "AND",
+                NONE: "NONE",
+                OR: "OR"
+            },
                 i = {
                     COMMA: "COMMA",
                     SEMICOLON: "SEMICOLON"
                 },
-                s = function(e, t, r) {
+                s = function (e, t, r) {
                     t = t || l.AND, r = r || i.COMMA;
                     let o = e.length;
                     if (0 === o) return "";
@@ -6867,7 +6870,7 @@
                                 hk: "2z8RMb"
                             })
                     }
-                    return function(e, t, r, o) {
+                    return function (e, t, r, o) {
                         switch (r) {
                             case l.AND:
                                 return n.default._("{list of items} and {last item}", [n.default._param("list of items", e), n.default._param("last item", t)], {
@@ -6888,8 +6891,8 @@
                                             hk: "3Q0iaX"
                                         })
                                 }
-                                default:
-                                    (0, a.default)(!1)
+                            default:
+                                (0, a.default)(!1)
                         }
                     }(u, s, t, r)
                 };
@@ -6897,7 +6900,7 @@
             var u = s;
             t.default = u
         },
-        1656: function(e, t, r) {
+        1656: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -6905,7 +6908,7 @@
             var n = u(r(75)),
                 a = u(r(1)),
                 o = u(r(1657)),
-                l = function(e) {
+                l = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -6926,7 +6929,7 @@
             function s() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return s = function() {
+                return s = function () {
                     return e
                 }, e
             }
@@ -6938,7 +6941,7 @@
             }
 
             function c() {
-                return (c = Object.assign || function(e) {
+                return (c = Object.assign || function (e) {
                     for (var t = 1; t < arguments.length; t++) {
                         var r = arguments[t];
                         for (var n in r) Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n])
@@ -6953,7 +6956,7 @@
                 height: 28,
                 borderRadius: 14
             }));
-            var f = (0, l.memo)((function({
+            var f = (0, l.memo)((function ({
                 color: e,
                 ...t
             }) {
@@ -6969,11 +6972,11 @@
             }));
             t.default = f
         },
-        1657: function(e, t, r) {
+        1657: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -6990,11 +6993,11 @@
                 default: n
             }
         },
-        1663: function(e, t, r) {
+        1663: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     resultType: t,
                     nickname: r
@@ -7019,11 +7022,11 @@
                 }
             }
         },
-        1664: function(e, t, r) {
+        1664: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     participants: t,
                     subtitle: r,
@@ -7047,11 +7050,11 @@
                 }
             }
         },
-        1665: function(e, t, r) {
+        1665: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     nickname: t
                 } = e.suggestion;
@@ -7075,12 +7078,12 @@
             }));
             t.SecondarySuggestionText = i
         },
-        172: function(e, t, r) {
+        172: function (e, t, r) {
             "use strict";
-            (function(e) {
+            (function (e) {
                 Object.defineProperty(t, "__esModule", {
                     value: !0
-                }), t.default = function(t) {
+                }), t.default = function (t) {
                     const {
                         isWindowFocused: r,
                         isFirst: a,
@@ -7137,7 +7140,7 @@
                         He = [],
                         Ve = !1,
                         Ke = null;
-                    (0, y.isHotlike)(V.stickerId) && (We = function(e, t, r, n, a, o, l) {
+                    (0, y.isHotlike)(V.stickerId) && (We = function (e, t, r, n, a, o, l) {
                         return F.default.createElement(y.Hotlike, {
                             stickerId: e,
                             isSenderViewer: t,
@@ -7172,7 +7175,7 @@
                     }));
                     else {
                         if (q && q.length > 0) {
-                            let e = function(e, t, r = {}, n = [], a, o, l, i, s, u, d, f, m, g, v, C, x, M, S, O, T, I, R) {
+                            let e = function (e, t, r = {}, n = [], a, o, l, i, s, u, d, f, m, g, v, C, x, M, S, O, T, I, R) {
                                 let A = [],
                                     P = !1;
                                 const j = [
@@ -7280,7 +7283,7 @@
                                             attachment: t,
                                             setDisableTimeTooltip: v
                                         }));
-                                    else(0, N.default)(n, g) && A.push(F.default.createElement(_.default, {
+                                    else (0, N.default)(n, g) && A.push(F.default.createElement(_.default, {
                                         key: t.attachmentFbid,
                                         imageUrl: (0, E.default)(t.playableUrlInfo) || (0, E.default)(t.previewUrlInfo),
                                         isSenderViewer: l,
@@ -7311,7 +7314,7 @@
                             }, qe(V), 0, r, ce, ue, Be, le, ve, me, be, Ee, Se, Oe);
                             He = e.attachmentContent, Ve = e.fullWidth
                         }
-                        V.text && (Ke = function(e, t, r, n, a, l, i, s, c, f, h) {
+                        V.text && (Ke = function (e, t, r, n, a, l, i, s, c, f, h) {
                             if (!e.text) return null;
                             return (0, o.isEmojiOnlyString)(e.text) ? F.default.createElement(d.default, {
                                 key: e.offlineThreadingId,
@@ -7359,14 +7362,14 @@
                         return Date.now() - e.timestampMs < 6e5 && e.cannotUnsendReason === k.MessageCannotUnsendReason.MSGGlobalDeleteMessageUnsendabilityStatusCanUnsend && e.authorityLevel === k.MessageAuthorityLevel.AuthorityLevelAuthoritative && fe === k.ThreadCannotUnsendReason.MSGGlobalDeleteThreadUnsendabilityStatusCanUnsend
                     }
                     const Ge = (0, F.useCallback)(e => {
-                            var t;
-                            var r;
-                            (null === (t = document.getElementById(V.messageId)) || void 0 === t ? void 0 : t.contains(e.target)) || (null === (r = window.getSelection()) || void 0 === r || r.empty(), 2 === e.nativeEvent.detail && (S.default.metrics.trackStrictEvent((0, C.UserInteractionEvent)({
-                                event: "click",
-                                target: "reply-double-click",
-                                surface: "messenger"
-                            })), Me && Me()))
-                        }, [V.messageId, Me]),
+                        var t;
+                        var r;
+                        (null === (t = document.getElementById(V.messageId)) || void 0 === t ? void 0 : t.contains(e.target)) || (null === (r = window.getSelection()) || void 0 === r || r.empty(), 2 === e.nativeEvent.detail && (S.default.metrics.trackStrictEvent((0, C.UserInteractionEvent)({
+                            event: "click",
+                            target: "reply-double-click",
+                            surface: "messenger"
+                        })), Me && Me()))
+                    }, [V.messageId, Me]),
                         $e = (e, t = !1) => F.default.createElement(Y, {
                             key: e && e.key ? e.key : void 0,
                             isAdminMessage: V.isAdminMessage,
@@ -7458,7 +7461,7 @@
                     return F.default.createElement(B.default, {
                         key: V.offlineThreadingId,
                         "data-automation-id": "message-bubble",
-                        onClick: V.sendStatusV2 !== k.MessageSendStatus.Sending ? Ge : () => {}
+                        onClick: V.sendStatusV2 !== k.MessageSendStatus.Sending ? Ge : () => { }
                     }, F.default.createElement(J, {
                         isSenderViewer: ne,
                         isAdminMessage: V.isAdminMessage
@@ -7564,7 +7567,7 @@
                 function q() {
                     if ("function" != typeof WeakMap) return null;
                     var e = new WeakMap;
-                    return q = function() {
+                    return q = function () {
                         return e
                     }, e
                 }
@@ -7623,11 +7626,11 @@
                 }
             }).call(this, r(231).setImmediate)
         },
-        1723: function(e, t, r) {
+        1723: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -7644,14 +7647,14 @@
                 default: n
             }
         },
-        173: function(e, t, r) {
+        173: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
             }), t.default = void 0;
             var n = i(r(556)),
                 a = i(r(27)),
-                o = function(e) {
+                o = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -7671,7 +7674,7 @@
             function l() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return l = function() {
+                return l = function () {
                     return e
                 }, e
             }
@@ -7681,7 +7684,7 @@
                     default: e
                 }
             }
-            var s = (0, o.memo)((function({
+            var s = (0, o.memo)((function ({
                 size: e = "small",
                 viewerId: t,
                 participants: r,
@@ -7697,7 +7700,7 @@
             }));
             t.default = s
         },
-        1742: function(e, t, r) {
+        1742: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -7764,12 +7767,12 @@
             }));
             t.Separator = f
         },
-        1743: function(e, t, r) {
+        1743: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e, t, r) {
-                return (0, a.useReducer)(o, function(e, t, r) {
+            }), t.default = function (e, t, r) {
+                return (0, a.useReducer)(o, function (e, t, r) {
                     const a = (0, n.getComponentsFromSeconds)(e, r);
                     return i({
                         current: e,
@@ -7815,7 +7818,7 @@
             }
 
             function i(e, t) {
-                const r = function(e, t) {
+                const r = function (e, t) {
                     return {
                         hour: (r = e.hour, a = t.mode, "" === r ? "12h" === a ? "12" : "0" : r),
                         minute: (0, n.zeroize)(e.minute),
@@ -7823,9 +7826,9 @@
                     };
                     var r, a
                 }(t, e);
-                if (function(e) {
-                        return !isNaN((0, n.numberize)(e.hour)) && !isNaN((0, n.numberize)(e.minute))
-                    }(r)) {
+                if (function (e) {
+                    return !isNaN((0, n.numberize)(e.hour)) && !isNaN((0, n.numberize)(e.minute))
+                }(r)) {
                     const t = Math.max(e.min, (0, n.getSecondsFromComponents)(r, e.mode));
                     return {
                         ...e,
@@ -7839,7 +7842,7 @@
                 }
             }
         },
-        1748: function(e, t, r) {
+        1748: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -7847,7 +7850,7 @@
             var n = r(142),
                 a = c(r(1)),
                 o = c(r(0)),
-                l = function(e) {
+                l = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -7869,7 +7872,7 @@
             function u() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return u = function() {
+                return u = function () {
                     return e
                 }, e
             }
@@ -7880,18 +7883,18 @@
                 }
             }
             const d = (0, a.default)(i.default)(e => ({
-                    ...e.style || {},
-                    flexDirection: "row",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    width: "100%"
-                })),
+                ...e.style || {},
+                flexDirection: "row",
+                justifyContent: "space-between",
+                alignItems: "center",
+                width: "100%"
+            })),
                 f = (0, a.default)(l.default)({
                     borderRadius: "0%",
                     height: 41,
                     flex: 1
                 });
-            var h = o.default.memo((function({
+            var h = o.default.memo((function ({
                 currentCategory: e,
                 onCategoryChanged: t,
                 categories: r,
@@ -7915,7 +7918,7 @@
             }));
             t.default = h
         },
-        1749: function(e, t, r) {
+        1749: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -7924,7 +7927,7 @@
                 a = d(r(1)),
                 o = d(r(367)),
                 l = r(584),
-                i = function(e) {
+                i = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -7946,7 +7949,7 @@
             function c() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return c = function() {
+                return c = function () {
                     return e
                 }, e
             }
@@ -7964,7 +7967,7 @@
                     background: e.theme.semanticColors.bgLine
                 }
             }));
-            var h = i.default.memo(i.default.forwardRef((function({
+            var h = i.default.memo(i.default.forwardRef((function ({
                 currentEmoji: e,
                 defaultSkintone: t,
                 hotlikeColor: r,
@@ -8022,7 +8025,7 @@
             })));
             t.default = h
         },
-        1750: function(e, t, r) {
+        1750: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -8043,7 +8046,7 @@
                 flexDirection: "row",
                 padding: "0 12px"
             });
-            var d = l.default.memo((function(e) {
+            var d = l.default.memo((function (e) {
                 const {
                     data: t,
                     index: r,
@@ -8083,7 +8086,7 @@
             }));
             t.default = d
         },
-        1751: function(e, t, r) {
+        1751: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -8097,7 +8100,7 @@
                 u = p(r(1752)),
                 c = p(r(354)),
                 d = p(r(1)),
-                f = function(e) {
+                f = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -8117,7 +8120,7 @@
             function h() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return h = function() {
+                return h = function () {
                     return e
                 }, e
             }
@@ -8129,7 +8132,7 @@
             }
 
             function m() {
-                return (m = Object.assign || function(e) {
+                return (m = Object.assign || function (e) {
                     for (var t = 1; t < arguments.length; t++) {
                         var r = arguments[t];
                         for (var n in r) Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n])
@@ -8137,7 +8140,7 @@
                     return e
                 }).apply(this, arguments)
             }
-            var g = f.default.memo((function(e) {
+            var g = f.default.memo((function (e) {
                 const {
                     emoji: t,
                     defaultSkintone: r,
@@ -8152,8 +8155,8 @@
                 let b = t;
                 y && null != r && (b = (0, s.applyToneModifier)(b, r));
                 const _ = (0, f.useCallback)(() => {
-                        d || o(b)
-                    }, [b, o, d]),
+                    d || o(b)
+                }, [b, o, d]),
                     w = (0, f.useCallback)(() => {
                         (0, s.isSkintoneModifiable)(t) && h(!0)
                     }, [t]),
@@ -8194,8 +8197,8 @@
                     h = (0, f.useRef)(null);
                 (0, c.default)(d, h);
                 const p = (0, f.useCallback)(() => {
-                        r.current = !0
-                    }, []),
+                    r.current = !0
+                }, []),
                     m = (0, f.useCallback)(e => {
                         r.current || s(e)
                     }, [s]);
@@ -8221,11 +8224,11 @@
                 })))))
             }
         },
-        1752: function(e, t, r) {
+        1752: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e = (() => {}), t = 300) {
+            }), t.default = function (e = (() => { }), t = 300) {
                 const [r, a] = (0, n.useState)(!1);
                 return (0, n.useEffect)(() => {
                     let n = null;
@@ -8242,23 +8245,23 @@
             };
             var n = r(0)
         },
-        1753: function(e, t, r) {
+        1753: function (e, t, r) {
             "use strict";
             let n;
             Object.defineProperty(t, "__esModule", {
-                    value: !0
-                }), t.default = t.EmojiCategory = void 0, t.EmojiCategory = n,
-                function(e) {
+                value: !0
+            }), t.default = t.EmojiCategory = void 0, t.EmojiCategory = n,
+                function (e) {
                     e.FrequentlyUsed = "frequently_used", e.SmileysAndPeople = "smileys_and_people", e.AnimalsAndNature = "animals_and_people", e.FoodAndDrink = "food_and_drink", e.Activity = "activity", e.TravelAndPlaces = "travel_and_places", e.Objects = "objects", e.Symbols = "symbols", e.Flags = "flags"
                 }(n || (t.EmojiCategory = n = {}));
             var a = JSON.parse('{\n  "smileys_and_people":["😀","😃","😄","😁","😆","😅","😂","☺","😊","😇","🙂","😉","😌","😍","😘","😗","😙","😚","😋","😛","😝","😜","😎","😏","😒","😞","😔","😟","😕","🤔","😣","😖","😫","😩","😢","😭","😤","😠","😡","😳","😱","😨","😰","😥","😓","😶","😐","😑","😬","😯","😦","😧","😮","😲","😴","😪","😵","😷","😈","👿","👹","👺","💩","👻","💀","👽","👾","🎃","😺","😸","😹","😻","😼","😽","🙀","😿","😾","👐","🙌","👏","👍","👎","👊","✊","✌","👌","👈","👉","👆","👇","☝","✋","👋","💪","🙏","💄","💋","👄","👅","👂","👃","👣","👀","👤","👥","👶","👧","👦","👩","👨","👱","👵","👴","👲","👳","👮","👷","💂","👰","👸","🎅","👼","🙇","💁","🙅","🙆","🙋","🙎","🙍","💇","💆","💅","💃","👯","🚶","🏃","👫","👭","👬","💑","💏","👨‍❤️‍👨","👨‍❤️‍💋‍👨","👩‍❤️‍👩","👩‍❤️‍💋‍👩","👪","👨‍👩‍👧","👨‍👩‍👧‍👦","👨‍👩‍👦‍👦","👨‍👩‍👧‍👧","👩‍👩‍👦","👩‍👩‍👧","👩‍👩‍👧‍👦","👩‍👩‍👦‍👦","👩‍👩‍👧‍👧","👨‍👨‍👦","👨‍👨‍👧","👨‍👨‍👧‍👦","👨‍👨‍👦‍👦","👨‍👨‍👧‍👧","👚","👕","👖","👔","👗","👙","👘","👠","👡","👢","👞","👟","🎩","👒","🎓","👑","💍","👝","👛","👜","💼","🎒","👓","🌂"],\n  "animals_and_people": ["🐶","🐱","🐭","🐹","🐰","🐻","🐼","🐨","🐯","🐮","🐷","🐽","🐸","🐵","🙈","🙉","🙊","🐒","🐔","🐧","🐦","🐤","🐣","🐥","🐺","🐗","🐴","🐝","🐛","🐌","🐞","🐜","🐢","🐍","🐙","🐡","🐠","🐟","🐬","🐳","🐋","🐊","🐅","🐆","🐘","🐪","🐫","🐃","🐂","🐄","🐎","🐖","🐏","🐑","🐐","🐕","🐩","🐈","🐓","🐇","🐁","🐀","🐾","🐉","🐲","🌵","🎄","🌲","🌳","🌴","🌱","🌿","🍀","🎍","🎋","🍃","🍂","🍁","🍄","🐚","🌾","💐","🌷","🌹","🌺","🌸","🌼","🌻","🌞","🌝","🌛","🌜","🌚","🌕","🌖","🌗","🌘","🌑","🌒","🌓","🌔","🌙","🌎","🌍","🌏","💫","⭐","🌟","✨","⚡","💥","🔥","🌈","☀","⛅","☁","❄","⛄","💨","💧","💦","☔","🌊"],\n  "food_and_drink": ["🍏","🍎","🍐","🍊","🍋","🍌","🍉","🍇","🍓","🍈","🍒","🍑","🍍","🍅","🍆","🌽","🍠","🍞","🍳","🍗","🌭","🍖","🍔","🍟","🍕","🍝","🍜","🍲","🍛","🍣","🍱","🍤","🍙","🍚","🍘","🍥","🍢","🍡","🍧","🍨","🍦","🍰","🎂","🍮","🍭","🍬","🍫","🍩","🍪","🌰","🍯","🍼","☕","🍵","🍶","🍺","🍻","🍷","🍸","🍹","🍴"],\n  "activity": ["⚽","🏀","🏈","⚾","🎾","🏉","🎱","⛳","🎣","🎽","🎿","🏂","🏇","🏄","🏊","🚣","🚵","🚴","🏆","🎫","🎪","🎭","🎨","🎬","🎤","🎧","🎼","🎹","🎷","🎺","🎸","🎻","🎲","🎯","🎳","🎮","🎰"],\n  "travel_and_places": ["🚗","🚕","🚙","🚌","🚎","🚓","🚑","🚒","🚐","🚚","🚛","🚜","🚲","🚨","🚔","🚍","🚘","🚖","🚡","🚠","🚟","🚃","🚋","🚞","🚝","🚄","🚅","🚈","🚂","🚆","🚇","🚊","🚉","✈","💺","🚀","🚁","⛵","🚤","🚢","⚓","⛽","🚧","🚦","🚥","🚏","🗿","🗽","🗼","🏰","🏯","🎡","🎢","🎠","⛲","🌋","🗻","⛺","🏠","🏡","🏭","🏢","🏬","🏣","🏤","🏥","🏦","🏨","🏪","🏫","🏩","💒","⛪","🗾","🎑","🌅","🌄","🌠","🎇","🎆","🌇","🌆","🌃","🌌","🌉","🌁"],\n  "objects": ["⌚","📱","📲","💻","💽","💾","💿","📀","📼","📷","📹","🎥","📞","☎","📟","📠","📺","📻","⏰","⌛","⏳","📡","🔋","🔌","💡","🔦","💸","💵","💴","💶","💷","💰","💳","💎","🔧","🔨","🔩","🔫","💣","🔪","🚬","🔮","💈","🔭","🔬","💊","💉","🚽","🚰","🚿","🛁","🛀","🔑","🚪","🎁","🎈","🎏","🎀","🎊","🎉","🎎","🏮","🎐","✉","📩","📨","📧","💌","📥","📤","📦","📪","📫","📬","📭","📮","📯","📜","📃","📄","📑","📊","📈","📉","📆","📅","📇","📋","📁","📂","📰","📓","📔","📒","📕","📗","📘","📙","📚","📖","🔖","🔗","📎","📐","📏","📌","📍","✂","✒","📝","✏","🔍","🔎","🔏","🔐","🔒","🔓"],\n  "symbols": ["❤","💛","💚","💙","💜","💔","💕","💞","💓","💗","💖","💘","💝","💟","🔯","⛎","♈","♉","♊","♋","♌","♍","♎","♏","♐","♑","♒","♓","🆔","🉑","📴","📳","🈶","🈚","🈸","🈺","🈷","✴","🆚","💮","🉐","㊙","㊗","🈴","🈵","🈹","🈲","🅰","🅱","🆎","🆑","🅾","🆘","❌","⭕","⛔","📛","🚫","💯","💢","♨","🚷","🚯","🚳","🚱","🔞","📵","🚭","❗","❕","❓","❔","‼","⁉","🔅","🔆","〽","⚠","🚸","🔱","🔰","♻","✅","🈯","💹","❇","✳","❎","🌐","💠","Ⓜ","🌀","💤","🏧","🚾","♿","🅿","🈳","🈂","🛂","🛃","🛄","🛅","🚹","🚺","🚼","🚻","🚮","🎦","📶","🈁","🔣","🔤","🔡","🔠","🆖","🆗","🆙","🆒","🆕","🆓","🔟","🔢","▶","⏩","⏪","⏫","⏬","◀","🔼","🔽","➡","⬅","⬆","⬇","↗","↘","↙","↖","↕","↔","↪","↩","⤴","⤵","🔀","🔁","🔂","🔄","🔃","🎵","🎶","➕","➖","➗","✖","💲","💱","™️","©️","®️","🔚","🔙","🔛","🔝","🔜","〰","➰","➿","✔","☑","🔘","⚪","⚫","🔴","🔵","🔺","🔻","🔸","🔹","🔶","🔷","🔳","🔲","▪","▫","◾","◽","◼","◻","⬛","⬜","🔈","🔇","🔉","🔊","🔔","🔕","📣","📢","💬","💭","♠","♣","♥","♦","🃏","🎴","🀄","🕐","🕑","🕒","🕓","🕔","🕕","🕖","🕗","🕘","🕙","🕚","🕛","🕜","🕝","🕞","🕟","🕠","🕡","🕢","🕣","🕤","🕥","🕦","🕧"],\n  "flags": ["🏁","🚩","🇦🇫","🇦🇽","🇦🇱","🇩🇿","🇦🇸","🇦🇩","🇦🇴","🇦🇮","🇦🇶","🇦🇬","🇦🇷","🇦🇲","🇦🇼","🇦🇺","🇦🇹","🇦🇿","🇧🇸","🇧🇭","🇧🇩","🇧🇧","🇧🇾","🇧🇪","🇧🇿","🇧🇯","🇧🇲","🇧🇹","🇧🇴","🇧🇦","🇧🇼","🇧🇷","🇮🇴","🇻🇬","🇧🇬","🇧🇫","🇧🇮","🇰🇭","🇨🇲","🇨🇦","🇮🇨","🇨🇻","🇧🇶","🇰🇾","🇨🇫","🇹🇩","🇨🇱","🇨🇳","🇨🇽","🇨🇨","🇨🇴","🇰🇲","🇨🇬","🇨🇩","🇨🇰","🇨🇷","🇨🇮","🇭🇷","🇨🇺","🇨🇼","🇨🇾","🇨🇿","🇩🇰","🇩🇯","🇩🇲","🇩🇴","🇪🇨","🇪🇬","🇸🇻","🇬🇶","🇪🇷","🇪🇪","🇪🇹","🇪🇺","🇫🇰","🇫🇴","🇫🇯","🇫🇮","🇫🇷","🇬🇫","🇵🇫","🇹🇫","🇬🇦","🇬🇲","🇬🇪","🇩🇪","🇬🇭","🇬🇮","🇬🇷","🇬🇱","🇬🇩","🇬🇵","🇬🇺","🇬🇹","🇬🇬","🇬🇳","🇬🇼","🇬🇾","🇭🇹","🇭🇳","🇭🇰","🇭🇺","🇮🇸","🇮🇳","🇮🇩","🇮🇷","🇮🇶","🇮🇪","🇮🇲","🇮🇱","🇮🇹","🇯🇲","🇯🇵","🎌","🇯🇪","🇯🇴","🇰🇿","🇰🇪","🇰🇮","🇽🇰","🇰🇼","🇰🇬","🇱🇦","🇱🇻","🇱🇧","🇱🇸","🇱🇷","🇱🇾","🇱🇮","🇱🇹","🇱🇺","🇲🇴","🇲🇰","🇲🇬","🇲🇼","🇲🇾","🇲🇻","🇲🇱","🇲🇹","🇲🇭","🇲🇶","🇲🇷","🇲🇺","🇾🇹","🇲🇽","🇫🇲","🇲🇩","🇲🇨","🇲🇳","🇲🇪","🇲🇸","🇲🇦","🇲🇿","🇲🇲","🇳🇦","🇳🇷","🇳🇵","🇳🇱","🇳🇨","🇳🇿","🇳🇮","🇳🇪","🇳🇬","🇳🇺","🇳🇫","🇰🇵","🇲🇵","🇳🇴","🇴🇲","🇵🇰","🇵🇼","🇵🇸","🇵🇦","🇵🇬","🇵🇾","🇵🇪","🇵🇭","🇵🇳","🇵🇱","🇵🇹","🇵🇷","🇶🇦","🇷🇪","🇷🇴","🇷🇺","🇷🇼","🇼🇸","🇸🇲","🇸🇹","🇸🇦","🇸🇳","🇷🇸","🇸🇨","🇸🇱","🇸🇬","🇸🇽","🇸🇰","🇸🇮","🇬🇸","🇸🇧","🇸🇴","🇿🇦","🇰🇷","🇸🇸","🇪🇸","🇱🇰","🇧🇱","🇸🇭","🇰🇳","🇱🇨","🇵🇲","🇻🇨","🇸🇩","🇸🇷","🇸🇿","🇸🇪","🇨🇭","🇸🇾","🇹🇼","🇹🇯","🇹🇿","🇹🇭","🇹🇱","🇹🇬","🇹🇰","🇹🇴","🇹🇹","🇹🇳","🇹🇷","🇹🇲","🇹🇨","🇹🇻","🇻🇮","🇺🇬","🇺🇦","🇦🇪","🇬🇧","🇺🇸","🇺🇾","🇺🇿","🇻🇺","🇻🇦","🇻🇪","🇻🇳","🇼🇫","🇪🇭","🇾🇪","🇿🇲","🇿🇼"]\n}');
             t.default = a
         },
-        1754: function(e, t, r) {
+        1754: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -8280,11 +8283,11 @@
                 default: n
             }
         },
-        1755: function(e, t, r) {
+        1755: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -8301,11 +8304,11 @@
                 default: n
             }
         },
-        1756: function(e, t, r) {
+        1756: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -8324,11 +8327,11 @@
                 default: n
             }
         },
-        1757: function(e, t, r) {
+        1757: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -8345,11 +8348,11 @@
                 default: n
             }
         },
-        1758: function(e, t, r) {
+        1758: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -8366,11 +8369,11 @@
                 default: n
             }
         },
-        1759: function(e, t, r) {
+        1759: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -8387,11 +8390,11 @@
                 default: n
             }
         },
-        1760: function(e, t, r) {
+        1760: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -8414,7 +8417,7 @@
                 default: n
             }
         },
-        1786: function(e, t, r) {
+        1786: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -8422,7 +8425,7 @@
             var n = d(r(1)),
                 a = d(r(1787)),
                 o = d(r(193)),
-                l = function(e) {
+                l = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -8445,7 +8448,7 @@
             function c() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return c = function() {
+                return c = function () {
                     return e
                 }, e
             }
@@ -8457,7 +8460,7 @@
             }
 
             function f() {
-                return (f = Object.assign || function(e) {
+                return (f = Object.assign || function (e) {
                     for (var t = 1; t < arguments.length; t++) {
                         var r = arguments[t];
                         for (var n in r) Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n])
@@ -8473,7 +8476,7 @@
                 padding: "1px 2px",
                 textAlign: "center"
             }));
-            var p = (0, l.memo)(l.default.forwardRef((function({
+            var p = (0, l.memo)(l.default.forwardRef((function ({
                 className: e,
                 buttonColor: t,
                 textColor: r,
@@ -8513,11 +8516,11 @@
             })));
             t.default = p
         },
-        1787: function(e, t, r) {
+        1787: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -8536,7 +8539,7 @@
                 default: n
             }
         },
-        1789: function(e, t, r) {
+        1789: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -8568,7 +8571,7 @@
                 S = r(49),
                 O = r(11),
                 T = r(583),
-                I = function(e) {
+                I = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -8589,7 +8592,7 @@
             function A() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return A = function() {
+                return A = function () {
                     return e
                 }, e
             }
@@ -8600,21 +8603,21 @@
                 }
             }
             const j = w.default.div({
-                    ".reaction-picker-scrim-enter": {
-                        opacity: 0
-                    },
-                    ".reaction-picker-scrim-enter-active, .reaction-picker-scrim-enter-done": {
-                        opacity: 1,
-                        transition: "opacity 200ms ease-in-out"
-                    },
-                    ".reaction-picker-scrim-exit ": {
-                        opacity: 1
-                    },
-                    ".reaction-picker-scrim-exit-active, .reaction-picker-scrim-exit-done": {
-                        opacity: 0,
-                        transition: "opacity 200ms ease-in-out"
-                    }
-                }),
+                ".reaction-picker-scrim-enter": {
+                    opacity: 0
+                },
+                ".reaction-picker-scrim-enter-active, .reaction-picker-scrim-enter-done": {
+                    opacity: 1,
+                    transition: "opacity 200ms ease-in-out"
+                },
+                ".reaction-picker-scrim-exit ": {
+                    opacity: 1
+                },
+                ".reaction-picker-scrim-exit-active, .reaction-picker-scrim-exit-done": {
+                    opacity: 0,
+                    transition: "opacity 200ms ease-in-out"
+                }
+            }),
                 D = w.default.div({
                     position: "fixed",
                     top: 0,
@@ -8868,7 +8871,7 @@
                 joinMeetupWithCallback: S.RtcActions.joinMeetupWithCallback,
                 saveOrUnsaveMessage: M.InboxActions.messages.saveOrUnsaveMessage
             };
-            var L = (0, O.connect)((function() {
+            var L = (0, O.connect)((function () {
                 const e = (0, M.getCommonInstanceSelectors)(),
                     t = [];
                 return (r, n) => {
@@ -8920,11 +8923,11 @@
             }), B)(z);
             t.default = L
         },
-        1790: function(e, t, r) {
+        1790: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.getRemindMeContextItem = function(e, t) {
+            }), t.getRemindMeContextItem = function (e, t) {
                 return {
                     id: "remind_me",
                     label: a.default._("Remind me...", null, {
@@ -8943,14 +8946,14 @@
                 default: n
             }
         },
-        1791: function(e, t, r) {
+        1791: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
             }), t.getUnpinMessageContextItem = t.getPinMessageContextItem = void 0;
             var n, a = (n = r(5)) && n.__esModule ? n : {
-                    default: n
-                },
+                default: n
+            },
                 o = r(644);
             t.getPinMessageContextItem = (e, t) => ({
                 id: "pin_message",
@@ -8967,11 +8970,11 @@
                 onClick: (0, o.unpinConfirm)(e)
             })
         },
-        1792: function(e, t, r) {
+        1792: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     isRtcEnabled: t,
                     joinMeetupWithCallback: r,
@@ -9034,11 +9037,11 @@
                 o = r(52),
                 l = r(0)
         },
-        1793: function(e, t, r) {
+        1793: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     threadKey: t,
                     messageId: r,
@@ -9051,10 +9054,10 @@
                     if (!r) return;
                     let l = e;
                     if (l || (l = i ? (0, n.default)(o.default.platform.hostname, `/chat/t/${t}`, {
-                            queryParams: {
-                                mid: r
-                            }
-                        }) : (0, n.default)("messenger.com", `m/${r}`)), l) {
+                        queryParams: {
+                            mid: r
+                        }
+                    }) : (0, n.default)("messenger.com", `m/${r}`)), l) {
                         (0, a.default)(l) && s && u ? c(l) : o.default.platform.openExternalURL(l)
                     }
                 }, [i, r, t, s, c, u])
@@ -9070,11 +9073,11 @@
                 }
             }
         },
-        1794: function(e, t, r) {
+        1794: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function({
+            }), t.default = function ({
                 isFirst: e,
                 isLast: t,
                 isSenderViewer: r,
@@ -9129,11 +9132,11 @@
                 })))
             }
         },
-        1805: function(e, t, r) {
+        1805: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -9152,7 +9155,7 @@
                 default: n
             }
         },
-        1806: function(e, t, r) {
+        1806: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -9167,7 +9170,7 @@
             function u() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return u = function() {
+                return u = function () {
                     return e
                 }, e
             }
@@ -9229,7 +9232,7 @@
             var p = (0, o.memo)(h);
             t.default = p
         },
-        1807: function(e, t, r) {
+        1807: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -9245,7 +9248,7 @@
             function c() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return c = function() {
+                return c = function () {
                     return e
                 }, e
             }
@@ -9272,14 +9275,14 @@
                 }
             }
             const h = (0, n.default)(i.default)({
-                    justifyContent: "center",
-                    width: 16,
-                    margin: "0px 4px"
-                }),
+                justifyContent: "center",
+                width: 16,
+                margin: "0px 4px"
+            }),
                 p = (0, o.animated)((0, n.default)(i.default)({
                     height: 16
                 }));
-            var m = (0, l.memo)((function({
+            var m = (0, l.memo)((function ({
                 config: e,
                 isLoading: t = !1
             }) {
@@ -9313,7 +9316,7 @@
             }));
             t.default = m
         },
-        1808: function(e, t, r) {
+        1808: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -9331,7 +9334,7 @@
             function f() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return f = function() {
+                return f = function () {
                     return e
                 }, e
             }
@@ -9358,8 +9361,8 @@
                 }
             }
             const m = n.default._("Clear Search", null, {
-                    hk: "2Lk4Ff"
-                }).toString(),
+                hk: "2Lk4Ff"
+            }).toString(),
                 g = (0, a.default)(c.default)({
                     width: 16,
                     height: 16
@@ -9438,7 +9441,7 @@
             var v = (0, u.memo)(y);
             t.default = v
         },
-        1826: function(e, t, r) {
+        1826: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -9449,13 +9452,13 @@
                 l = r(8),
                 i = r(51);
             const s = () => ({
-                    activity: null,
-                    customActivity: null,
-                    scheduledForDate: null,
-                    scheduledForTime: null,
-                    roomPrivacy: l.RoomAudienceType.Anyone,
-                    roomJoinPermission: l.RoomJoinPermission.AnyoneWhoCanLoadTheLink
-                }),
+                activity: null,
+                customActivity: null,
+                scheduledForDate: null,
+                scheduledForTime: null,
+                roomPrivacy: l.RoomAudienceType.Anyone,
+                roomJoinPermission: l.RoomJoinPermission.AnyoneWhoCanLoadTheLink
+            }),
                 u = {
                     ownedRooms: null,
                     roomInboxUnitList: null,
@@ -9488,12 +9491,12 @@
                         if (i)
                             if (i.screen === n.RoomScreen.EDIT_ROOM || i.screen === n.RoomScreen.CREATE_ROOM) e.roomCreationData = s();
                             else if (i.screen === n.RoomScreen.MANAGE_PARTICIPANTS) {
-                            const t = e.activeScreenInfo.length > 0 ? e.activeScreenInfo[e.activeScreenInfo.length - 1] : null;
-                            t && t.screen === n.RoomScreen.CREATE_ROOM && (e.activeScreenInfo[e.activeScreenInfo.length - 1] = {
-                                ...i,
-                                screen: n.RoomScreen.EDIT_ROOM
-                            })
-                        }
+                                const t = e.activeScreenInfo.length > 0 ? e.activeScreenInfo[e.activeScreenInfo.length - 1] : null;
+                                t && t.screen === n.RoomScreen.CREATE_ROOM && (e.activeScreenInfo[e.activeScreenInfo.length - 1] = {
+                                    ...i,
+                                    screen: n.RoomScreen.EDIT_ROOM
+                                })
+                            }
                         break;
                     case a.RoomActions.storeOwnedRooms.type:
                         e.ownedRooms = t.payload.ownedRooms;
@@ -9581,11 +9584,11 @@
             }
             t.RoomReducer = c
         },
-        1829: function(e, t, r) {
+        1829: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function() {
+            }), t.default = function () {
                 return a.default.createElement(s, null, a.default.createElement(o.default, {
                     css: {
                         marginBottom: 6
@@ -9615,11 +9618,11 @@
                 margin: "0px 6px"
             })
         },
-        1831: function(e, t, r) {
+        1831: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     showingQuickReplies: t,
                     threadKey: r,
@@ -9639,7 +9642,7 @@
                         }, 5e3);
                         return () => clearTimeout(e)
                     }
-                    return () => {}
+                    return () => { }
                 }, [x, k, S, f, b]), (0, d.useLayoutEffect)(() => {
                     y && !E && _(!0)
                 }), (0, d.useEffect)(() => {
@@ -9681,7 +9684,7 @@
                 s = h(r(148)),
                 u = h(r(1835)),
                 c = h(r(261)),
-                d = function(e) {
+                d = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -9701,7 +9704,7 @@
             function f() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return f = function() {
+                return f = function () {
                     return e
                 }, e
             }
@@ -9712,27 +9715,27 @@
                 }
             }
         },
-        1832: function(e, t, r) {
+        1832: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
             }), t.default = void 0;
-            var n = function(e) {
-                    if (e && e.__esModule) return e;
-                    if (null === e || "object" != typeof e && "function" != typeof e) return {
-                        default: e
-                    };
-                    var t = h();
-                    if (t && t.has(e)) return t.get(e);
-                    var r = {},
-                        n = Object.defineProperty && Object.getOwnPropertyDescriptor;
-                    for (var a in e)
-                        if (Object.prototype.hasOwnProperty.call(e, a)) {
-                            var o = n ? Object.getOwnPropertyDescriptor(e, a) : null;
-                            o && (o.get || o.set) ? Object.defineProperty(r, a, o) : r[a] = e[a]
-                        } r.default = e, t && t.set(e, r);
-                    return r
-                }(r(369)),
+            var n = function (e) {
+                if (e && e.__esModule) return e;
+                if (null === e || "object" != typeof e && "function" != typeof e) return {
+                    default: e
+                };
+                var t = h();
+                if (t && t.has(e)) return t.get(e);
+                var r = {},
+                    n = Object.defineProperty && Object.getOwnPropertyDescriptor;
+                for (var a in e)
+                    if (Object.prototype.hasOwnProperty.call(e, a)) {
+                        var o = n ? Object.getOwnPropertyDescriptor(e, a) : null;
+                        o && (o.get || o.set) ? Object.defineProperty(r, a, o) : r[a] = e[a]
+                    } r.default = e, t && t.set(e, r);
+                return r
+            }(r(369)),
                 a = r(261),
                 o = f(r(27)),
                 l = r(21),
@@ -9751,21 +9754,21 @@
             function h() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return h = function() {
+                return h = function () {
                     return e
                 }, e
             }
             const p = (0, s.default)(a.CenteringWrapper)({
                 bottom: -10
             });
-            var m = (0, u.connect)((function(e, t) {
+            var m = (0, u.connect)((function (e, t) {
                 const r = (0, l.requireAuthenticationData)(e);
                 return {
                     message: (0, i.getMessage)(e, t.threadKey, t.lastMessageOTID),
                     thread: (0, i.getThread)(e, t.threadKey),
                     viewerId: r.userID
                 }
-            }))((function(e) {
+            }))((function (e) {
                 const {
                     visible: t,
                     onScrollDownNubClick: r,
@@ -9808,11 +9811,11 @@
             }));
             t.default = m
         },
-        1833: function(e, t, r) {
+        1833: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     onClick: t,
                     visible: r
@@ -9854,7 +9857,7 @@
                 o = r(41),
                 l = r(46),
                 i = d(r(0)),
-                s = function(e) {
+                s = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -9875,7 +9878,7 @@
             function c() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return c = function() {
+                return c = function () {
                     return e
                 }, e
             }
@@ -9888,7 +9891,7 @@
             const f = (0, n.default)(s.default)(e => ({
                 position: "absolute",
                 bottom: 0,
-                left: `calc(50% - ${s.PILL_SIZES[s.PillSize.Medium]/2}px)`,
+                left: `calc(50% - ${s.PILL_SIZES[s.PillSize.Medium] / 2}px)`,
                 alignItems: "center",
                 justifyContent: "center",
                 borderRadius: "50%",
@@ -9896,11 +9899,11 @@
                 width: 32
             }))
         },
-        1834: function(e, t, r) {
+        1834: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -9917,21 +9920,21 @@
                 default: n
             }
         },
-        1835: function(e, t, r) {
+        1835: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const [t, r] = (0, n.useState)(e), a = (0, n.useRef)();
                 return a.current = t, [t, r, a]
             };
             var n = r(0)
         },
-        1836: function(e, t, r) {
+        1836: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement(o.default, {
                     size: o.PillSize.Large,
                     onClick: e.onClick
@@ -9943,7 +9946,7 @@
             };
             var n = s(r(5)),
                 a = s(r(0)),
-                o = function(e) {
+                o = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -9964,7 +9967,7 @@
             function i() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return i = function() {
+                return i = function () {
                     return e
                 }, e
             }
@@ -9975,11 +9978,11 @@
                 }
             }
         },
-        1837: function(e, t, r) {
+        1837: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.useScrollQueue = function(e) {
+            }), t.useScrollQueue = function (e) {
                 return (0, n.useRef)(new l(e)).current
             };
             var n = r(0),
@@ -10025,7 +10028,7 @@
                 }
             }
         },
-        1838: function(e, t, r) {
+        1838: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -10062,11 +10065,11 @@
                 }
             }
         },
-        189: function(e, t, r) {
+        189: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     url: t,
                     offlineId: r
@@ -10077,7 +10080,7 @@
                     if (!r || c.startsWith("https://") || c.startsWith("data:") || (c = `${c}?no-cache=${r}`), 0 === c.length) return null;
                     if (l.current = u[c], !l.current) {
                         let t;
-                        t = "image" === e.mediaType ? function(e, t) {
+                        t = "image" === e.mediaType ? function (e, t) {
                             const r = (0, a.defer)(),
                                 n = new Image;
                             return n.src = e, n.onload = () => {
@@ -10085,7 +10088,7 @@
                             }, n.onerror = () => {
                                 console.error(e), o.default.log.error("Could not load attachment with ID", t)
                             }, r
-                        }(c, r) : function(e, t, r) {
+                        }(c, r) : function (e, t, r) {
                             const n = (0, a.defer)(),
                                 l = document.createElement("video"),
                                 i = document.createElement("source");
@@ -10121,39 +10124,39 @@
                 max: 100
             })
         },
-        190: function(e, t, r) {
+        190: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e, t = !0) {
+            }), t.default = function (e, t = !0) {
                 const r = (0, a.default)(e),
                     n = (0, o.useRef)(void 0);
                 if (!t && void 0 === n.current) return n.current = !1, n;
                 return n.current = r !== e, n
             };
             var n, a = (n = r(148)) && n.__esModule ? n : {
-                    default: n
-                },
+                default: n
+            },
                 o = r(0)
         },
-        191: function(e, t, r) {
+        191: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function({
+            }), t.default = function ({
                 timeSeconds: e,
-                onTimeChange: t = (() => {}),
+                onTimeChange: t = (() => { }),
                 minSeconds: r = 0,
                 disabled: u = !1,
                 mode: c,
                 textUse: d,
                 fontSize: f
             }) {
-                const h = function(e) {
-                        const t = window.lang,
-                            r = (0, l.useMemo)(() => (0, o.getTimeModeFromLocaleKey)(t), [t]);
-                        return void 0 === e ? r : e
-                    }(c),
+                const h = function (e) {
+                    const t = window.lang,
+                        r = (0, l.useMemo)(() => (0, o.getTimeModeFromLocaleKey)(t), [t]);
+                    return void 0 === e ? r : e
+                }(c),
                     [p, m] = (0, a.default)(e, r, h),
                     {
                         current: g
@@ -10218,7 +10221,7 @@
             var n = r(1742),
                 a = c(r(1743)),
                 o = r(39),
-                l = function(e) {
+                l = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -10240,7 +10243,7 @@
             function u() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return u = function() {
+                return u = function () {
                     return e
                 }, e
             }
@@ -10251,11 +10254,11 @@
                 }
             }
         },
-        198: function(e, t, r) {
+        198: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.Container = function(e) {
+            }), t.Container = function (e) {
                 return u.default.createElement(c.default, {
                     "data-automation-id": "login-screen",
                     css: {
@@ -10267,9 +10270,9 @@
                 }, u.default.createElement(h.default, {
                     name: "login"
                 }, e.children))
-            }, t.FormContainer = function(e) {
+            }, t.FormContainer = function (e) {
                 return u.default.createElement(w, null, u.default.createElement(C, null, e.children))
-            }, t.Header = function(e) {
+            }, t.Header = function (e) {
                 const t = e.logo,
                     r = u.default.createElement(c.default, {
                         css: {
@@ -10305,7 +10308,7 @@
                     wrapText: !0,
                     textAlign: "center"
                 }, e.subtitle))))
-            }, t.PrimaryButton = x, t.SecondaryButton = M, t.BackButton = function(e) {
+            }, t.PrimaryButton = x, t.SecondaryButton = M, t.BackButton = function (e) {
                 const t = n.default._("Back", null, {
                     hk: "14fdZm"
                 }).toString();
@@ -10314,21 +10317,21 @@
                     telemetryName: "loginBackButton",
                     caption: t
                 }, e)))
-            }, t.WarningNotice = function(e) {
+            }, t.WarningNotice = function (e) {
                 const t = (0, m.useTheme)();
                 return u.default.createElement(O, _({
                     icon: e => u.default.createElement(i.default, _({
                         color: t.colors.honey
                     }, e))
                 }, e))
-            }, t.InfoNotice = function(e) {
+            }, t.InfoNotice = function (e) {
                 const t = (0, m.useTheme)();
                 return u.default.createElement(O, _({
                     icon: e => u.default.createElement(s.default, _({
                         color: t.colors.base70
                     }, e))
                 }, e))
-            }, t.Notice = O, t.CredentialsFields = function(e) {
+            }, t.Notice = O, t.CredentialsFields = function (e) {
                 const [t, r] = (0, u.useState)(e.initialEmail || ""), [a, o] = (0, u.useState)(""), l = e.isAuthenticating ? n.default._("Logging in...", null, {
                     hk: "3pBSlm"
                 }) : n.default._("Login", null, {
@@ -10363,9 +10366,9 @@
                     caption: l,
                     disabled: i
                 }))
-            }, t.NavigationButtons = function(e) {
+            }, t.NavigationButtons = function (e) {
                 const t = (0, m.useTheme)(),
-                    r = () => {};
+                    r = () => { };
                 return u.default.createElement(c.default, {
                     css: {
                         position: "absolute",
@@ -10417,7 +10420,7 @@
             function y() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return y = function() {
+                return y = function () {
                     return e
                 }, e
             }
@@ -10445,7 +10448,7 @@
             }
 
             function _() {
-                return (_ = Object.assign || function(e) {
+                return (_ = Object.assign || function (e) {
                     for (var t = 1; t < arguments.length; t++) {
                         var r = arguments[t];
                         for (var n in r) Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n])
@@ -10454,16 +10457,16 @@
                 }).apply(this, arguments)
             }
             const w = (0, a.default)(c.default)({
-                    "> fieldset > *": {
-                        width: 380
-                    },
-                    "> label": {
-                        fontSize: 12
-                    }
-                }).withComponent("form", {
-                    target: "e1smwc2w0",
-                    label: "Form"
-                }),
+                "> fieldset > *": {
+                    width: 380
+                },
+                "> label": {
+                    fontSize: 12
+                }
+            }).withComponent("form", {
+                target: "e1smwc2w0",
+                label: "Form"
+            }),
                 C = (0, a.default)(c.default)({}).withComponent("fieldset", {
                     target: "e1smwc2w1",
                     label: "Fields"
@@ -10542,8 +10545,8 @@
             }
             t.NoticesContainer = S
         },
-        227: function(e, t, r) {
-            (function(e) {
+        227: function (e, t, r) {
+            (function (e) {
                 function r(e, t) {
                     for (var r = 0, n = e.length - 1; n >= 0; n--) {
                         var a = e[n];
@@ -10559,30 +10562,30 @@
                     for (var r = [], n = 0; n < e.length; n++) t(e[n], n, e) && r.push(e[n]);
                     return r
                 }
-                t.resolve = function() {
+                t.resolve = function () {
                     for (var t = "", a = !1, o = arguments.length - 1; o >= -1 && !a; o--) {
                         var l = o >= 0 ? arguments[o] : e.cwd();
                         if ("string" != typeof l) throw new TypeError("Arguments to path.resolve must be strings");
                         l && (t = l + "/" + t, a = "/" === l.charAt(0))
                     }
-                    return (a ? "/" : "") + (t = r(n(t.split("/"), (function(e) {
+                    return (a ? "/" : "") + (t = r(n(t.split("/"), (function (e) {
                         return !!e
                     })), !a).join("/")) || "."
-                }, t.normalize = function(e) {
+                }, t.normalize = function (e) {
                     var o = t.isAbsolute(e),
                         l = "/" === a(e, -1);
-                    return (e = r(n(e.split("/"), (function(e) {
+                    return (e = r(n(e.split("/"), (function (e) {
                         return !!e
                     })), !o).join("/")) || o || (e = "."), e && l && (e += "/"), (o ? "/" : "") + e
-                }, t.isAbsolute = function(e) {
+                }, t.isAbsolute = function (e) {
                     return "/" === e.charAt(0)
-                }, t.join = function() {
+                }, t.join = function () {
                     var e = Array.prototype.slice.call(arguments, 0);
-                    return t.normalize(n(e, (function(e, t) {
+                    return t.normalize(n(e, (function (e, t) {
                         if ("string" != typeof e) throw new TypeError("Arguments to path.join must be strings");
                         return e
                     })).join("/"))
-                }, t.relative = function(e, r) {
+                }, t.relative = function (e, r) {
                     function n(e) {
                         for (var t = 0; t < e.length && "" === e[t]; t++);
                         for (var r = e.length - 1; r >= 0 && "" === e[r]; r--);
@@ -10596,7 +10599,7 @@
                         } var u = [];
                     for (s = i; s < a.length; s++) u.push("..");
                     return (u = u.concat(o.slice(i))).join("/")
-                }, t.sep = "/", t.delimiter = ":", t.dirname = function(e) {
+                }, t.sep = "/", t.delimiter = ":", t.dirname = function (e) {
                     if ("string" != typeof e && (e += ""), 0 === e.length) return ".";
                     for (var t = e.charCodeAt(0), r = 47 === t, n = -1, a = !0, o = e.length - 1; o >= 1; --o)
                         if (47 === (t = e.charCodeAt(o))) {
@@ -10606,8 +10609,8 @@
                             }
                         } else a = !1;
                     return -1 === n ? r ? "/" : "." : r && 1 === n ? "/" : e.slice(0, n)
-                }, t.basename = function(e, t) {
-                    var r = function(e) {
+                }, t.basename = function (e, t) {
+                    var r = function (e) {
                         "string" != typeof e && (e += "");
                         var t, r = 0,
                             n = -1,
@@ -10622,7 +10625,7 @@
                         return -1 === n ? "" : e.slice(r, n)
                     }(e);
                     return t && r.substr(-1 * t.length) === t && (r = r.substr(0, r.length - t.length)), r
-                }, t.extname = function(e) {
+                }, t.extname = function (e) {
                     "string" != typeof e && (e += "");
                     for (var t = -1, r = 0, n = -1, a = !0, o = 0, l = e.length - 1; l >= 0; --l) {
                         var i = e.charCodeAt(l);
@@ -10634,21 +10637,21 @@
                     }
                     return -1 === t || -1 === n || 0 === o || 1 === o && t === n - 1 && t === r + 1 ? "" : e.slice(t, n)
                 };
-                var a = "b" === "ab".substr(-1) ? function(e, t, r) {
+                var a = "b" === "ab".substr(-1) ? function (e, t, r) {
                     return e.substr(t, r)
-                } : function(e, t, r) {
+                } : function (e, t, r) {
                     return t < 0 && (t = e.length + t), e.substr(t, r)
                 }
             }).call(this, r(223))
         },
-        228: function(e, t, r) {
+        228: function (e, t, r) {
             "use strict";
-            e.exports = function(e) {
+            e.exports = function (e) {
                 var t = "string" == typeof e ? e.charCodeAt(0) : e;
                 return t >= 48 && t <= 57
             }
         },
-        229: function(e, t, r) {
+        229: function (e, t, r) {
             "use strict";
             e.exports = i;
             var n = r(1522),
@@ -10657,7 +10660,7 @@
                 l = n.EXIT;
 
             function i(e, t, r, a) {
-                "function" == typeof t && "function" != typeof r && (a = r, r = t, t = null), n(e, t, (function(e, t) {
+                "function" == typeof t && "function" != typeof r && (a = r, r = t, t = null), n(e, t, (function (e, t) {
                     var n = t[t.length - 1],
                         a = n ? n.children.indexOf(e) : null;
                     return r(e, a, n)
@@ -10665,40 +10668,40 @@
             }
             i.CONTINUE = a, i.SKIP = o, i.EXIT = l
         },
-        231: function(e, t, r) {
-            (function(e) {
+        231: function (e, t, r) {
+            (function (e) {
                 var n = void 0 !== e && e || "undefined" != typeof self && self || window,
                     a = Function.prototype.apply;
 
                 function o(e, t) {
                     this._id = e, this._clearFn = t
                 }
-                t.setTimeout = function() {
+                t.setTimeout = function () {
                     return new o(a.call(setTimeout, n, arguments), clearTimeout)
-                }, t.setInterval = function() {
+                }, t.setInterval = function () {
                     return new o(a.call(setInterval, n, arguments), clearInterval)
-                }, t.clearTimeout = t.clearInterval = function(e) {
+                }, t.clearTimeout = t.clearInterval = function (e) {
                     e && e.close()
-                }, o.prototype.unref = o.prototype.ref = function() {}, o.prototype.close = function() {
+                }, o.prototype.unref = o.prototype.ref = function () { }, o.prototype.close = function () {
                     this._clearFn.call(n, this._id)
-                }, t.enroll = function(e, t) {
+                }, t.enroll = function (e, t) {
                     clearTimeout(e._idleTimeoutId), e._idleTimeout = t
-                }, t.unenroll = function(e) {
+                }, t.unenroll = function (e) {
                     clearTimeout(e._idleTimeoutId), e._idleTimeout = -1
-                }, t._unrefActive = t.active = function(e) {
+                }, t._unrefActive = t.active = function (e) {
                     clearTimeout(e._idleTimeoutId);
                     var t = e._idleTimeout;
-                    t >= 0 && (e._idleTimeoutId = setTimeout((function() {
+                    t >= 0 && (e._idleTimeoutId = setTimeout((function () {
                         e._onTimeout && e._onTimeout()
                     }), t))
                 }, r(494), t.setImmediate = "undefined" != typeof self && self.setImmediate || void 0 !== e && e.setImmediate || this && this.setImmediate, t.clearImmediate = "undefined" != typeof self && self.clearImmediate || void 0 !== e && e.clearImmediate || this && this.clearImmediate
             }).call(this, r(54))
         },
-        232: function(e, t, r) {
+        232: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const t = (0, m.useTheme)(),
                     {
                         threadTheme: r,
@@ -10768,18 +10771,18 @@
                 }
             }
             const v = (0, c.default)(p.default)(e => {
-                    return {
-                        ...e.inChatCell ? (r = e.hasStatus, {
-                            marginLeft: r ? 8 : 0
-                        }) : (t = e.hasReaction, {
-                            paddingBottom: "1px",
-                            bottom: t ? "22px" : "0",
-                            position: "absolute",
-                            right: 0
-                        })
-                    };
-                    var t, r
-                }),
+                return {
+                    ...e.inChatCell ? (r = e.hasStatus, {
+                        marginLeft: r ? 8 : 0
+                    }) : (t = e.hasReaction, {
+                        paddingBottom: "1px",
+                        bottom: t ? "22px" : "0",
+                        position: "absolute",
+                        right: 0
+                    })
+                };
+                var t, r
+            }),
                 b = {
                     sending: i.default._("Sending", null, {
                         hk: "4rijdi"
@@ -10810,7 +10813,7 @@
                     ...(0, u.getThreadThemeGradientBackground)(e.gradientColors)
                 }))
         },
-        242: function(e, t, r) {
+        242: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -10822,7 +10825,7 @@
                 i = r(84),
                 s = r(123),
                 u = b(r(1)),
-                c = function(e) {
+                c = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -10849,7 +10852,7 @@
             function v() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return v = function() {
+                return v = function () {
                     return e
                 }, e
             }
@@ -10861,7 +10864,7 @@
             }
 
             function _() {
-                return (_ = Object.assign || function(e) {
+                return (_ = Object.assign || function (e) {
                     for (var t = 1; t < arguments.length; t++) {
                         var r = arguments[t];
                         for (var n in r) Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n])
@@ -10876,94 +10879,111 @@
             };
             t.TRANSITION_CONFIG = w;
             const C = (0, u.default)(d.default)(e => {
-                    return {
-                        alignItems: "center",
-                        flexDirection: "row",
-                        color: e.theme.semanticColors.textPrimary,
-                        margin: "8px 12px 6px 12px",
-                        minWidth: 60,
-                        height: e.theme.select({
-                            mac: 24,
-                            windows: 32
-                        }),
-                        borderRadius: e.theme.select({
-                            mac: 5,
-                            windows: 2
-                        }),
-                        border: e.theme.select({
-                            mac: "1px solid"
-                        }),
-                        borderColor: e.theme.select({
-                            mac: e.theme.colors.base50
-                        }),
-                        outline: e.theme.select({
-                            windows: e.isFocused ? "2px solid" : void 0
-                        }),
-                        outlineColor: e.theme.select({
-                            windows: e.theme.colors.windowsBlue
-                        }),
-                        backgroundColor: e.theme.select({
-                            mac: {
-                                light: "rgba(255,255,255,0.34)",
-                                dark: "rgba(255,255,255,0.12)"
-                            },
-                            windows: {
-                                light: "rgba(0,0,0,0.06)",
-                                dark: "rgba(255,255,255,0.12)"
-                            }
-                        }),
-                        ...e.theme.select({
-                            mac: {
-                                animation: e.isFocused && `${t=e.theme,(0,a.keyframes)({"0%":{boxShadow:t.select({light:`0 0 0 34px ${(0,n.hexWithAlpha)((0,o.default)(t.semanticColors.primaryAccent).alpha(0))}`,dark:`0 0 0 34px ${(0,n.hexWithAlpha)((0,o.default)(t.semanticColors.primaryAccent).alpha(0))}`})},"32%":{boxShadow:t.select({light:`
+                return {
+                    alignItems: "center",
+                    flexDirection: "row",
+                    color: e.theme.semanticColors.textPrimary,
+                    margin: "8px 12px 6px 12px",
+                    minWidth: 60,
+                    height: e.theme.select({
+                        mac: 24,
+                        windows: 32
+                    }),
+                    borderRadius: e.theme.select({
+                        mac: 5,
+                        windows: 2
+                    }),
+                    border: e.theme.select({
+                        mac: "1px solid"
+                    }),
+                    borderColor: e.theme.select({
+                        mac: e.theme.colors.base50
+                    }),
+                    outline: e.theme.select({
+                        windows: e.isFocused ? "2px solid" : void 0
+                    }),
+                    outlineColor: e.theme.select({
+                        windows: e.theme.colors.windowsBlue
+                    }),
+                    backgroundColor: e.theme.select({
+                        mac: {
+                            light: "rgba(255,255,255,0.34)",
+                            dark: "rgba(255,255,255,0.12)"
+                        },
+                        windows: {
+                            light: "rgba(0,0,0,0.06)",
+                            dark: "rgba(255,255,255,0.12)"
+                        }
+                    }),
+                    ...e.theme.select({
+                        mac: {
+                            animation: e.isFocused && `${t = e.theme, (0, a.keyframes)({
+                                "0%": { boxShadow: t.select({ light: `0 0 0 34px ${(0, n.hexWithAlpha)((0, o.default)(t.semanticColors.primaryAccent).alpha(0))}`, dark: `0 0 0 34px ${(0, n.hexWithAlpha)((0, o.default)(t.semanticColors.primaryAccent).alpha(0))}` }) }, "32%": {
+                                    boxShadow: t.select({
+                                        light: `
                                 0 0 0 30 px $ {
                                     (0, n.hexWithAlpha)((0, o.default)(t.semanticColors.primaryAccent).alpha(0))
                                 }
-                                `,dark:`
+                                `, dark: `
                                 0 0 0 30 px $ {
                                     (0, n.hexWithAlpha)((0, o.default)(t.semanticColors.primaryAccent).alpha(0))
                                 }
-                                `})},"50%":{boxShadow:t.select({light:`
+                                `})
+                                }, "50%": {
+                                    boxShadow: t.select({
+                                        light: `
                                 0 0 0 15 px $ {
                                     (0, n.hexWithAlpha)((0, o.default)(t.semanticColors.primaryAccent).alpha(.12))
                                 }
-                                `,dark:`
+                                `, dark: `
                                 0 0 0 15 px $ {
                                     (0, n.hexWithAlpha)((0, o.default)(t.semanticColors.primaryAccent).alpha(.2))
                                 }
-                                `})},"80%":{boxShadow:t.select({light:`
+                                `})
+                                }, "80%": {
+                                    boxShadow: t.select({
+                                        light: `
                                 0 0 0 9 px $ {
                                     (0, n.hexWithAlpha)((0, o.default)(t.semanticColors.primaryAccent).alpha(.24))
                                 }
-                                `,dark:`
+                                `, dark: `
                                 0 0 0 9 px $ {
                                     (0, n.hexWithAlpha)((0, o.default)(t.semanticColors.primaryAccent).alpha(.24))
                                 }
-                                `})},"90%":{boxShadow:t.select({light:`
+                                `})
+                                }, "90%": {
+                                    boxShadow: t.select({
+                                        light: `
                                 0 0 0 6 px $ {
                                     (0, n.hexWithAlpha)((0, o.default)(t.semanticColors.primaryAccent).alpha(.54))
                                 }
-                                `,dark:`
+                                `, dark: `
                                 0 0 0 6 px $ {
                                     (0, n.hexWithAlpha)((0, o.default)(t.semanticColors.primaryAccent).alpha(.3))
                                 }
-                                `})},"100%":{boxShadow:t.select({light:`
+                                `})
+                                }, "100%": {
+                                    boxShadow: t.select({
+                                        light: `
                                 0 0 0 3 px $ {
                                     (0, n.hexWithAlpha)((0, o.default)(t.semanticColors.primaryAccent).alpha(.6))
                                 }
-                                `,dark:`
+                                `, dark: `
                                 0 0 0 3 px $ {
                                     (0, n.hexWithAlpha)((0, o.default)(t.semanticColors.primaryAccent).alpha(.4))
                                 }
-                                `})}})} 0.22s`,
-                                animationFillMode: "forwards",
-                                ":hover": {
-                                    cursor: "text"
+                                `})
                                 }
+                            })} 0.22s`,
+                            animationFillMode: "forwards",
+                            ":hover": {
+                                cursor: "text"
                             }
-                        })
-                    };
-                    var t
-                }),
+                        }
+                    })
+                };
+                var t
+            }),
                 E = (0, u.default)(d.default)(e => ({
                     height: "100%",
                     flex: "1 1 0px",
@@ -11004,7 +11024,7 @@
                     outline: "none",
                     border: "none"
                 }));
-            var S = (0, c.memo)((0, c.forwardRef)((function(e, t) {
+            var S = (0, c.memo)((0, c.forwardRef)((function (e, t) {
                 const {
                     query: r,
                     placeholder: n,
@@ -11026,9 +11046,9 @@
                 }), [T, o]);
                 (0, i.useShortcut)(u ? null : I, (0, c.useCallback)(() => (O.current && O.current.focus(), !0), []));
                 const R = (0, c.useCallback)(e => {
-                        const t = e.target.value;
-                        a && a(t)
-                    }, [a]),
+                    const t = e.target.value;
+                    a && a(t)
+                }, [a]),
                     A = (0, c.useCallback)(e => {
                         O.current && e.target !== O.current && O.current.focus(), S(!0)
                     }, []),
@@ -11080,11 +11100,11 @@
             })));
             t.default = S
         },
-        243: function(e, t, r) {
+        243: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e, t) {
+            }), t.default = function (e, t) {
                 const [r, a] = (0, n.useState)(() => {
                     try {
                         const r = window.localStorage.getItem(e);
@@ -11103,11 +11123,11 @@
             };
             var n = r(0)
         },
-        245: function(e, t, r) {
+        245: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const [t] = (0, n.useUserSetting)("showAsAvailable");
                 if (!t) return a.PresenceType.Offline;
                 return null == e ? void 0 : e.status
@@ -11115,11 +11135,11 @@
             var n = r(72),
                 a = r(8)
         },
-        249: function(e, t, r) {
+        249: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     isChecked: t,
                     onToggle: r,
@@ -11148,15 +11168,15 @@
                 }))
             };
             var n, a = (n = r(1)) && n.__esModule ? n : {
-                    default: n
-                },
+                default: n
+            },
                 o = s(r(0)),
                 l = s(r(2));
 
             function i() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return i = function() {
+                return i = function () {
                     return e
                 }, e
             }
@@ -11178,7 +11198,7 @@
             }
 
             function u() {
-                return (u = Object.assign || function(e) {
+                return (u = Object.assign || function (e) {
                     for (var t = 1; t < arguments.length; t++) {
                         var r = arguments[t];
                         for (var n in r) Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n])
@@ -11187,32 +11207,32 @@
                 }).apply(this, arguments)
             }
             const c = (0, a.default)(l.FocusableView)(e => ({
-                    height: 20,
-                    width: 44,
-                    backgroundColor: e.isChecked ? e.theme.semanticColors.primaryAccent : e.theme.select({
-                        mac: e.theme.select({
-                            light: e.theme.semanticColors.bgSurfaceSecondary,
-                            dark: e.theme.semanticColors.bgSelectedElevated
-                        }),
-                        windows: "white"
+                height: 20,
+                width: 44,
+                backgroundColor: e.isChecked ? e.theme.semanticColors.primaryAccent : e.theme.select({
+                    mac: e.theme.select({
+                        light: e.theme.semanticColors.bgSurfaceSecondary,
+                        dark: e.theme.semanticColors.bgSelectedElevated
                     }),
-                    borderRadius: 15,
-                    border: e.theme.select({
-                        windows: e.isChecked ? "" : "2px solid black"
-                    }),
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "flex-start",
-                    padding: e.theme.select({
-                        mac: "0 2px 0 2px",
-                        windows: "0 5px 0 5px"
-                    }),
-                    cursor: e.disabled ? void 0 : "pointer",
-                    opacity: e.disabled ? e.theme.select({
-                        light: .6,
-                        dark: .5
-                    }) : 1
-                })),
+                    windows: "white"
+                }),
+                borderRadius: 15,
+                border: e.theme.select({
+                    windows: e.isChecked ? "" : "2px solid black"
+                }),
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "flex-start",
+                padding: e.theme.select({
+                    mac: "0 2px 0 2px",
+                    windows: "0 5px 0 5px"
+                }),
+                cursor: e.disabled ? void 0 : "pointer",
+                opacity: e.disabled ? e.theme.select({
+                    light: .6,
+                    dark: .5
+                }) : 1
+            })),
                 d = (0, a.default)(l.default)(e => ({
                     height: e.theme.select({
                         mac: 16,
@@ -11246,11 +11266,11 @@
                     }
                 }))
         },
-        251: function(e, t, r) {
+        251: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -11269,11 +11289,11 @@
                 default: n
             }
         },
-        252: function(e, t, r) {
+        252: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.NewMessageChatCell = function(e) {
+            }), t.NewMessageChatCell = function (e) {
                 const t = (0, w.useTheme)(),
                     {
                         onClick: r,
@@ -11368,7 +11388,7 @@
             function k() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return k = function() {
+                return k = function () {
                     return e
                 }, e
             }
@@ -11395,39 +11415,39 @@
                 }
             }
             const S = e => ({
-                    backgroundColor: e.selected ? e.theme.semanticColors.bgSelected : "transparent",
-                    flexDirection: "row",
-                    padding: "0px 8px",
-                    paddingRight: e.paddingRight || void 0,
-                    alignItems: "center",
-                    justifyContent: e.compact ? "center" : void 0,
-                    borderStyle: "solid",
-                    borderWidth: 4,
-                    borderColor: e.isContextMenuOpen ? `${(0,u.addAlpha)(e.theme.semanticColors.primaryAccent,.2)}` : "transparent",
-                    "body.focus-is-visible &:focus": {
-                        outline: "none",
-                        borderColor: `${(0,u.addAlpha)(e.theme.semanticColors.primaryAccent,.2)}`
-                    },
-                    ":hover .compact-close": {
-                        visibility: "visible"
-                    },
-                    ...e.theme.isHighContrast ? {
-                        boxShadow: e.selected ? `inset 0 0 1px 1px ${e.theme.semanticColors.primary}` : void 0
-                    } : {}
-                }),
+                backgroundColor: e.selected ? e.theme.semanticColors.bgSelected : "transparent",
+                flexDirection: "row",
+                padding: "0px 8px",
+                paddingRight: e.paddingRight || void 0,
+                alignItems: "center",
+                justifyContent: e.compact ? "center" : void 0,
+                borderStyle: "solid",
+                borderWidth: 4,
+                borderColor: e.isContextMenuOpen ? `${(0, u.addAlpha)(e.theme.semanticColors.primaryAccent, .2)}` : "transparent",
+                "body.focus-is-visible &:focus": {
+                    outline: "none",
+                    borderColor: `${(0, u.addAlpha)(e.theme.semanticColors.primaryAccent, .2)}`
+                },
+                ":hover .compact-close": {
+                    visibility: "visible"
+                },
+                ...e.theme.isHighContrast ? {
+                    boxShadow: e.selected ? `inset 0 0 1px 1px ${e.theme.semanticColors.primary}` : void 0
+                } : {}
+            }),
                 O = (0, d.default)(y.FocusableView)(S);
             t.Container = O;
             const T = (0, d.default)(y.default)(S);
             t.ShimmerContainer = T;
             const I = (0, d.default)(y.default)(e => ({
-                    position: "absolute",
-                    top: "calc(50% - 6px)",
-                    height: 12,
-                    width: 12,
-                    borderRadius: "100%",
-                    right: -10,
-                    backgroundColor: e.theme.semanticColors.primary
-                })),
+                position: "absolute",
+                top: "calc(50% - 6px)",
+                height: 12,
+                width: 12,
+                borderRadius: "100%",
+                right: -10,
+                backgroundColor: e.theme.semanticColors.primary
+            })),
                 R = (0, d.default)(v.default)({
                     position: "absolute",
                     top: -3,
@@ -11443,7 +11463,7 @@
                     paddingBottom: e.isTyping ? 4 : 6
                 }));
             t.MainContent = A;
-            var P = (0, g.forwardRef)((function(e, t) {
+            var P = (0, g.forwardRef)((function (e, t) {
                 const {
                     authData: r,
                     compact: o,
@@ -11478,7 +11498,7 @@
                     isPinned: b,
                     isLastPinned: !!D,
                     isFirstItem: !!z
-                }), [L, N] = (0, g.useState)(!1), U = (0, w.useTheme)(), W = (0, s.default)(), H = `Chat with ${h} ${m?";Unread":""} ${v?";Muted":""}`, V = (0, g.useCallback)(async (e, t) => {
+                }), [L, N] = (0, g.useState)(!1), U = (0, w.useTheme)(), W = (0, s.default)(), H = `Chat with ${h} ${m ? ";Unread" : ""} ${v ? ";Muted" : ""}`, V = (0, g.useCallback)(async (e, t) => {
                     N(!0), await F({
                         target: e,
                         items: t
@@ -11523,11 +11543,11 @@
             }));
             t.default = P
         },
-        253: function(e, t, r) {
+        253: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     threadName: t,
                     threadType: r,
@@ -11640,7 +11660,7 @@
                         margin: "0px 4px"
                     }
                 }))))
-            }, t.ChatHeaderShimmer = function() {
+            }, t.ChatHeaderShimmer = function () {
                 return p.default.createElement(M, null, p.default.createElement(w.CircleShimmer, {
                     size: 32
                 }), p.default.createElement(S, null, p.default.createElement(w.TextShimmer, {
@@ -11671,7 +11691,7 @@
             function E() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return E = function() {
+                return E = function () {
                     return e
                 }, e
             }
@@ -11698,10 +11718,10 @@
                 }
             }
             const M = (0, c.default)(m.default)({
-                    flex: 1,
-                    flexDirection: "row",
-                    alignItems: "center"
-                }),
+                flex: 1,
+                flexDirection: "row",
+                alignItems: "center"
+            }),
                 S = (0, c.default)(m.default)({
                     flex: 1,
                     margin: "0px 12px"
@@ -11717,11 +11737,11 @@
                     lineHeight: 1.2
                 })
         },
-        261: function(e, t, r) {
+        261: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     quickReplies: t,
                     sendQuickReply: r
@@ -11759,8 +11779,8 @@
                     }
                 }, [m]);
                 const b = o.default._("Scroll left", null, {
-                        hk: "2rBxLZ"
-                    }).toString(),
+                    hk: "2rBxLZ"
+                }).toString(),
                     _ = o.default._("Scroll right", null, {
                         hk: "1kFKrP"
                     }).toString();
@@ -11817,7 +11837,7 @@
             function h() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return h = function() {
+                return h = function () {
                     return e
                 }, e
             }
@@ -11855,11 +11875,11 @@
             });
             t.CenteringWrapper = g;
             const y = (0, l.default)(i.default)({
-                    flexDirection: "row",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    overflow: "hidden"
-                }),
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "center",
+                overflow: "hidden"
+            }),
                 v = (0, l.default)(i.default)({
                     flexDirection: "row",
                     alignItems: "center",
@@ -11867,14 +11887,14 @@
                     flex: 1
                 })
         },
-        262: function(e, t, r) {
+        262: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
             }), t.default = void 0;
             var n = s(r(75)),
                 a = s(r(553)),
-                o = function(e) {
+                o = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -11895,7 +11915,7 @@
             function i() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return i = function() {
+                return i = function () {
                     return e
                 }, e
             }
@@ -11907,7 +11927,7 @@
             }
 
             function u() {
-                return (u = Object.assign || function(e) {
+                return (u = Object.assign || function (e) {
                     for (var t = 1; t < arguments.length; t++) {
                         var r = arguments[t];
                         for (var n in r) Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n])
@@ -11915,7 +11935,7 @@
                     return e
                 }).apply(this, arguments)
             }
-            var c = (0, o.memo)((function({
+            var c = (0, o.memo)((function ({
                 color: e,
                 size: t = 24,
                 ...r
@@ -11937,11 +11957,11 @@
             }));
             t.default = c
         },
-        263: function(e, t, r) {
+        263: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -11958,7 +11978,7 @@
                 default: n
             }
         },
-        317: function(e, t, r) {
+        317: function (e, t, r) {
             "use strict";
             var n = r(1511),
                 a = r(1512),
@@ -11966,12 +11986,12 @@
                 l = r(1513),
                 i = r(1514),
                 s = r(1515);
-            e.exports = function(e, t) {
+            e.exports = function (e, t) {
                 var r, o, l = {};
                 t || (t = {});
                 for (o in f) r = t[o], l[o] = null == r ? f[o] : r;
                 (l.position.indent || l.position.start) && (l.indent = l.position.indent || [], l.position = l.position.start);
-                return function(e, t) {
+                return function (e, t) {
                     var r, o, l, f, b, _, w, C, E, k, x, M, S, O, T, I, R, A, P, j = t.additional,
                         D = t.nonTerminated,
                         z = t.text,
@@ -11990,7 +12010,7 @@
                         X = "",
                         J = [];
                     "string" == typeof j && (j = j.charCodeAt(0));
-                    I = Z(), C = B ? function(e, t) {
+                    I = Z(), C = B ? function (e, t) {
                         var r = Z();
                         r.column += t, r.offset += t, B.call(U, y[e], r, e)
                     } : d, K--, V++;
@@ -12055,7 +12075,7 @@
             }
             y[1] = "Named character references must be terminated by a semicolon", y[2] = "Numeric character references must be terminated by a semicolon", y[3] = "Named character references cannot be empty", y[4] = "Numeric character references cannot be empty", y[5] = "Named character references must be known", y[6] = "Numeric character references cannot be disallowed", y[7] = "Numeric character references cannot be outside the permissible Unicode range"
         },
-        318: function(e, t, r) {
+        318: function (e, t, r) {
             "use strict";
             /*!
              * repeat-string <https://github.com/jonschlinkert/repeat-string>
@@ -12064,7 +12084,7 @@
              * Licensed under the MIT License.
              */
             var n, a = "";
-            e.exports = function(e, t) {
+            e.exports = function (e, t) {
                 if ("string" != typeof e) throw new TypeError("expected a string");
                 if (1 === t) return e;
                 if (2 === t) return e + e;
@@ -12075,9 +12095,9 @@
                 return a = (a += e).substr(0, r)
             }
         },
-        319: function(e, t, r) {
+        319: function (e, t, r) {
             "use strict";
-            e.exports = function(e) {
+            e.exports = function (e) {
                 var t = String(e),
                     r = t.length;
                 for (;
@@ -12085,9 +12105,9 @@
                 return t.slice(0, r + 1)
             }
         },
-        320: function(e, t, r) {
+        320: function (e, t, r) {
             "use strict";
-            e.exports = function(e, t, r, n) {
+            e.exports = function (e, t, r, n) {
                 var a, o, l, i, s, u, c = ["pedantic", "commonmark"],
                     d = c.length,
                     f = e.length,
@@ -12102,18 +12122,18 @@
                 return !1
             }
         },
-        321: function(e, t, r) {
+        321: function (e, t, r) {
             "use strict";
             var n = r(1535);
-            e.exports = function(e) {
+            e.exports = function (e) {
                 return n(e).toLowerCase()
             }
         },
-        323: function(e, t, r) {
+        323: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function({
+            }), t.default = function ({
                 isProgressing: e,
                 shouldResetAnimation: t,
                 duration: r,
@@ -12135,7 +12155,7 @@
             };
             var n = r(37),
                 a = s(r(1)),
-                o = function(e) {
+                o = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -12156,7 +12176,7 @@
             function i() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return i = function() {
+                return i = function () {
                     return e
                 }, e
             }
@@ -12167,13 +12187,13 @@
                 }
             }
             const u = (0, n.keyframes)({
-                    "0%": {
-                        transform: "translateX(-100%)"
-                    },
-                    "100%": {
-                        transform: "translateX(0%)"
-                    }
-                }),
+                "0%": {
+                    transform: "translateX(-100%)"
+                },
+                "100%": {
+                    transform: "translateX(0%)"
+                }
+            }),
                 c = (0, a.default)(l.default)(e => ({
                     backgroundColor: e.isSenderViewer ? e.theme.semanticColors.textWhite : e.theme.semanticColors.textPrimary,
                     opacity: e.isSenderViewer ? .2 : e.theme.select({
@@ -12185,7 +12205,7 @@
                     height: "100%",
                     left: 0,
                     top: 0,
-                    transition: e.duration && !e.shouldResetAnimation ? `transform calc(${e.isProgressing?1:0}\n        * ${e.duration}s) linear` : "none",
+                    transition: e.duration && !e.shouldResetAnimation ? `transform calc(${e.isProgressing ? 1 : 0}\n        * ${e.duration}s) linear` : "none",
                     animation: e.duration && !e.shouldResetAnimation ? `${u} ${e.duration}s` : "none",
                     animationPlayState: e.isProgressing ? "running" : "paused",
                     animationTimingFunction: "linear",
@@ -12193,21 +12213,21 @@
                     transform: "translateX(-100%)"
                 }))
         },
-        324: function(e, t, r) {
+        324: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function({
+            }), t.default = function ({
                 height: e,
                 isSenderViewer: t,
                 width: r,
                 ratio: o,
                 delay: l
             }) {
-                const s = function() {
-                        if (!n.default) return 100;
-                        return .6 * n.default.window.getBounds().width * .6
-                    }(),
+                const s = function () {
+                    if (!n.default) return 100;
+                    return .6 * n.default.window.getBounds().width * .6
+                }(),
                     u = r ? Math.min(r, s) : s,
                     d = o ? o * u : e;
                 return (0, a.default)(l) ? i.default.createElement(c, {
@@ -12243,11 +12263,11 @@
                 ...(0, l.ShimmerAnimationStyles)(e)
             }))
         },
-        325: function(e, t, r) {
+        325: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.EditableOption = function({
+            }), t.EditableOption = function ({
                 showTextInput: e,
                 uneditedElement: t,
                 inputValue: r,
@@ -12268,7 +12288,7 @@
                         e.metaKey || e.altKey || e.shiftKey || e.ctrlKey || "Enter" === e.key && n(!0)
                     }
                 }) : t
-            }, t.SelectableOption = function({
+            }, t.SelectableOption = function ({
                 enableSelectingOptions: e,
                 isSelected: t,
                 onActivate: r,
@@ -12303,7 +12323,7 @@
                         flex: 1
                     }
                 }, c)))
-            }, t.OptionContent = function({
+            }, t.OptionContent = function ({
                 option: e,
                 optionString: t,
                 widthPercentage: r,
@@ -12369,7 +12389,7 @@
                 l = y(r(1)),
                 i = y(r(114)),
                 s = y(r(0)),
-                u = function(e) {
+                u = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -12395,7 +12415,7 @@
             function g() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return g = function() {
+                return g = function () {
                     return e
                 }, e
             }
@@ -12440,11 +12460,11 @@
             }));
             t.PollOptionContainer = w;
             const C = (0, l.default)(f.default)(e => ({
-                    ..._(e.theme),
-                    border: `1px solid ${e.theme.colors.base40}`,
-                    flexDirection: "row",
-                    paddingLeft: 9
-                })),
+                ..._(e.theme),
+                border: `1px solid ${e.theme.colors.base40}`,
+                flexDirection: "row",
+                paddingLeft: 9
+            })),
                 E = (0, l.default)(u.FocusableView)({
                     marginBottom: 4,
                     minHeight: 26
@@ -12476,18 +12496,18 @@
             });
             t.IconContainer = M;
             const S = (0, l.default)(w)(e => ({
-                    height: 28,
-                    backgroundColor: e.theme.select({
-                        light: e.theme.colors.base40,
-                        dark: e.theme.semanticColors.bgFillPrimary
-                    }),
-                    position: "absolute",
-                    paddingRight: 4,
-                    left: -5,
-                    bottom: -5,
-                    width: `${e.widthPercentage}%`,
-                    borderRadius: 8
-                })),
+                height: 28,
+                backgroundColor: e.theme.select({
+                    light: e.theme.colors.base40,
+                    dark: e.theme.semanticColors.bgFillPrimary
+                }),
+                position: "absolute",
+                paddingRight: 4,
+                left: -5,
+                bottom: -5,
+                width: `${e.widthPercentage}%`,
+                borderRadius: 8
+            })),
                 O = (0, l.default)(u.default)({
                     marginLeft: "auto",
                     marginRight: 12,
@@ -12509,11 +12529,11 @@
                     lineHeight: "18px"
                 })
         },
-        326: function(e, t, r) {
+        326: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -12539,13 +12559,13 @@
                 default: n
             }
         },
-        330: function(e, t, r) {
+        330: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.isSkintoneModifiable = o, t.removeToneModifiers = l, t.applyToneModifier = i, t.getAllTonesForEmoji = function(e) {
+            }), t.isSkintoneModifiable = o, t.removeToneModifiers = l, t.applyToneModifier = i, t.getAllTonesForEmoji = function (e) {
                 return Object.keys(a).map(t => i(e, t))
-            }, t.getModifierFromEmoji = function(e) {
+            }, t.getModifierFromEmoji = function (e) {
                 for (const t of Object.keys(a)) {
                     const r = a[t];
                     if (e.includes(r)) return t
@@ -12578,11 +12598,11 @@
                 return "none" !== t && t ? r + a[t] : r
             }
         },
-        331: function(e, t, r) {
+        331: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function({
+            }), t.default = function ({
                 contactSuggestions: e,
                 onSelect: t,
                 isLoadingMore: r,
@@ -12629,7 +12649,7 @@
                 o = h(r(1)),
                 l = h(r(0)),
                 i = h(r(2)),
-                s = function(e) {
+                s = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -12652,7 +12672,7 @@
             function f() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return f = function() {
+                return f = function () {
                     return e
                 }, e
             }
@@ -12678,9 +12698,9 @@
             });
             t.popoverStyles = p;
             const m = (0, o.default)(i.default)(e => ({
-                    height: e.height,
-                    ...p(e.theme)
-                })),
+                height: e.height,
+                ...p(e.theme)
+            })),
                 g = (0, o.default)(i.default)(e => ({
                     boxSizing: "content-box",
                     cursor: "default",
@@ -12718,11 +12738,11 @@
                     alignSelf: "center"
                 }))
         },
-        339: function(e, t, r) {
+        339: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     profilePictureUrl: t,
                     participantName: r,
@@ -12759,7 +12779,7 @@
                 a = r(6),
                 o = c(r(1)),
                 l = c(r(0)),
-                i = function(e) {
+                i = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -12780,7 +12800,7 @@
             function u() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return u = function() {
+                return u = function () {
                     return e
                 }, e
             }
@@ -12792,7 +12812,7 @@
             }
 
             function d() {
-                return (d = Object.assign || function(e) {
+                return (d = Object.assign || function (e) {
                     for (var t = 1; t < arguments.length; t++) {
                         var r = arguments[t];
                         for (var n in r) Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n])
@@ -12801,14 +12821,14 @@
                 }).apply(this, arguments)
             }
             const f = ({
-                    padded: e = !0
-                }) => ({
-                    height: 50,
-                    flexDirection: "row",
-                    width: "100%",
-                    alignItems: "center",
-                    paddingRight: e ? 12 : 0
-                }),
+                padded: e = !0
+            }) => ({
+                height: 50,
+                flexDirection: "row",
+                width: "100%",
+                alignItems: "center",
+                paddingRight: e ? 12 : 0
+            }),
                 h = (0, o.default)(i.default)(f),
                 p = (0, o.default)(i.FocusableView)(f),
                 m = (0, o.default)(i.default)({
@@ -12819,11 +12839,11 @@
                     justifyContent: "center"
                 })
         },
-        340: function(e, t, r) {
+        340: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e, t) {
+            }), t.default = function (e, t) {
                 const [r, o] = (0, a.useState)(e), l = (0, a.useCallback)((0, n.debounce)(o, t), [t]);
                 return (0, a.useEffect)(() => {
                     l(e)
@@ -12832,11 +12852,11 @@
             var n = r(117),
                 a = r(0)
         },
-        345: function(e, t, r) {
+        345: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     profilePictureUrl: t,
                     secondaryPictureUrl: r,
@@ -12873,13 +12893,13 @@
                 }
             }
         },
-        350: function(e, t, r) {
+        350: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.isHotlike = function(e) {
+            }), t.isHotlike = function (e) {
                 return e in h
-            }, t.Hotlike = function({
+            }, t.Hotlike = function ({
                 stickerId: e,
                 isSenderViewer: t,
                 threadTheme: r,
@@ -12897,7 +12917,7 @@
                     threadTheme: r,
                     isReply: n
                 })))
-            }, t.default = function(e) {
+            }, t.default = function (e) {
                 const {
                     attachment: {
                         previewHeight: t,
@@ -12937,8 +12957,8 @@
                 };
             t.LIKE_STICKER_SIZES = h;
             const p = (0, l.default)(u.UnroundedCornerMediaContainer)({
-                    padding: "6px 0 6px 0"
-                }),
+                padding: "6px 0 6px 0"
+            }),
                 m = l.default.div(e => ({
                     width: e.size,
                     height: e.size,
@@ -12956,9 +12976,9 @@
                 bubbleContextMenuHandler: n
             }) {
                 const o = (0, a.default)({
-                        url: r,
-                        mediaType: "image"
-                    }),
+                    url: r,
+                    mediaType: "image"
+                }),
                     l = (0, c.useTheme)();
                 if (!o) return null;
                 const u = t.previewHeight && t.previewHeight / 2 || 120,
@@ -12979,7 +12999,7 @@
                 }))
             }
         },
-        351: function(e, t, r) {
+        351: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -13011,7 +13031,7 @@
             function M() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return M = function() {
+                return M = function () {
                     return e
                 }, e
             }
@@ -13038,22 +13058,22 @@
                 }
             }
             const T = (0, h.default)(x.default)(e => ({
-                    color: e.messageTextColor ? e.messageTextColor : e.isSenderViewer ? e.theme.select({
-                        highContrast: {
-                            light: e.theme.semanticColors.textPrimary,
-                            dark: e.theme.semanticColors.textWhite
-                        },
-                        light: e.theme.semanticColors.textWhite,
+                color: e.messageTextColor ? e.messageTextColor : e.isSenderViewer ? e.theme.select({
+                    highContrast: {
+                        light: e.theme.semanticColors.textPrimary,
                         dark: e.theme.semanticColors.textWhite
-                    }) : void 0,
-                    opacity: e.isForwardedMessage ? e.isSenderViewer ? .7 : e.theme.select({
-                        light: .5,
-                        dark: .7
-                    }) : 1,
-                    overflowWrap: "break-word",
-                    cursor: "text",
-                    display: "inline"
-                })),
+                    },
+                    light: e.theme.semanticColors.textWhite,
+                    dark: e.theme.semanticColors.textWhite
+                }) : void 0,
+                opacity: e.isForwardedMessage ? e.isSenderViewer ? .7 : e.theme.select({
+                    light: .5,
+                    dark: .7
+                }) : 1,
+                overflowWrap: "break-word",
+                cursor: "text",
+                display: "inline"
+            })),
                 I = (0, h.default)(w.FocusableView)(e => ({
                     color: e.isSenderViewer ? e.theme.semanticColors.textWhite : void 0,
                     textDecorationLine: "underline",
@@ -13199,7 +13219,7 @@
                 userID: v,
                 threadKey: b
             }) {
-                const w = function(e, t, r, n) {
+                const w = function (e, t, r, n) {
                     if (!e || !t || !r) return [];
                     const a = [];
                     if (e && t && r) {
@@ -13221,10 +13241,10 @@
                     }
                     return a
                 }(r, l, s, c);
-                return function(e, t, r, n, o, l, s, u, c, d) {
+                return function (e, t, r, n, o, l, s, u, c, d) {
                     let f = 0,
                         h = [];
-                    t.sort((function(e, t) {
+                    t.sort((function (e, t) {
                         return e.startIndex - t.startIndex
                     })), t.forEach((t, p) => {
                         const m = e.slice(f, t.startIndex),
@@ -13294,7 +13314,7 @@
                 return n.push(e.substring(o)), n
             }
             t.Blockquote = A;
-            var F = (0, b.connect)((function(e, {
+            var F = (0, b.connect)((function (e, {
                 messageId: t,
                 threadKey: r
             }) {
@@ -13312,11 +13332,11 @@
             }))(P);
             t.default = F
         },
-        352: function(e, t, r) {
+        352: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -13335,7 +13355,7 @@
                 default: n
             }
         },
-        362: function(e, t, r) {
+        362: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -13357,11 +13377,11 @@
                 }
             }
             const p = (0, l.default)(i.default)({
-                    margin: "auto",
-                    textAlign: "center",
-                    flexDirection: "row",
-                    padding: 5
-                }),
+                margin: "auto",
+                textAlign: "center",
+                flexDirection: "row",
+                padding: 5
+            }),
                 m = (0, l.default)(f.default)(e => {
                     var t;
                     return {
@@ -13383,7 +13403,7 @@
             const b = {
                 openPoll: a.InboxActions.polls.openPoll
             };
-            var _ = (0, u.connect)(null, b)((function({
+            var _ = (0, u.connect)(null, b)((function ({
                 threadKey: e,
                 messageText: t,
                 capitalize: r,
@@ -13417,11 +13437,11 @@
             }));
             t.default = _
         },
-        363: function(e, t, r) {
+        363: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -13440,17 +13460,17 @@
                 default: n
             }
         },
-        364: function(e, t, r) {
+        364: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.getPlayingAudioFbid = function(e, t) {
+            }), t.getPlayingAudioFbid = function (e, t) {
                 if (e.audioVideo.audio[t] && e.audioVideo.audio[t].playingAudioFbid) return e.audioVideo.audio[t].playingAudioFbid;
                 return null
-            }, t.getAudioStateForFbid = function(e, t, r) {
+            }, t.getAudioStateForFbid = function (e, t, r) {
                 if (e.audioVideo.audio[t] && e.audioVideo.audio[t].audioState[r]) return e.audioVideo.audio[t].audioState[r];
                 return n
-            }, t.getVideoInfo = function(e, t, r) {
+            }, t.getVideoInfo = function (e, t, r) {
                 if (r && e.audioVideo.video[t] && e.audioVideo.video[t][r.attachmentFbid]) return e.audioVideo.video[t][r.attachmentFbid];
                 return null
             };
@@ -13458,7 +13478,7 @@
                 state: r(170).AudioStates.Loading
             }
         },
-        365: function(e, t, r) {
+        365: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -13490,7 +13510,7 @@
             function M() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return M = function() {
+                return M = function () {
                     return e
                 }, e
             }
@@ -13518,7 +13538,7 @@
             }
 
             function T() {
-                return (T = Object.assign || function(e) {
+                return (T = Object.assign || function (e) {
                     for (var t = 1; t < arguments.length; t++) {
                         var r = arguments[t];
                         for (var n in r) Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n])
@@ -13527,13 +13547,13 @@
                 }).apply(this, arguments)
             }
             const I = (0, i.default)(w.default)(e => ({
-                    flexDirection: "row",
-                    minWidth: k.MIN_CONTAINER_WIDTH,
-                    overflow: "hidden",
-                    margin: 0,
-                    padding: 12,
-                    alignItems: "center"
-                })),
+                flexDirection: "row",
+                minWidth: k.MIN_CONTAINER_WIDTH,
+                overflow: "hidden",
+                margin: 0,
+                padding: 12,
+                alignItems: "center"
+            })),
                 R = (0, i.default)(w.default)({
                     justifyContent: "center",
                     flex: 1
@@ -13613,9 +13633,9 @@
                     r = parseInt(e.fileSize);
                 if (!r) return null;
                 const n = t.select({
-                        mac: 1e3,
-                        windows: 1024
-                    }),
+                    mac: 1e3,
+                    windows: 1024
+                }),
                     a = n ** 2,
                     o = (e, t = {}) => {
                         try {
@@ -13630,15 +13650,15 @@
                         }
                     };
                 let l = null;
-                return l = r < n ? `${r} B` : r < a ? `${o(r/n,{style:"integer"})} KB` : `${o(r/a)} MB`, _.default.createElement(x.default, {
+                return l = r < n ? `${r} B` : r < a ? `${o(r / n, { style: "integer" })} KB` : `${o(r / a)} MB`, _.default.createElement(x.default, {
                     color: t.semanticColors.textSecondary
                 }, l)
             }
             t.FileMessageIcon = P;
             const D = (0, i.default)(w.default)(e => ({
-                    flexDirection: "row",
-                    marginLeft: 12
-                })),
+                flexDirection: "row",
+                marginLeft: 12
+            })),
                 z = (0, i.default)(w.default)(e => ({
                     width: 20,
                     height: 20,
@@ -13810,7 +13830,7 @@
                 requestDownload: y.DownloadsActions.requestDownload,
                 cancelDownload: y.DownloadsActions.cancelDownload
             };
-            var W = (0, b.connect)(null, U)((function(e) {
+            var W = (0, b.connect)(null, U)((function (e) {
                 const t = (0, _.useCallback)(t => (0, l.getDownloadState)(t, e.attachment.attachmentFbid), [e.attachment.attachmentFbid]),
                     r = (0, _.useCallback)(t => (0, l.getDownloadStatus)(t, e.attachment.attachmentFbid), [e.attachment.attachmentFbid]),
                     n = (0, b.useSelector)(t),
@@ -13822,22 +13842,22 @@
             }));
             t.default = W
         },
-        366: function(e, t, r) {
+        366: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
             }), t.default = void 0;
             var n = (0, r(0).createContext)({
                 selectedMessageOTID: "",
-                setSelectedMessageOTID: () => {},
-                clearSelectedMessageOTID: () => {}
+                setSelectedMessageOTID: () => { },
+                clearSelectedMessageOTID: () => { }
             });
             t.default = n
         },
-        367: function(e, t, r) {
+        367: function (e, t, r) {
             "use strict";
             r.r(t),
-                function(e) {
+                function (e) {
                     var n = r(0);
 
                     function a(t) {
@@ -13845,28 +13865,28 @@
                         r = "undefined" != typeof window ? window : "undefined" != typeof self ? self : e;
                         var n, a, o = "undefined" != typeof document && document.attachEvent;
                         if (!o) {
-                            var l = (a = r.requestAnimationFrame || r.mozRequestAnimationFrame || r.webkitRequestAnimationFrame || function(e) {
-                                    return r.setTimeout(e, 20)
-                                }, function(e) {
-                                    return a(e)
-                                }),
-                                i = (n = r.cancelAnimationFrame || r.mozCancelAnimationFrame || r.webkitCancelAnimationFrame || r.clearTimeout, function(e) {
+                            var l = (a = r.requestAnimationFrame || r.mozRequestAnimationFrame || r.webkitRequestAnimationFrame || function (e) {
+                                return r.setTimeout(e, 20)
+                            }, function (e) {
+                                return a(e)
+                            }),
+                                i = (n = r.cancelAnimationFrame || r.mozCancelAnimationFrame || r.webkitCancelAnimationFrame || r.clearTimeout, function (e) {
                                     return n(e)
                                 }),
-                                s = function(e) {
+                                s = function (e) {
                                     var t = e.__resizeTriggers__,
                                         r = t.firstElementChild,
                                         n = t.lastElementChild,
                                         a = r.firstElementChild;
                                     n.scrollLeft = n.scrollWidth, n.scrollTop = n.scrollHeight, a.style.width = r.offsetWidth + 1 + "px", a.style.height = r.offsetHeight + 1 + "px", r.scrollLeft = r.scrollWidth, r.scrollTop = r.scrollHeight
                                 },
-                                u = function(e) {
+                                u = function (e) {
                                     if (!(e.target.className.indexOf("contract-trigger") < 0 && e.target.className.indexOf("expand-trigger") < 0)) {
                                         var t = this;
-                                        s(this), this.__resizeRAF__ && i(this.__resizeRAF__), this.__resizeRAF__ = l((function() {
-                                            (function(e) {
+                                        s(this), this.__resizeRAF__ && i(this.__resizeRAF__), this.__resizeRAF__ = l((function () {
+                                            (function (e) {
                                                 return e.offsetWidth != e.__resizeLast__.width || e.offsetHeight != e.__resizeLast__.height
-                                            })(t) && (t.__resizeLast__.width = t.offsetWidth, t.__resizeLast__.height = t.offsetHeight, t.__resizeListeners__.forEach((function(r) {
+                                            })(t) && (t.__resizeLast__.width = t.offsetWidth, t.__resizeLast__.height = t.offsetHeight, t.__resizeListeners__.forEach((function (r) {
                                                 r.call(t, e)
                                             })))
                                         }))
@@ -13884,68 +13904,68 @@
                                         d = "-" + h[g].toLowerCase() + "-", f = p[g], c = !0;
                                         break
                                     } var y = "resizeanim",
-                                v = "@" + d + "keyframes " + y + " { from { opacity: 0; } to { opacity: 0; } } ",
-                                b = d + "animation: 1ms " + y + "; "
+                                        v = "@" + d + "keyframes " + y + " { from { opacity: 0; } to { opacity: 0; } } ",
+                                        b = d + "animation: 1ms " + y + "; "
                         }
                         return {
-                            addResizeListener: function(e, n) {
+                            addResizeListener: function (e, n) {
                                 if (o) e.attachEvent("onresize", n);
                                 else {
                                     if (!e.__resizeTriggers__) {
                                         var a = e.ownerDocument,
                                             l = r.getComputedStyle(e);
                                         l && "static" == l.position && (e.style.position = "relative"),
-                                            function(e) {
+                                            function (e) {
                                                 if (!e.getElementById("detectElementResize")) {
                                                     var r = (v || "") + ".resize-triggers { " + (b || "") + 'visibility: hidden; opacity: 0; } .resize-triggers, .resize-triggers > div, .contract-trigger:before { content: " "; display: block; position: absolute; top: 0; left: 0; height: 100%; width: 100%; overflow: hidden; z-index: -1; } .resize-triggers > div { background: #eee; overflow: auto; } .contract-trigger:before { width: 200%; height: 200%; }',
                                                         n = e.head || e.getElementsByTagName("head")[0],
                                                         a = e.createElement("style");
                                                     a.id = "detectElementResize", a.type = "text/css", null != t && a.setAttribute("nonce", t), a.styleSheet ? a.styleSheet.cssText = r : a.appendChild(e.createTextNode(r)), n.appendChild(a)
                                                 }
-                                            }(a), e.__resizeLast__ = {}, e.__resizeListeners__ = [], (e.__resizeTriggers__ = a.createElement("div")).className = "resize-triggers", e.__resizeTriggers__.innerHTML = '<div class="expand-trigger"><div></div></div><div class="contract-trigger"></div>', e.appendChild(e.__resizeTriggers__), s(e), e.addEventListener("scroll", u, !0), f && (e.__resizeTriggers__.__animationListener__ = function(t) {
+                                            }(a), e.__resizeLast__ = {}, e.__resizeListeners__ = [], (e.__resizeTriggers__ = a.createElement("div")).className = "resize-triggers", e.__resizeTriggers__.innerHTML = '<div class="expand-trigger"><div></div></div><div class="contract-trigger"></div>', e.appendChild(e.__resizeTriggers__), s(e), e.addEventListener("scroll", u, !0), f && (e.__resizeTriggers__.__animationListener__ = function (t) {
                                                 t.animationName == y && s(e)
                                             }, e.__resizeTriggers__.addEventListener(f, e.__resizeTriggers__.__animationListener__))
                                     }
                                     e.__resizeListeners__.push(n)
                                 }
                             },
-                            removeResizeListener: function(e, t) {
+                            removeResizeListener: function (e, t) {
                                 if (o) e.detachEvent("onresize", t);
                                 else if (e.__resizeListeners__.splice(e.__resizeListeners__.indexOf(t), 1), !e.__resizeListeners__.length) {
                                     e.removeEventListener("scroll", u, !0), e.__resizeTriggers__.__animationListener__ && (e.__resizeTriggers__.removeEventListener(f, e.__resizeTriggers__.__animationListener__), e.__resizeTriggers__.__animationListener__ = null);
                                     try {
                                         e.__resizeTriggers__ = !e.removeChild(e.__resizeTriggers__)
-                                    } catch (e) {}
+                                    } catch (e) { }
                                 }
                             }
                         }
                     }
-                    var o = function(e, t) {
-                            if (!(e instanceof t)) throw new TypeError("Cannot call a class as a function")
-                        },
-                        l = function() {
+                    var o = function (e, t) {
+                        if (!(e instanceof t)) throw new TypeError("Cannot call a class as a function")
+                    },
+                        l = function () {
                             function e(e, t) {
                                 for (var r = 0; r < t.length; r++) {
                                     var n = t[r];
                                     n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(e, n.key, n)
                                 }
                             }
-                            return function(t, r, n) {
+                            return function (t, r, n) {
                                 return r && e(t.prototype, r), n && e(t, n), t
                             }
                         }(),
-                        i = Object.assign || function(e) {
+                        i = Object.assign || function (e) {
                             for (var t = 1; t < arguments.length; t++) {
                                 var r = arguments[t];
                                 for (var n in r) Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n])
                             }
                             return e
                         },
-                        s = function(e, t) {
+                        s = function (e, t) {
                             if (!e) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
                             return !t || "object" != typeof t && "function" != typeof t ? e : t
                         },
-                        u = function(e) {
+                        u = function (e) {
                             function t() {
                                 var e, r, n;
                                 o(this, t);
@@ -13953,7 +13973,7 @@
                                 return r = n = s(this, (e = t.__proto__ || Object.getPrototypeOf(t)).call.apply(e, [this].concat(l))), n.state = {
                                     height: n.props.defaultHeight || 0,
                                     width: n.props.defaultWidth || 0
-                                }, n._onResize = function() {
+                                }, n._onResize = function () {
                                     var e = n.props,
                                         t = e.disableHeight,
                                         r = e.disableWidth,
@@ -13976,11 +13996,11 @@
                                             width: l
                                         }))
                                     }
-                                }, n._setRef = function(e) {
+                                }, n._setRef = function (e) {
                                     n._autoSizer = e
                                 }, s(n, r)
                             }
-                            return function(e, t) {
+                            return function (e, t) {
                                 if ("function" != typeof t && null !== t) throw new TypeError("Super expression must either be null or a function, not " + typeof t);
                                 e.prototype = Object.create(t && t.prototype, {
                                     constructor: {
@@ -13992,18 +14012,18 @@
                                 }), t && (Object.setPrototypeOf ? Object.setPrototypeOf(e, t) : e.__proto__ = t)
                             }(t, e), l(t, [{
                                 key: "componentDidMount",
-                                value: function() {
+                                value: function () {
                                     var e = this.props.nonce;
                                     this._autoSizer && this._autoSizer.parentNode && this._autoSizer.parentNode.ownerDocument && this._autoSizer.parentNode.ownerDocument.defaultView && this._autoSizer.parentNode instanceof this._autoSizer.parentNode.ownerDocument.defaultView.HTMLElement && (this._parentNode = this._autoSizer.parentNode, this._detectElementResize = a(e), this._detectElementResize.addResizeListener(this._parentNode, this._onResize), this._onResize())
                                 }
                             }, {
                                 key: "componentWillUnmount",
-                                value: function() {
+                                value: function () {
                                     this._detectElementResize && this._parentNode && this._detectElementResize.removeResizeListener(this._parentNode, this._onResize)
                                 }
                             }, {
                                 key: "render",
-                                value: function() {
+                                value: function () {
                                     var e = this.props,
                                         t = e.children,
                                         r = e.className,
@@ -14027,18 +14047,18 @@
                             }]), t
                         }(n.PureComponent);
                     u.defaultProps = {
-                        onResize: function() {},
+                        onResize: function () { },
                         disableHeight: !1,
                         disableWidth: !1,
                         style: {}
                     }, t.default = u
                 }.call(this, r(54))
         },
-        368: function(e, t, r) {
+        368: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function({
+            }), t.default = function ({
                 use: e,
                 isGroupChat: t
             }) {
@@ -14072,11 +14092,11 @@
                 styles: "display:inline;"
             })
         },
-        369: function(e, t, r) {
+        369: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     type: t,
                     imageUrl: r,
@@ -14140,7 +14160,7 @@
                 })())
             }, Object.defineProperty(t, "NotificationTypes", {
                 enumerable: !0,
-                get: function() {
+                get: function () {
                     return n.NotificationTypes
                 }
             });
@@ -14149,7 +14169,7 @@
                 o = d(r(1)),
                 l = d(r(1723)),
                 i = d(r(0)),
-                s = function(e) {
+                s = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -14170,7 +14190,7 @@
             function c() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return c = function() {
+                return c = function () {
                     return e
                 }, e
             }
@@ -14181,13 +14201,13 @@
                 }
             }
             const f = (0, o.default)(u.IconPill)({
-                    paddingLeft: 8
-                }),
+                paddingLeft: 8
+            }),
                 h = (0, o.default)(u.LoadingPill)({
                     paddingLeft: 8
                 })
         },
-        371: function(e, t, r) {
+        371: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -14206,7 +14226,7 @@
             }
 
             function c() {
-                return (c = Object.assign || function(e) {
+                return (c = Object.assign || function (e) {
                     for (var t = 1; t < arguments.length; t++) {
                         var r = arguments[t];
                         for (var n in r) Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n])
@@ -14215,21 +14235,21 @@
                 }).apply(this, arguments)
             }
             const d = o.default.p(e => ({
-                    margin: 0,
-                    lineHeight: e.theme.select({
-                        mac: "34px",
-                        windows: "26px"
-                    }),
-                    fontSize: e.theme.select({
-                        mac: "31px",
-                        windows: "25px"
-                    }),
-                    width: e.theme.select({
-                        mac: "30px",
-                        windows: "31px"
-                    }),
-                    height: "30px"
-                })),
+                margin: 0,
+                lineHeight: e.theme.select({
+                    mac: "34px",
+                    windows: "26px"
+                }),
+                fontSize: e.theme.select({
+                    mac: "31px",
+                    windows: "25px"
+                }),
+                width: e.theme.select({
+                    mac: "30px",
+                    windows: "31px"
+                }),
+                height: "30px"
+            })),
                 f = (0, o.default)(s.FocusableView)(e => ({
                     margin: "normal" === e.size ? "8px" : "3.5px",
                     width: "normal" === e.size ? n.NORMAL_PICKER_BUTTON_DIMS : n.COMPACT_PICKER_BUTTON_DIMS,
@@ -14253,10 +14273,10 @@
                 }));
             let h;
             t.EmojiButtonRole = h,
-                function(e) {
+                function (e) {
                     e.Button = "button", e.RadioButton = "radio"
                 }(h || (t.EmojiButtonRole = h = {}));
-            var p = i.default.forwardRef((function(e, t) {
+            var p = i.default.forwardRef((function (e, t) {
                 const {
                     emoji: r,
                     onClick: o,
@@ -14290,11 +14310,11 @@
             }));
             t.default = p
         },
-        372: function(e, t, r) {
+        372: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return l.default.createElement(u, null, e.isCompactMode && l.default.createElement(n.default, {
                     telemetryName: "backArrow",
                     "aria-label": a.default._("Back", null, {
@@ -14319,24 +14339,24 @@
                 }
             }
             const u = (0, o.default)(i.default)(e => ({
-                    flexDirection: "row",
-                    alignItems: "center",
-                    flex: 1,
-                    paddingTop: e.theme.select({
-                        mac: 8,
-                        windows: 18
-                    })
-                })),
+                flexDirection: "row",
+                alignItems: "center",
+                flex: 1,
+                paddingTop: e.theme.select({
+                    mac: 8,
+                    windows: 18
+                })
+            })),
                 c = (0, o.default)(i.default)({
                     flex: 1
                 })
         },
-        374: function(e, t, r) {
+        374: function (e, t, r) {
             "use strict";
-            (function(e) {
+            (function (e) {
                 Object.defineProperty(t, "__esModule", {
                     value: !0
-                }), t.default = function(t) {
+                }), t.default = function (t) {
                     const {
                         children: r,
                         threadKey: a,
@@ -14364,12 +14384,12 @@
                         U.current = y
                     });
                     const V = (0, f.useRef)({
-                            reachedTop: !1,
-                            lastItemCount: h,
-                            lastClientHeight: -1,
-                            lastScrollBottom: -1,
-                            lastScrollHeight: -1
-                        }),
+                        reachedTop: !1,
+                        lastItemCount: h,
+                        lastClientHeight: -1,
+                        lastScrollBottom: -1,
+                        lastScrollHeight: -1
+                    }),
                         K = (0, d.useScrollQueue)(j),
                         q = (0, f.useCallback)((e = !1, t = !1) => {
                             j.current && j.current.scrollTop < j.current.scrollHeight && (t || !N.current) && (e || H.current) && K.queueOperation({
@@ -14422,7 +14442,7 @@
                                 t.unobserve(e)
                             }
                         }
-                        return () => {}
+                        return () => { }
                     }, [j]), (0, f.useEffect)(() => {
                         const e = L ? L.current : null;
                         if (e) {
@@ -14431,13 +14451,13 @@
                                 t.unobserve(e)
                             }
                         }
-                        return () => {}
+                        return () => { }
                     }, [j]), (0, f.useLayoutEffect)(() => {
                         B.current ? U.current || e(() => q(b && D.current, !1)) : B.current = !0
                     }, [q, v, b, D]);
                     const Q = (0, f.useCallback)(() => {
-                            j.current && V.current && (V.current.lastScrollBottom = (0, g.getScrollBottom)(j.current.scrollTop, j.current.clientHeight, j.current.scrollHeight))
-                        }, [j]),
+                        j.current && V.current && (V.current.lastScrollBottom = (0, g.getScrollBottom)(j.current.scrollTop, j.current.clientHeight, j.current.scrollHeight))
+                    }, [j]),
                         Z = (0, f.useCallback)(() => {
                             j.current && (j.current.scrollTop <= 30 ? V.current.reachedTop = !0 : V.current.reachedTop = !1, Q())
                         }, [j, Q]),
@@ -14518,7 +14538,7 @@
                 function y() {
                     if ("function" != typeof WeakMap) return null;
                     var e = new WeakMap;
-                    return y = function() {
+                    return y = function () {
                         return e
                     }, e
                 }
@@ -14545,8 +14565,8 @@
                     }
                 }
                 const _ = (0, s.default)(h.default)({
-                        flex: 1
-                    }),
+                    flex: 1
+                }),
                     w = (0, a.keyframes)({
                         from: {
                             opacity: 0
@@ -14571,22 +14591,22 @@
                 }
             }).call(this, r(231).setImmediate)
         },
-        41: function(e, t, r) {
+        41: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.extendThreadTheme = f, t.useThreadTheme = function() {
+            }), t.extendThreadTheme = f, t.useThreadTheme = function () {
                 return (0, c.useContext)(h)
             }, t.default = void 0;
             var n, a = (n = r(530)) && n.__esModule ? n : {
-                    default: n
-                },
+                default: n
+            },
                 o = r(32),
                 l = r(40),
                 i = r(6),
                 s = r(23),
                 u = r(11),
-                c = function(e) {
+                c = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -14606,16 +14626,16 @@
             function d() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return d = function() {
+                return d = function () {
                     return e
                 }, e
             }
 
             function f(e, t) {
                 const r = {
-                        rounded: !0,
-                        ...e.senderBubble
-                    },
+                    rounded: !0,
+                    ...e.senderBubble
+                },
                     n = {
                         rounded: !0,
                         ...e.recieverBubble
@@ -14636,7 +14656,7 @@
                     messageBubbleBorder: (t, r) => {
                         var n, a;
                         return t && (null === (n = e.senderBubble) || void 0 === n ? void 0 : n.outline) ? `1px solid ${e.senderBubble.outline}` : !t && (null === (a = e.recieverBubble) || void 0 === a ? void 0 : a.outline) ? `1px solid ${e.recieverBubble.outline}` : r.select({
-                            highContrast: `1px solid ${t?r.semanticColors.primary:r.colors.base80}`
+                            highContrast: `1px solid ${t ? r.semanticColors.primary : r.colors.base80}`
                         })
                     },
                     replyBackgroundColor: (t, r, n) => {
@@ -14646,7 +14666,7 @@
                             dark: n.colors.base60
                         }) : "transparent"
                     },
-                    replyBorderStyles: (e, t, a) => e && t && r.rounded || e && !t && n.rounded ? function(e) {
+                    replyBorderStyles: (e, t, a) => e && t && r.rounded || e && !t && n.rounded ? function (e) {
                         return e ? {
                             borderRadius: l.ROUND_BORDER_RADIUS,
                             borderBottomLeftRadius: l.ROUND_BORDER_RADIUS,
@@ -14665,12 +14685,12 @@
                 threadTheme: f((0, a.default)(), !1),
                 themeIsPresent: !1
             });
-            var p = (0, u.connect)((function(e, t) {
+            var p = (0, u.connect)((function (e, t) {
                 return {
                     threadTheme: (0, s.getThreadTheme)(e, t.threadKey, t.isAppDarkTheme),
                     customThemesEnabled: (0, o.isGatekeeperEnabled)(e, "archon_enable_custom_themes")
                 }
-            }))((function(e) {
+            }))((function (e) {
                 const t = (0, i.useTheme)(),
                     {
                         children: r,
@@ -14689,7 +14709,7 @@
             }));
             t.default = p
         },
-        530: function(e, t, r) {
+        530: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -14717,11 +14737,11 @@
             });
             t.default = n
         },
-        531: function(e, t, r) {
+        531: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function({
+            }), t.default = function ({
                 isSenderViewer: e,
                 imageUrl: t,
                 title: r,
@@ -14742,7 +14762,7 @@
                 const S = (0, n.isRTCXMA)(v.defaultCtaType),
                     O = _ ? (0, u.isP2PThread)(_) : void 0,
                     T = (0, n.getAttachmentCTAs)(v, C, w, x, O),
-                    I = function(e, t, r) {
+                    I = function (e, t, r) {
                         return !(t || (0, n.isPaymentXMA)(e.cta1Type) || r)
                     }(v, T.length > 0, S),
                     R = [v.titleText, r, v.sourceText, v.descriptionText, h, v.subtitleText].filter(e => null != e && "" !== e),
@@ -14770,7 +14790,7 @@
                         onButtonHover: j,
                         onButtonUnhover: D
                     },
-                    U = function(e) {
+                    U = function (e) {
                         if ((0, n.isRTCXMA)(e)) return o.XMATypes.RTC;
                         return o.XMATypes.Regular
                     }(v.cta1Type || v.defaultCtaType);
@@ -14812,7 +14832,7 @@
                 i = p(r(13)),
                 s = r(89),
                 u = r(52),
-                c = function(e) {
+                c = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -14834,7 +14854,7 @@
             function h() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return h = function() {
+                return h = function () {
                     return e
                 }, e
             }
@@ -14846,7 +14866,7 @@
             }
 
             function m() {
-                return (m = Object.assign || function(e) {
+                return (m = Object.assign || function (e) {
                     for (var t = 1; t < arguments.length; t++) {
                         var r = arguments[t];
                         for (var n in r) Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n])
@@ -14855,14 +14875,14 @@
                 }).apply(this, arguments)
             }
         },
-        532: function(e, t, r) {
+        532: function (e, t, r) {
             "use strict";
-            e.exports = function(e) {
+            e.exports = function (e) {
                 var t = "string" == typeof e ? e.charCodeAt(0) : e;
                 return t >= 97 && t <= 122 || t >= 65 && t <= 90
             }
         },
-        533: function(e, t, r) {
+        533: function (e, t, r) {
             "use strict";
             e.exports = {
                 position: !0,
@@ -14873,9 +14893,9 @@
                 blocks: r(1519)
             }
         },
-        534: function(e, t, r) {
+        534: function (e, t, r) {
             "use strict";
-            e.exports = function(e) {
+            e.exports = function (e) {
                 var t, r = 0,
                     a = 0,
                     o = e.charAt(r),
@@ -14891,32 +14911,32 @@
                 "\t": 4
             }
         },
-        535: function(e, t, r) {
+        535: function (e, t, r) {
             "use strict";
             var n = "<[A-Za-z][A-Za-z0-9\\-]*(?:\\s+[a-zA-Z_:][a-zA-Z0-9:._-]*(?:\\s*=\\s*(?:[^\"'=<>`\\u0000-\\u0020]+|'[^']*'|\"[^\"]*\"))?)*\\s*\\/?>",
                 a = "<\\/[A-Za-z][A-Za-z0-9\\-]*\\s*>";
             t.openCloseTag = new RegExp("^(?:" + n + "|" + a + ")"), t.tag = new RegExp("^(?:" + n + "|" + a + "|\x3c!----\x3e|\x3c!--(?:-?[^>-])(?:-?[^-])*--\x3e|<[?].*?[?]>|<![A-Za-z]+\\s+[^>]*>|<!\\[CDATA\\[[\\s\\S]*?\\]\\]>)")
         },
-        536: function(e, t, r) {
+        536: function (e, t, r) {
             "use strict";
-            e.exports = function(e, t) {
+            e.exports = function (e, t) {
                 return e.indexOf("<", t)
             }
         },
-        537: function(e, t, r) {
+        537: function (e, t, r) {
             "use strict";
-            e.exports = function(e, t) {
+            e.exports = function (e, t) {
                 var r = e.indexOf("[", t),
                     n = e.indexOf("![", t);
                 if (-1 === n) return r;
                 return r < n ? r : n
             }
         },
-        538: function(e, t, r) {
+        538: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.RTCXMA = function(e) {
+            }), t.RTCXMA = function (e) {
                 const {
                     attachment: t,
                     titleText: r,
@@ -14956,7 +14976,7 @@
                     onButtonHover: m,
                     onButtonUnhover: g
                 }))
-            }, t.RegularXMA = function(e) {
+            }, t.RegularXMA = function (e) {
                 const {
                     attachment: t,
                     titleText: r,
@@ -14994,7 +15014,7 @@
             function d() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return d = function() {
+                return d = function () {
                     return e
                 }, e
             }
@@ -15022,14 +15042,14 @@
             }
             let p;
             t.XMATypes = p,
-                function(e) {
+                function (e) {
                     e[e.RTC = 0] = "RTC", e[e.Regular = 1] = "Regular"
                 }(p || (t.XMATypes = p = {}))
         },
-        540: function(e, t, r) {
+        540: function (e, t, r) {
             e.exports = r.p + "assets/assets/icons/static-icons/status-delivered.static.svg"
         },
-        541: function(e, t, r) {
+        541: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -15051,19 +15071,19 @@
                 }
             }
             const p = d.default.div(e => ({
-                    position: "relative",
-                    ...e.isModal ? {
-                        height: 11,
-                        lineHeight: "11px",
-                        fontSize: 11,
-                        top: 4,
-                        left: -1
-                    } : {
-                        height: 14,
-                        lineHeight: "14px",
-                        fontSize: 14
-                    }
-                })),
+                position: "relative",
+                ...e.isModal ? {
+                    height: 11,
+                    lineHeight: "11px",
+                    fontSize: 11,
+                    top: 4,
+                    left: -1
+                } : {
+                    height: 14,
+                    lineHeight: "14px",
+                    fontSize: 14
+                }
+            })),
                 m = e => f.default.createElement(p, {
                     isModal: e.isModal
                 }, "😍");
@@ -15127,7 +15147,7 @@
             };
             t.default = g
         },
-        542: function(e, t, r) {
+        542: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -15148,7 +15168,7 @@
                 g = E(r(1594)),
                 y = E(r(1595)),
                 v = r(11),
-                b = function(e) {
+                b = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -15170,7 +15190,7 @@
             function C() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return C = function() {
+                return C = function () {
                     return e
                 }, e
             }
@@ -15181,8 +15201,8 @@
                 }
             }
             const k = (0, d.default)(n.MessageBubbleContainer)({
-                    padding: 6
-                }),
+                padding: 6
+            }),
                 x = (0, d.default)(f.default)(e => ({
                     width: e.playerWidth,
                     flexDirection: "row",
@@ -15222,7 +15242,7 @@
                 stopPlayback: i.AudioVideoActions.audio.stopPlayback,
                 updateTime: i.AudioVideoActions.audio.updateTime
             };
-            var j = (0, v.connect)((function(e, t) {
+            var j = (0, v.connect)((function (e, t) {
                 const {
                     threadKey: r,
                     attachment: n
@@ -15230,7 +15250,7 @@
                 return {
                     audioState: (0, s.getAudioStateForFbid)(e, r, n.attachmentFbid)
                 }
-            }), P)((function(e) {
+            }), P)((function (e) {
                 const {
                     isFirst: t,
                     isLast: r,
@@ -15284,10 +15304,10 @@
                     e && (U && e.play(), W && e.pause(), H && (e.currentTime = 0, e.pause()))
                 }, [U, W, H, E, d, l, j]);
                 const V = v.state === R ? a.default._("Stop Clip", null, {
-                        hk: "40mkDx"
-                    }).toString() : a.default._("Play Clip", null, {
-                        hk: "1oeJxD"
-                    }).toString(),
+                    hk: "40mkDx"
+                }).toString() : a.default._("Play Clip", null, {
+                    hk: "1oeJxD"
+                }).toString(),
                     K = (0, b.useCallback)(() => {
                         E(d, l)
                     }, [l, d, E]),
@@ -15372,11 +15392,11 @@
             }));
             t.default = j
         },
-        543: function(e, t, r) {
+        543: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function({
+            }), t.default = function ({
                 isAvailable: e,
                 isSenderViewer: t,
                 audioElement: r,
@@ -15384,7 +15404,7 @@
             }) {
                 const [i, s] = (0, l.useState)(0), u = (0, l.useCallback)(t => {
                     if (null == r || !e) return;
-                    const n = function(e) {
+                    const n = function (e) {
                         if (e > 30) return 5;
                         if (e > 10) return 3;
                         if (e > 5) return 2;
@@ -15393,9 +15413,9 @@
                     }(r.duration);
                     switch (t.key) {
                         case "ArrowLeft":
-                            return void(r.currentTime -= n);
+                            return void (r.currentTime -= n);
                         case "ArrowRight":
-                            return void(r.currentTime += n)
+                            return void (r.currentTime += n)
                     }
                 }, [r, e]), c = (0, l.useCallback)(t => {
                     if (null == r || !e) return;
@@ -15430,7 +15450,7 @@
                 o = (n = r(323)) && n.__esModule ? n : {
                     default: n
                 },
-                l = function(e) {
+                l = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -15450,16 +15470,16 @@
             function i() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return i = function() {
+                return i = function () {
                     return e
                 }, e
             }
         },
-        544: function(e, t, r) {
+        544: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function({
+            }), t.default = function ({
                 seconds: e,
                 color: t,
                 backgroundColor: r,
@@ -15489,15 +15509,15 @@
                 }
             }
             const c = (0, o.default)(i.default)(e => ({
-                    justifyContent: "center",
-                    alignItems: "center",
-                    height: 20,
-                    width: 42,
-                    borderRadius: 20,
-                    opacity: e.disabled ? .5 : 1,
-                    ...e.backgroundColor ? {} : (0, a.getThreadThemeGradientBackground)(e.threadTheme.gradientColors),
-                    backgroundColor: e.backgroundColor
-                })),
+                justifyContent: "center",
+                alignItems: "center",
+                height: 20,
+                width: 42,
+                borderRadius: 20,
+                opacity: e.disabled ? .5 : 1,
+                ...e.backgroundColor ? {} : (0, a.getThreadThemeGradientBackground)(e.threadTheme.gradientColors),
+                backgroundColor: e.backgroundColor
+            })),
                 d = (0, o.default)(s.default)(e => ({
                     userSelect: "none",
                     textAlign: "center",
@@ -15507,11 +15527,11 @@
                     WebkitBackgroundClip: "text"
                 }))
         },
-        545: function(e, t, r) {
+        545: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -15532,11 +15552,11 @@
                 default: n
             }
         },
-        546: function(e, t, r) {
+        546: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     isSenderViewer: t,
                     attachment: r
@@ -15567,7 +15587,7 @@
             function y() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return y = function() {
+                return y = function () {
                     return e
                 }, e
             }
@@ -15594,22 +15614,22 @@
                 }
             }
             const _ = {
-                    374882289330575: h.default.createElement(i.default, {
-                        width: 72,
-                        height: 36,
-                        color: "white"
-                    }),
-                    406655189415060: h.default.createElement(l.default, {
-                        width: 72,
-                        height: 36,
-                        color: "white"
-                    }),
-                    873232509426885: h.default.createElement(o.default, {
-                        width: 72,
-                        height: 36,
-                        color: "white"
-                    })
-                },
+                374882289330575: h.default.createElement(i.default, {
+                    width: 72,
+                    height: 36,
+                    color: "white"
+                }),
+                406655189415060: h.default.createElement(l.default, {
+                    width: 72,
+                    height: 36,
+                    color: "white"
+                }),
+                873232509426885: h.default.createElement(o.default, {
+                    width: 72,
+                    height: 36,
+                    color: "white"
+                })
+            },
                 w = (0, c.default)(p.default)({
                     position: "absolute",
                     bottom: 0
@@ -15643,10 +15663,10 @@
                 bubbleContextMenuHandler: i
             }) {
                 const c = (0, u.default)({
-                        url: n.previewUrlInfo,
-                        mediaType: "image",
-                        offlineId: n.offlineAttachmentId
-                    }),
+                    url: n.previewUrlInfo,
+                    mediaType: "image",
+                    offlineId: n.offlineAttachmentId
+                }),
                     m = "0" !== n.attributionAppId ? _[n.attributionAppId] : null,
                     y = (0, h.useCallback)(() => {
                         l && l(n)
@@ -15701,7 +15721,7 @@
                 }), n.attachmentType === a.AttachmentType.AnimatedImage && m && h.default.createElement(w, null, m), n.attachmentType === a.AttachmentType.Image && v) : null
             }
         },
-        547: function(e, t, r) {
+        547: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -15711,7 +15731,7 @@
                 o = r(364),
                 l = r(89),
                 i = r(11),
-                s = function(e) {
+                s = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -15736,7 +15756,7 @@
             function p() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return p = function() {
+                return p = function () {
                     return e
                 }, e
             }
@@ -15802,7 +15822,7 @@
                     isMediaViewerOpen: v
                 }))) : null
             }
-            var y = (0, i.connect)((function(e, {
+            var y = (0, i.connect)((function (e, {
                 threadKey: t,
                 attachment: r
             }) {
@@ -15811,7 +15831,7 @@
                     videoInfo: (0, o.getVideoInfo)(e, t, r),
                     isMediaViewerOpen: n
                 }
-            }), {})((function(e) {
+            }), {})((function (e) {
                 const {
                     isSenderViewer: t
                 } = e;
@@ -15823,11 +15843,11 @@
             }));
             t.default = y
         },
-        548: function(e, t, r) {
+        548: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 switch (e.format) {
                     case i.Bold:
                         return o.default.createElement(s, null, e.children);
@@ -15861,12 +15881,12 @@
             }
             let i;
             t.TextFormatting = i,
-                function(e) {
+                function (e) {
                     e[e.CodeBlock = 0] = "CodeBlock", e[e.InlineCode = 1] = "InlineCode", e[e.BlockQuote = 2] = "BlockQuote", e[e.InlineQuote = 3] = "InlineQuote", e[e.Bold = 4] = "Bold", e[e.Italics = 5] = "Italics", e[e.StrikeThrough = 6] = "StrikeThrough"
                 }(i || (t.TextFormatting = i = {}));
             const s = a.default.span({
-                    fontWeight: "bold"
-                }),
+                fontWeight: "bold"
+            }),
                 u = a.default.span({
                     fontStyle: "italic"
                 }),
@@ -15880,7 +15900,7 @@
                     fontFamily: "monospace"
                 })
         },
-        549: function(e, t, r) {
+        549: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -15901,7 +15921,7 @@
             const d = {
                 showModal: l.AppContextActions.showModal
             };
-            var f = (0, i.connect)(null, d)((function(e) {
+            var f = (0, i.connect)(null, d)((function (e) {
                 const {
                     title: t,
                     pollId: r,
@@ -15940,11 +15960,11 @@
             }));
             t.default = f
         },
-        550: function(e, t, r) {
+        550: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     title: t,
                     options: r,
@@ -15964,17 +15984,17 @@
                 const M = r.map(e => {
                     var t;
                     const r = null === (t = e.voters) || void 0 === t ? void 0 : t.map(e => s.default.createElement(u.default, {
-                            key: e.contactId,
-                            css: {
-                                flexDirection: "row",
-                                alignItems: "center"
-                            }
-                        }, s.default.createElement(m, {
-                            size: "xxsmall",
-                            profilePictureUrl: (0, l.default)(e.profilePicture)
-                        }), s.default.createElement(g, {
-                            use: "caption"
-                        }, e.name))),
+                        key: e.contactId,
+                        css: {
+                            flexDirection: "row",
+                            alignItems: "center"
+                        }
+                    }, s.default.createElement(m, {
+                        size: "xxsmall",
+                        profilePictureUrl: (0, l.default)(e.profilePicture)
+                    }), s.default.createElement(g, {
+                        use: "caption"
+                    }, e.name))),
                         n = a.some(t => t.optionId == e.optionId);
                     let c = e.percentVoted;
                     return e.voterProfilePhotos && 0 !== k.size && 0 !== e.voterProfilePhotos.length ? c = e.voterProfilePhotos.length / k.size * 100 : e.voters && 0 !== x.size && 0 !== e.voters.length && (c = e.voters.length / x.size * 100), s.default.createElement(o.SelectableOption, {
@@ -16024,9 +16044,9 @@
                 }
             }
             const h = (0, i.default)(u.default)({
-                    maxWidth: 380,
-                    minWidth: 303
-                }),
+                maxWidth: 380,
+                minWidth: 303
+            }),
                 p = (0, i.default)(u.default)(e => ({
                     overflowY: "scroll",
                     maxHeight: 300,
@@ -16049,11 +16069,11 @@
                     paddingTop: 8
                 })
         },
-        551: function(e, t, r) {
+        551: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     className: t,
                     clickEvent: r,
@@ -16111,7 +16131,7 @@
             };
             var n = s(r(1)),
                 a = r(46),
-                o = function(e) {
+                o = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -16132,7 +16152,7 @@
             function i() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return i = function() {
+                return i = function () {
                     return e
                 }, e
             }
@@ -16152,11 +16172,11 @@
                     pointerEvents: "auto"
                 })
         },
-        553: function(e, t, r) {
+        553: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -16175,19 +16195,19 @@
                 default: n
             }
         },
-        554: function(e, t, r) {
+        554: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return (0, a.default)({
                     messenger: e.threadName,
                     workchat: l(e)
                 })
             };
             var n, a = (n = r(59)) && n.__esModule ? n : {
-                    default: n
-                },
+                default: n
+            },
                 o = r(8);
 
             function l({
@@ -16198,11 +16218,11 @@
                 return t === o.ThreadType.OnetoOne && (null == r ? void 0 : r.statusEmoji) ? `${e} ${r.statusEmoji}` : e
             }
         },
-        555: function(e, t, r) {
+        555: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const t = (0, u.useTheme)();
                 return (s.default.createElement(n.default, {
                     onClick: e.onClick,
@@ -16250,7 +16270,7 @@
                 }
             }
         },
-        556: function(e, t, r) {
+        556: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -16260,7 +16280,7 @@
                 o = r(294),
                 l = r(8),
                 i = d(r(1)),
-                s = function(e) {
+                s = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -16281,7 +16301,7 @@
             function c() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return c = function() {
+                return c = function () {
                     return e
                 }, e
             }
@@ -16292,9 +16312,9 @@
                 }
             }
             const f = (0, i.default)(u.default)(e => ({
-                    height: e.size,
-                    width: e.size
-                })),
+                height: e.size,
+                width: e.size
+            })),
                 h = {
                     small: {
                         imageSize: 22,
@@ -16312,7 +16332,7 @@
                         clipPathId: a.PROFILE_GROUP_PATH_50
                     }
                 };
-            var p = (0, s.memo)((function({
+            var p = (0, s.memo)((function ({
                 size: e = "small",
                 firstProfilePhotoUrl: t,
                 secondProfilePhotoUrl: r,
@@ -16347,7 +16367,7 @@
             }));
             t.default = p
         },
-        557: function(e, t, r) {
+        557: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -16363,7 +16383,7 @@
                     default: e
                 }
             }
-            var u = o.default.memo((function({
+            var u = o.default.memo((function ({
                 timestamp: e,
                 use: t = "subtext",
                 className: r
@@ -16378,11 +16398,11 @@
             }));
             t.default = u
         },
-        558: function(e, t, r) {
+        558: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const t = (0, n.useRef)(null);
                 return (0, n.useImperativeHandle)(e, () => ({
                     focus: () => {
@@ -16392,7 +16412,7 @@
             };
             var n = r(0)
         },
-        559: function(e, t, r) {
+        559: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -16406,7 +16426,7 @@
                 u = r(53),
                 c = r(23),
                 d = r(11),
-                f = function(e) {
+                f = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -16429,7 +16449,7 @@
             function g() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return g = function() {
+                return g = function () {
                     return e
                 }, e
             }
@@ -16441,7 +16461,7 @@
             }
 
             function v() {
-                return (v = Object.assign || function(e) {
+                return (v = Object.assign || function (e) {
                     for (var t = 1; t < arguments.length; t++) {
                         var r = arguments[t];
                         for (var n in r) Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n])
@@ -16450,13 +16470,13 @@
                 }).apply(this, arguments)
             }
             const b = {
-                    flex: 1,
-                    padding: "6px 12px",
-                    height: 48,
-                    minHeight: 48,
-                    maxHeight: 48,
-                    pointerEvents: "auto"
-                },
+                flex: 1,
+                padding: "6px 12px",
+                height: 48,
+                minHeight: 48,
+                maxHeight: 48,
+                pointerEvents: "auto"
+            },
                 _ = (0, i.default)(h.default)({
                     flexDirection: "row",
                     alignItems: "center"
@@ -16477,14 +16497,14 @@
             const E = {
                 openThreadFromSearchResult: c.InboxActions.search.openThreadFromSearchResult
             };
-            var k = (0, d.connect)((function(e, t) {
+            var k = (0, d.connect)((function (e, t) {
                 const {
                     suggestion: r
                 } = t;
                 return {
                     participants: null == r.contactId ? [] : (0, u.getParticipantListForThread)(e, r.contactId)
                 }
-            }), E)((function(e) {
+            }), E)((function (e) {
                 const {
                     onActivateSuggestion: t,
                     suggestion: r,
@@ -16538,11 +16558,11 @@
             }));
             t.default = k
         },
-        560: function(e, t, r) {
+        560: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const t = e.searchResultType,
                     r = e.participants;
                 if (t === o.SearchResultType.Group) return l.default.createElement(n.default, {
@@ -16568,11 +16588,11 @@
                 }
             }
         },
-        561: function(e, t, r) {
+        561: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     isForeignUser: t,
                     subtitle: r,
@@ -16597,11 +16617,11 @@
                 }
             }
         },
-        566: function(e, t, r) {
+        566: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -16625,11 +16645,11 @@
                 default: n
             }
         },
-        574: function(e, t, r) {
+        574: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     viewBox: "0 0 16 16",
@@ -16647,21 +16667,21 @@
                 default: n
             }
         },
-        581: function(e, t, r) {
+        581: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.getScrollBottom = function(e, t, r) {
+            }), t.getScrollBottom = function (e, t, r) {
                 return r - t - e
-            }, t.getScrollTop = function(e, t, r) {
+            }, t.getScrollTop = function (e, t, r) {
                 return r - t - e
             }
         },
-        584: function(e, t, r) {
+        584: function (e, t, r) {
             "use strict";
 
             function n() {
-                return (n = Object.assign || function(e) {
+                return (n = Object.assign || function (e) {
                     for (var t = 1; t < arguments.length; t++) {
                         var r = arguments[t];
                         for (var n in r) Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n])
@@ -16686,16 +16706,16 @@
                 return !0
             }
             r.r(t);
-            var i = function(e, t) {
-                    var r;
-                    void 0 === t && (t = l);
-                    var n, a = [],
-                        o = !1;
-                    return function() {
-                        for (var l = [], i = 0; i < arguments.length; i++) l[i] = arguments[i];
-                        return o && r === this && t(l, a) ? n : (n = e.apply(this, l), o = !0, r = this, a = l, n)
-                    }
-                },
+            var i = function (e, t) {
+                var r;
+                void 0 === t && (t = l);
+                var n, a = [],
+                    o = !1;
+                return function () {
+                    for (var l = [], i = 0; i < arguments.length; i++) l[i] = arguments[i];
+                    return o && r === this && t(l, a) ? n : (n = e.apply(this, l), o = !0, r = this, a = l, n)
+                }
+            },
                 s = r(0);
 
             function u(e, t) {
@@ -16705,22 +16725,22 @@
                 for (n = 0; n < o.length; n++) r = o[n], t.indexOf(r) >= 0 || (a[r] = e[r]);
                 return a
             }
-            r.d(t, "VariableSizeGrid", (function() {
+            r.d(t, "VariableSizeGrid", (function () {
                 return M
-            })), r.d(t, "VariableSizeList", (function() {
+            })), r.d(t, "VariableSizeList", (function () {
                 return j
-            })), r.d(t, "FixedSizeGrid", (function() {
+            })), r.d(t, "FixedSizeGrid", (function () {
                 return D
-            })), r.d(t, "FixedSizeList", (function() {
+            })), r.d(t, "FixedSizeList", (function () {
                 return z
-            })), r.d(t, "areEqual", (function() {
+            })), r.d(t, "areEqual", (function () {
                 return B
-            })), r.d(t, "shouldComponentUpdate", (function() {
+            })), r.d(t, "shouldComponentUpdate", (function () {
                 return L
             }));
-            var c = "object" == typeof performance && "function" == typeof performance.now ? function() {
+            var c = "object" == typeof performance && "function" == typeof performance.now ? function () {
                 return performance.now()
-            } : function() {
+            } : function () {
                 return Date.now()
             };
 
@@ -16751,7 +16771,7 @@
                 }
                 return p
             }
-            var g = function(e) {
+            var g = function (e) {
                 var t = e.columnIndex;
                 e.data;
                 return e.rowIndex + ":" + t
@@ -16773,7 +16793,7 @@
                     M = e.initInstanceProps,
                     S = e.shouldResetStyleCacheOnItemSizeChange,
                     O = e.validateProps;
-                return r = t = function(e) {
+                return r = t = function (e) {
                     function t(t) {
                         var r;
                         return (r = e.call(this, t) || this)._instanceProps = M(r.props, o(o(r))), r._resetIsScrollingTimeoutId = null, r._outerRef = void 0, r.state = {
@@ -16784,7 +16804,7 @@
                             scrollTop: "number" == typeof r.props.initialScrollTop ? r.props.initialScrollTop : 0,
                             scrollUpdateWasRequested: !1,
                             verticalScrollDirection: "forward"
-                        }, r._callOnItemsRendered = void 0, r._callOnItemsRendered = i((function(e, t, n, a, o, l, i, s) {
+                        }, r._callOnItemsRendered = void 0, r._callOnItemsRendered = i((function (e, t, n, a, o, l, i, s) {
                             return r.props.onItemsRendered({
                                 overscanColumnStartIndex: e,
                                 overscanColumnStopIndex: t,
@@ -16795,7 +16815,7 @@
                                 visibleRowStartIndex: i,
                                 visibleRowStopIndex: s
                             })
-                        })), r._callOnScroll = void 0, r._callOnScroll = i((function(e, t, n, a, o) {
+                        })), r._callOnScroll = void 0, r._callOnScroll = i((function (e, t, n, a, o) {
                             return r.props.onScroll({
                                 horizontalScrollDirection: n,
                                 scrollLeft: e,
@@ -16803,7 +16823,7 @@
                                 verticalScrollDirection: a,
                                 scrollUpdateWasRequested: o
                             })
-                        })), r._getItemStyle = void 0, r._getItemStyle = function(e, t) {
+                        })), r._getItemStyle = void 0, r._getItemStyle = function (e, t) {
                             var n, a, o = r.props,
                                 i = o.columnWidth,
                                 s = o.direction,
@@ -16814,9 +16834,9 @@
                                 position: "absolute"
                             })["rtl" === s ? "right" : "left"] = l(r.props, t, r._instanceProps), a.top = E(r.props, e, r._instanceProps), a.height = C(r.props, e, r._instanceProps), a.width = p(r.props, t, r._instanceProps), n = a);
                             return n
-                        }, r._getItemStyleCache = void 0, r._getItemStyleCache = i((function(e, t, r) {
+                        }, r._getItemStyleCache = void 0, r._getItemStyleCache = i((function (e, t, r) {
                             return {}
-                        })), r._onScroll = function(e) {
+                        })), r._onScroll = function (e) {
                             var t = e.currentTarget,
                                 n = t.clientHeight,
                                 a = t.clientWidth,
@@ -16824,7 +16844,7 @@
                                 l = t.scrollTop,
                                 i = t.scrollHeight,
                                 s = t.scrollWidth;
-                            r.setState((function(e) {
+                            r.setState((function (e) {
                                 if (e.scrollLeft === o && e.scrollTop === l) return null;
                                 var t = r.props.direction,
                                     u = o;
@@ -16846,27 +16866,27 @@
                                     scrollUpdateWasRequested: !1
                                 }
                             }), r._resetIsScrollingDebounced)
-                        }, r._outerRefSetter = function(e) {
+                        }, r._outerRefSetter = function (e) {
                             var t = r.props.outerRef;
                             r._outerRef = e, "function" == typeof t ? t(e) : null != t && "object" == typeof t && t.hasOwnProperty("current") && (t.current = e)
-                        }, r._resetIsScrollingDebounced = function() {
+                        }, r._resetIsScrollingDebounced = function () {
                             null !== r._resetIsScrollingTimeoutId && d(r._resetIsScrollingTimeoutId), r._resetIsScrollingTimeoutId = f(r._resetIsScrolling, 150)
-                        }, r._resetIsScrolling = function() {
+                        }, r._resetIsScrolling = function () {
                             r._resetIsScrollingTimeoutId = null, r.setState({
                                 isScrolling: !1
-                            }, (function() {
+                            }, (function () {
                                 r._getItemStyleCache(-1)
                             }))
                         }, r
                     }
-                    a(t, e), t.getDerivedStateFromProps = function(e, t) {
+                    a(t, e), t.getDerivedStateFromProps = function (e, t) {
                         return v(e, t), O(e), null
                     };
                     var r = t.prototype;
-                    return r.scrollTo = function(e) {
+                    return r.scrollTo = function (e) {
                         var t = e.scrollLeft,
                             r = e.scrollTop;
-                        void 0 !== t && (t = Math.max(0, t)), void 0 !== r && (r = Math.max(0, r)), this.setState((function(e) {
+                        void 0 !== t && (t = Math.max(0, t)), void 0 !== r && (r = Math.max(0, r)), this.setState((function (e) {
                             return void 0 === t && (t = e.scrollLeft), void 0 === r && (r = e.scrollTop), e.scrollLeft === t && e.scrollTop === r ? null : {
                                 horizontalScrollDirection: e.scrollLeft < t ? "forward" : "backward",
                                 scrollLeft: t,
@@ -16875,7 +16895,7 @@
                                 verticalScrollDirection: e.scrollTop < r ? "forward" : "backward"
                             }
                         }), this._resetIsScrollingDebounced)
-                    }, r.scrollToItem = function(e) {
+                    }, r.scrollToItem = function (e) {
                         var t = e.align,
                             r = void 0 === t ? "auto" : t,
                             n = e.columnIndex,
@@ -16888,7 +16908,7 @@
                             c = this.state,
                             d = c.scrollLeft,
                             f = c.scrollTop,
-                            p = function(e) {
+                            p = function (e) {
                                 if (void 0 === e && (e = !1), -1 === h || e) {
                                     var t = document.createElement("div"),
                                         r = t.style;
@@ -16904,7 +16924,7 @@
                             scrollLeft: void 0 !== n ? _(this.props, n, r, d, this._instanceProps, v) : d,
                             scrollTop: void 0 !== a ? w(this.props, a, r, f, this._instanceProps, g) : f
                         })
-                    }, r.componentDidMount = function() {
+                    }, r.componentDidMount = function () {
                         var e = this.props,
                             t = e.initialScrollLeft,
                             r = e.initialScrollTop;
@@ -16913,7 +16933,7 @@
                             "number" == typeof t && (n.scrollLeft = t), "number" == typeof r && (n.scrollTop = r)
                         }
                         this._callPropsCallbacks()
-                    }, r.componentDidUpdate = function() {
+                    }, r.componentDidUpdate = function () {
                         var e = this.props.direction,
                             t = this.state,
                             r = t.scrollLeft,
@@ -16935,9 +16955,9 @@
                             a.scrollTop = Math.max(0, n)
                         }
                         this._callPropsCallbacks()
-                    }, r.componentWillUnmount = function() {
+                    }, r.componentWillUnmount = function () {
                         null !== this._resetIsScrollingTimeoutId && d(this._resetIsScrollingTimeoutId)
-                    }, r.render = function() {
+                    }, r.render = function () {
                         var e = this.props,
                             t = e.children,
                             r = e.className,
@@ -17002,7 +17022,7 @@
                                 width: j
                             }
                         }))
-                    }, r._callPropsCallbacks = function() {
+                    }, r._callPropsCallbacks = function () {
                         var e = this.props,
                             t = e.columnCount,
                             r = e.onItemsRendered,
@@ -17030,7 +17050,7 @@
                                 _ = m.verticalScrollDirection;
                             this._callOnScroll(y, v, g, _, b)
                         }
-                    }, r._getHorizontalRangeToRender = function() {
+                    }, r._getHorizontalRangeToRender = function () {
                         var e = this.props,
                             t = e.columnCount,
                             r = e.overscanColumnCount,
@@ -17048,7 +17068,7 @@
                             m = s && "backward" !== i ? 1 : Math.max(1, f),
                             g = s && "forward" !== i ? 1 : Math.max(1, f);
                         return [Math.max(0, h - m), Math.max(0, Math.min(t - 1, p + g)), h, p]
-                    }, r._getVerticalRangeToRender = function() {
+                    }, r._getVerticalRangeToRender = function () {
                         var e = this.props,
                             t = e.columnCount,
                             r = e.overscanCount,
@@ -17073,10 +17093,10 @@
                     useIsScrolling: !1
                 }, r
             }
-            var v = function(e, t) {
-                    e.children, e.direction, e.height, e.innerTagName, e.outerTagName, e.overscanColumnsCount, e.overscanCount, e.overscanRowsCount, e.width, t.instance
-                },
-                b = function(e, t) {
+            var v = function (e, t) {
+                e.children, e.direction, e.height, e.innerTagName, e.outerTagName, e.overscanColumnsCount, e.overscanCount, e.overscanRowsCount, e.width, t.instance
+            },
+                b = function (e, t) {
                     var r = e.rowCount,
                         n = t.rowMetadataMap,
                         a = t.estimatedRowHeight,
@@ -17088,7 +17108,7 @@
                     }
                     return l + (r - o - 1) * a
                 },
-                _ = function(e, t) {
+                _ = function (e, t) {
                     var r = e.columnCount,
                         n = t.columnMetadataMap,
                         a = t.estimatedColumnWidth,
@@ -17100,7 +17120,7 @@
                     }
                     return l + (r - o - 1) * a
                 },
-                w = function(e, t, r, n) {
+                w = function (e, t, r, n) {
                     var a, o, l;
                     if ("column" === e ? (a = n.columnMetadataMap, o = t.columnWidth, l = n.lastMeasuredColumnIndex) : (a = n.rowMetadataMap, o = t.rowHeight, l = n.lastMeasuredRowIndex), r > l) {
                         var i = 0;
@@ -17119,11 +17139,11 @@
                     }
                     return a[r]
                 },
-                C = function(e, t, r, n) {
+                C = function (e, t, r, n) {
                     var a, o;
                     return "column" === e ? (a = r.columnMetadataMap, o = r.lastMeasuredColumnIndex) : (a = r.rowMetadataMap, o = r.lastMeasuredRowIndex), (o > 0 ? a[o].offset : 0) >= n ? E(e, t, r, o, 0, n) : k(e, t, r, Math.max(0, o), n)
                 },
-                E = function(e, t, r, n, a, o) {
+                E = function (e, t, r, n, a, o) {
                     for (; a <= n;) {
                         var l = a + Math.floor((n - a) / 2),
                             i = w(e, t, l, r).offset;
@@ -17132,11 +17152,11 @@
                     }
                     return a > 0 ? a - 1 : 0
                 },
-                k = function(e, t, r, n, a) {
+                k = function (e, t, r, n, a) {
                     for (var o = "column" === e ? t.columnCount : t.rowCount, l = 1; n < o && w(e, t, n, r).offset < a;) n += l, l *= 2;
                     return E(e, t, r, Math.min(n, o - 1), Math.floor(n / 2), a)
                 },
-                x = function(e, t, r, n, a, o, l) {
+                x = function (e, t, r, n, a, o, l) {
                     var i = "column" === e ? t.width : t.height,
                         s = w(e, t, r, o),
                         u = "column" === e ? _(t, o) : b(t, o),
@@ -17155,41 +17175,41 @@
                     }
                 },
                 M = y({
-                    getColumnOffset: function(e, t, r) {
+                    getColumnOffset: function (e, t, r) {
                         return w("column", e, t, r).offset
                     },
-                    getColumnStartIndexForOffset: function(e, t, r) {
+                    getColumnStartIndexForOffset: function (e, t, r) {
                         return C("column", e, r, t)
                     },
-                    getColumnStopIndexForStartIndex: function(e, t, r, n) {
+                    getColumnStopIndexForStartIndex: function (e, t, r, n) {
                         for (var a = e.columnCount, o = e.width, l = w("column", e, t, n), i = r + o, s = l.offset + l.size, u = t; u < a - 1 && s < i;) u++, s += w("column", e, u, n).size;
                         return u
                     },
-                    getColumnWidth: function(e, t, r) {
+                    getColumnWidth: function (e, t, r) {
                         return r.columnMetadataMap[t].size
                     },
                     getEstimatedTotalHeight: b,
                     getEstimatedTotalWidth: _,
-                    getOffsetForColumnAndAlignment: function(e, t, r, n, a, o) {
+                    getOffsetForColumnAndAlignment: function (e, t, r, n, a, o) {
                         return x("column", e, t, r, n, a, o)
                     },
-                    getOffsetForRowAndAlignment: function(e, t, r, n, a, o) {
+                    getOffsetForRowAndAlignment: function (e, t, r, n, a, o) {
                         return x("row", e, t, r, n, a, o)
                     },
-                    getRowOffset: function(e, t, r) {
+                    getRowOffset: function (e, t, r) {
                         return w("row", e, t, r).offset
                     },
-                    getRowHeight: function(e, t, r) {
+                    getRowHeight: function (e, t, r) {
                         return r.rowMetadataMap[t].size
                     },
-                    getRowStartIndexForOffset: function(e, t, r) {
+                    getRowStartIndexForOffset: function (e, t, r) {
                         return C("row", e, r, t)
                     },
-                    getRowStopIndexForStartIndex: function(e, t, r, n) {
+                    getRowStopIndexForStartIndex: function (e, t, r, n) {
                         for (var a = e.rowCount, o = e.height, l = w("row", e, t, n), i = r + o, s = l.offset + l.size, u = t; u < a - 1 && s < i;) u++, s += w("row", e, u, n).size;
                         return u
                     },
-                    initInstanceProps: function(e, t) {
+                    initInstanceProps: function (e, t) {
                         var r = e,
                             n = {
                                 columnMetadataMap: {},
@@ -17199,17 +17219,17 @@
                                 lastMeasuredRowIndex: -1,
                                 rowMetadataMap: {}
                             };
-                        return t.resetAfterColumnIndex = function(e, r) {
+                        return t.resetAfterColumnIndex = function (e, r) {
                             void 0 === r && (r = !0), t.resetAfterIndices({
                                 columnIndex: e,
                                 shouldForceUpdate: r
                             })
-                        }, t.resetAfterRowIndex = function(e, r) {
+                        }, t.resetAfterRowIndex = function (e, r) {
                             void 0 === r && (r = !0), t.resetAfterIndices({
                                 rowIndex: e,
                                 shouldForceUpdate: r
                             })
-                        }, t.resetAfterIndices = function(e) {
+                        }, t.resetAfterIndices = function (e) {
                             var r = e.columnIndex,
                                 a = e.rowIndex,
                                 o = e.shouldForceUpdate,
@@ -17218,11 +17238,11 @@
                         }, n
                     },
                     shouldResetStyleCacheOnItemSizeChange: !1,
-                    validateProps: function(e) {
+                    validateProps: function (e) {
                         e.columnWidth, e.rowHeight
                     }
                 }),
-                S = function(e, t) {
+                S = function (e, t) {
                     return e
                 };
 
@@ -17236,7 +17256,7 @@
                     y = e.initInstanceProps,
                     v = e.shouldResetStyleCacheOnItemSizeChange,
                     b = e.validateProps;
-                return r = t = function(e) {
+                return r = t = function (e) {
                     function t(t) {
                         var r;
                         return (r = e.call(this, t) || this)._instanceProps = y(r.props, o(o(r))), r._outerRef = void 0, r._resetIsScrollingTimeoutId = null, r.state = {
@@ -17245,20 +17265,20 @@
                             scrollDirection: "forward",
                             scrollOffset: "number" == typeof r.props.initialScrollOffset ? r.props.initialScrollOffset : 0,
                             scrollUpdateWasRequested: !1
-                        }, r._callOnItemsRendered = void 0, r._callOnItemsRendered = i((function(e, t, n, a) {
+                        }, r._callOnItemsRendered = void 0, r._callOnItemsRendered = i((function (e, t, n, a) {
                             return r.props.onItemsRendered({
                                 overscanStartIndex: e,
                                 overscanStopIndex: t,
                                 visibleStartIndex: n,
                                 visibleStopIndex: a
                             })
-                        })), r._callOnScroll = void 0, r._callOnScroll = i((function(e, t, n) {
+                        })), r._callOnScroll = void 0, r._callOnScroll = i((function (e, t, n) {
                             return r.props.onScroll({
                                 scrollDirection: e,
                                 scrollOffset: t,
                                 scrollUpdateWasRequested: n
                             })
-                        })), r._getItemStyle = void 0, r._getItemStyle = function(e) {
+                        })), r._getItemStyle = void 0, r._getItemStyle = function (e) {
                             var t, n = r.props,
                                 a = n.direction,
                                 o = n.itemSize,
@@ -17274,14 +17294,14 @@
                                 })["rtl" === a ? "right" : "left"] = h ? d : 0, u.top = h ? 0 : d, u.height = h ? "100%" : f, u.width = h ? f : "100%", t = u)
                             }
                             return t
-                        }, r._getItemStyleCache = void 0, r._getItemStyleCache = i((function(e, t, r) {
+                        }, r._getItemStyleCache = void 0, r._getItemStyleCache = i((function (e, t, r) {
                             return {}
-                        })), r._onScrollHorizontal = function(e) {
+                        })), r._onScrollHorizontal = function (e) {
                             var t = e.currentTarget,
                                 n = t.clientWidth,
                                 a = t.scrollLeft,
                                 o = t.scrollWidth;
-                            r.setState((function(e) {
+                            r.setState((function (e) {
                                 if (e.scrollOffset === a) return null;
                                 var t = r.props.direction,
                                     l = a;
@@ -17299,12 +17319,12 @@
                                     scrollUpdateWasRequested: !1
                                 }
                             }), r._resetIsScrollingDebounced)
-                        }, r._onScrollVertical = function(e) {
+                        }, r._onScrollVertical = function (e) {
                             var t = e.currentTarget,
                                 n = t.clientHeight,
                                 a = t.scrollHeight,
                                 o = t.scrollTop;
-                            r.setState((function(e) {
+                            r.setState((function (e) {
                                 if (e.scrollOffset === o) return null;
                                 var t = Math.max(0, Math.min(o, a - n));
                                 return {
@@ -17314,37 +17334,37 @@
                                     scrollUpdateWasRequested: !1
                                 }
                             }), r._resetIsScrollingDebounced)
-                        }, r._outerRefSetter = function(e) {
+                        }, r._outerRefSetter = function (e) {
                             var t = r.props.outerRef;
                             r._outerRef = e, "function" == typeof t ? t(e) : null != t && "object" == typeof t && t.hasOwnProperty("current") && (t.current = e)
-                        }, r._resetIsScrollingDebounced = function() {
+                        }, r._resetIsScrollingDebounced = function () {
                             null !== r._resetIsScrollingTimeoutId && d(r._resetIsScrollingTimeoutId), r._resetIsScrollingTimeoutId = f(r._resetIsScrolling, 150)
-                        }, r._resetIsScrolling = function() {
+                        }, r._resetIsScrolling = function () {
                             r._resetIsScrollingTimeoutId = null, r.setState({
                                 isScrolling: !1
-                            }, (function() {
+                            }, (function () {
                                 r._getItemStyleCache(-1, null)
                             }))
                         }, r
                     }
-                    a(t, e), t.getDerivedStateFromProps = function(e, t) {
+                    a(t, e), t.getDerivedStateFromProps = function (e, t) {
                         return T(e, t), b(e), null
                     };
                     var r = t.prototype;
-                    return r.scrollTo = function(e) {
-                        e = Math.max(0, e), this.setState((function(t) {
+                    return r.scrollTo = function (e) {
+                        e = Math.max(0, e), this.setState((function (t) {
                             return t.scrollOffset === e ? null : {
                                 scrollDirection: t.scrollOffset < e ? "forward" : "backward",
                                 scrollOffset: e,
                                 scrollUpdateWasRequested: !0
                             }
                         }), this._resetIsScrollingDebounced)
-                    }, r.scrollToItem = function(e, t) {
+                    }, r.scrollToItem = function (e, t) {
                         void 0 === t && (t = "auto");
                         var r = this.props.itemCount,
                             n = this.state.scrollOffset;
                         e = Math.max(0, Math.min(e, r - 1)), this.scrollTo(h(this.props, e, t, n, this._instanceProps))
-                    }, r.componentDidMount = function() {
+                    }, r.componentDidMount = function () {
                         var e = this.props,
                             t = e.direction,
                             r = e.initialScrollOffset,
@@ -17354,7 +17374,7 @@
                             "horizontal" === t || "horizontal" === n ? a.scrollLeft = r : a.scrollTop = r
                         }
                         this._callPropsCallbacks()
-                    }, r.componentDidUpdate = function() {
+                    }, r.componentDidUpdate = function () {
                         var e = this.props,
                             t = e.direction,
                             r = e.layout,
@@ -17375,12 +17395,12 @@
                                             i = o.scrollWidth;
                                         o.scrollLeft = i - l - a
                                 } else o.scrollLeft = a;
-                                else o.scrollTop = a
+                            else o.scrollTop = a
                         }
                         this._callPropsCallbacks()
-                    }, r.componentWillUnmount = function() {
+                    }, r.componentWillUnmount = function () {
                         null !== this._resetIsScrollingTimeoutId && d(this._resetIsScrollingTimeoutId)
-                    }, r.render = function() {
+                    }, r.render = function () {
                         var e = this.props,
                             t = e.children,
                             r = e.className,
@@ -17437,7 +17457,7 @@
                                 width: C ? I : "100%"
                             }
                         }))
-                    }, r._callPropsCallbacks = function() {
+                    }, r._callPropsCallbacks = function () {
                         if ("function" == typeof this.props.onItemsRendered && this.props.itemCount > 0) {
                             var e = this._getRangeToRender(),
                                 t = e[0],
@@ -17453,7 +17473,7 @@
                                 s = o.scrollUpdateWasRequested;
                             this._callOnScroll(l, i, s)
                         }
-                    }, r._getRangeToRender = function() {
+                    }, r._getRangeToRender = function () {
                         var e = this.props,
                             t = e.itemCount,
                             r = e.overscanCount,
@@ -17476,10 +17496,10 @@
                     useIsScrolling: !1
                 }, r
             }
-            var T = function(e, t) {
-                    e.children, e.direction, e.height, e.layout, e.innerTagName, e.outerTagName, e.width, t.instance
-                },
-                I = function(e, t, r) {
+            var T = function (e, t) {
+                e.children, e.direction, e.height, e.layout, e.innerTagName, e.outerTagName, e.width, t.instance
+            },
+                I = function (e, t, r) {
                     var n = e.itemSize,
                         a = r.itemMetadataMap,
                         o = r.lastMeasuredIndex;
@@ -17500,7 +17520,7 @@
                     }
                     return a[t]
                 },
-                R = function(e, t, r, n, a) {
+                R = function (e, t, r, n, a) {
                     for (; n <= r;) {
                         var o = n + Math.floor((r - n) / 2),
                             l = I(e, o, t).offset;
@@ -17509,11 +17529,11 @@
                     }
                     return n > 0 ? n - 1 : 0
                 },
-                A = function(e, t, r, n) {
+                A = function (e, t, r, n) {
                     for (var a = e.itemCount, o = 1; r < a && I(e, r, t).offset < n;) r += o, o *= 2;
                     return R(e, t, Math.min(r, a - 1), Math.floor(r / 2), n)
                 },
-                P = function(e, t) {
+                P = function (e, t) {
                     var r = e.itemCount,
                         n = t.itemMetadataMap,
                         a = t.estimatedItemSize,
@@ -17526,14 +17546,14 @@
                     return l + (r - o - 1) * a
                 },
                 j = O({
-                    getItemOffset: function(e, t, r) {
+                    getItemOffset: function (e, t, r) {
                         return I(e, t, r).offset
                     },
-                    getItemSize: function(e, t, r) {
+                    getItemSize: function (e, t, r) {
                         return r.itemMetadataMap[t].size
                     },
                     getEstimatedTotalSize: P,
-                    getOffsetForIndexAndAlignment: function(e, t, r, n, a) {
+                    getOffsetForIndexAndAlignment: function (e, t, r, n, a) {
                         var o = e.direction,
                             l = e.height,
                             i = e.layout,
@@ -17555,54 +17575,54 @@
                                 return n >= h && n <= f ? n : n < h ? h : f
                         }
                     },
-                    getStartIndexForOffset: function(e, t, r) {
-                        return function(e, t, r) {
+                    getStartIndexForOffset: function (e, t, r) {
+                        return function (e, t, r) {
                             var n = t.itemMetadataMap,
                                 a = t.lastMeasuredIndex;
                             return (a > 0 ? n[a].offset : 0) >= r ? R(e, t, a, 0, r) : A(e, t, Math.max(0, a), r)
                         }(e, r, t)
                     },
-                    getStopIndexForStartIndex: function(e, t, r, n) {
+                    getStopIndexForStartIndex: function (e, t, r, n) {
                         for (var a = e.direction, o = e.height, l = e.itemCount, i = e.layout, s = e.width, u = "horizontal" === a || "horizontal" === i ? s : o, c = I(e, t, n), d = r + u, f = c.offset + c.size, h = t; h < l - 1 && f < d;) h++, f += I(e, h, n).size;
                         return h
                     },
-                    initInstanceProps: function(e, t) {
+                    initInstanceProps: function (e, t) {
                         var r = {
                             itemMetadataMap: {},
                             estimatedItemSize: e.estimatedItemSize || 50,
                             lastMeasuredIndex: -1
                         };
-                        return t.resetAfterIndex = function(e, n) {
+                        return t.resetAfterIndex = function (e, n) {
                             void 0 === n && (n = !0), r.lastMeasuredIndex = Math.min(r.lastMeasuredIndex, e - 1), t._getItemStyleCache(-1), n && t.forceUpdate()
                         }, r
                     },
                     shouldResetStyleCacheOnItemSizeChange: !1,
-                    validateProps: function(e) {
+                    validateProps: function (e) {
                         e.itemSize
                     }
                 }),
                 D = y({
-                    getColumnOffset: function(e, t) {
+                    getColumnOffset: function (e, t) {
                         return t * e.columnWidth
                     },
-                    getColumnWidth: function(e, t) {
+                    getColumnWidth: function (e, t) {
                         return e.columnWidth
                     },
-                    getRowOffset: function(e, t) {
+                    getRowOffset: function (e, t) {
                         return t * e.rowHeight
                     },
-                    getRowHeight: function(e, t) {
+                    getRowHeight: function (e, t) {
                         return e.rowHeight
                     },
-                    getEstimatedTotalHeight: function(e) {
+                    getEstimatedTotalHeight: function (e) {
                         var t = e.rowCount;
                         return e.rowHeight * t
                     },
-                    getEstimatedTotalWidth: function(e) {
+                    getEstimatedTotalWidth: function (e) {
                         var t = e.columnCount;
                         return e.columnWidth * t
                     },
-                    getOffsetForColumnAndAlignment: function(e, t, r, n, a, o) {
+                    getOffsetForColumnAndAlignment: function (e, t, r, n, a, o) {
                         var l = e.columnCount,
                             i = e.columnWidth,
                             s = e.width,
@@ -17622,7 +17642,7 @@
                                 return n >= d && n <= c ? n : d > c ? d : n < d ? d : c
                         }
                     },
-                    getOffsetForRowAndAlignment: function(e, t, r, n, a, o) {
+                    getOffsetForRowAndAlignment: function (e, t, r, n, a, o) {
                         var l = e.rowHeight,
                             i = e.height,
                             s = e.rowCount,
@@ -17642,12 +17662,12 @@
                                 return n >= d && n <= c ? n : d > c ? d : n < d ? d : c
                         }
                     },
-                    getColumnStartIndexForOffset: function(e, t) {
+                    getColumnStartIndexForOffset: function (e, t) {
                         var r = e.columnWidth,
                             n = e.columnCount;
                         return Math.max(0, Math.min(n - 1, Math.floor(t / r)))
                     },
-                    getColumnStopIndexForStartIndex: function(e, t, r) {
+                    getColumnStopIndexForStartIndex: function (e, t, r) {
                         var n = e.columnWidth,
                             a = e.columnCount,
                             o = e.width,
@@ -17655,12 +17675,12 @@
                             i = Math.ceil((o + r - l) / n);
                         return Math.max(0, Math.min(a - 1, t + i - 1))
                     },
-                    getRowStartIndexForOffset: function(e, t) {
+                    getRowStartIndexForOffset: function (e, t) {
                         var r = e.rowHeight,
                             n = e.rowCount;
                         return Math.max(0, Math.min(n - 1, Math.floor(t / r)))
                     },
-                    getRowStopIndexForStartIndex: function(e, t, r) {
+                    getRowStopIndexForStartIndex: function (e, t, r) {
                         var n = e.rowHeight,
                             a = e.rowCount,
                             o = e.height,
@@ -17668,24 +17688,24 @@
                             i = Math.ceil((o + r - l) / n);
                         return Math.max(0, Math.min(a - 1, t + i - 1))
                     },
-                    initInstanceProps: function(e) {},
+                    initInstanceProps: function (e) { },
                     shouldResetStyleCacheOnItemSizeChange: !0,
-                    validateProps: function(e) {
+                    validateProps: function (e) {
                         e.columnWidth, e.rowHeight
                     }
                 }),
                 z = O({
-                    getItemOffset: function(e, t) {
+                    getItemOffset: function (e, t) {
                         return t * e.itemSize
                     },
-                    getItemSize: function(e, t) {
+                    getItemSize: function (e, t) {
                         return e.itemSize
                     },
-                    getEstimatedTotalSize: function(e) {
+                    getEstimatedTotalSize: function (e) {
                         var t = e.itemCount;
                         return e.itemSize * t
                     },
-                    getOffsetForIndexAndAlignment: function(e, t, r, n) {
+                    getOffsetForIndexAndAlignment: function (e, t, r, n) {
                         var a = e.direction,
                             o = e.height,
                             l = e.itemCount,
@@ -17709,12 +17729,12 @@
                                 return n >= h && n <= f ? n : n < h ? h : f
                         }
                     },
-                    getStartIndexForOffset: function(e, t) {
+                    getStartIndexForOffset: function (e, t) {
                         var r = e.itemCount,
                             n = e.itemSize;
                         return Math.max(0, Math.min(r - 1, Math.floor(t / n)))
                     },
-                    getStopIndexForStartIndex: function(e, t, r) {
+                    getStopIndexForStartIndex: function (e, t, r) {
                         var n = e.direction,
                             a = e.height,
                             o = e.itemCount,
@@ -17726,9 +17746,9 @@
                             d = Math.ceil((c + r - u) / l);
                         return Math.max(0, Math.min(o - 1, t + d - 1))
                     },
-                    initInstanceProps: function(e) {},
+                    initInstanceProps: function (e) { },
                     shouldResetStyleCacheOnItemSizeChange: !0,
-                    validateProps: function(e) {
+                    validateProps: function (e) {
                         e.itemSize
                     }
                 });
@@ -17753,11 +17773,11 @@
                 return !B(this.props, e) || F(this.state, t)
             }
         },
-        587: function(e, t, r) {
+        587: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 var t, r;
                 const {
                     participant: s,
@@ -17791,11 +17811,11 @@
             }
             const u = e => null !== e && "" !== e
         },
-        590: function(e, t, r) {
+        590: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function({
+            }), t.default = function ({
                 title: e,
                 message: t,
                 onDismiss: r,
@@ -17836,7 +17856,7 @@
                     color: p.semanticColors.secondary,
                     textAlign: "center"
                 }, h)))
-            }, t.QPBannerPrimaryButton = function({
+            }, t.QPBannerPrimaryButton = function ({
                 caption: e,
                 onClick: t
             }) {
@@ -17848,7 +17868,7 @@
                     onClick: t,
                     wrapText: !1
                 })
-            }, t.QPBannerSecondaryButton = function({
+            }, t.QPBannerSecondaryButton = function ({
                 caption: e,
                 onClick: t
             }) {
@@ -17874,7 +17894,7 @@
             function f() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return f = function() {
+                return f = function () {
                     return e
                 }, e
             }
@@ -17901,22 +17921,22 @@
                 }
             }
             const m = {
-                    small: {
-                        size: 32,
-                        css: {
-                            marginTop: 1,
-                            marginRight: 8
-                        }
-                    },
-                    large: {
-                        size: 44,
-                        css: {
-                            marginRight: 4,
-                            marginLeft: -5,
-                            marginTop: -7
-                        }
+                small: {
+                    size: 32,
+                    css: {
+                        marginTop: 1,
+                        marginRight: 8
                     }
                 },
+                large: {
+                    size: 44,
+                    css: {
+                        marginRight: 4,
+                        marginLeft: -5,
+                        marginTop: -7
+                    }
+                }
+            },
                 g = (0, a.default)(i.default)(e => ({
                     border: `1px solid ${e.theme.colors.base40}`,
                     borderRadius: 8,
@@ -17966,11 +17986,11 @@
                     marginTop: 8
                 })
         },
-        593: function(e, t, r) {
+        593: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function() {
+            }), t.default = function () {
                 const e = (0, l.useSelector)(e => (0, o.isGatekeeperEnabled)(e, "archon_enable_dense_thread_list")),
                     {
                         userSettings: t
@@ -17978,16 +17998,16 @@
                 return e && t.denseThreadList
             };
             var n, a = (n = r(118)) && n.__esModule ? n : {
-                    default: n
-                },
+                default: n
+            },
                 o = r(32),
                 l = r(11)
         },
-        595: function(e, t, r) {
+        595: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function() {
+            }), t.default = function () {
                 var e;
                 return !!(null === (e = (0, a.default)("rooms_simplification_desktop_dogfood")) || void 0 === e ? void 0 : e.is_simplification_enabled)
             };
@@ -17995,11 +18015,11 @@
                 default: n
             }
         },
-        596: function(e, t, r) {
+        596: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.getThemeLabel = function(e) {
+            }), t.getThemeLabel = function (e) {
                 switch (e) {
                     case "light":
                         return a.default._("Light", null, {
@@ -18030,11 +18050,11 @@
                 default: n
             }
         },
-        597: function(e, t, r) {
+        597: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     authData: t,
                     compact: r,
@@ -18102,7 +18122,7 @@
                     onClick: () => L(B),
                     callStatus: B
                 }) : h.default.createElement(S, null, K, q)))
-            }, t.ChatCellShimmer = function({
+            }, t.ChatCellShimmer = function ({
                 compact: e,
                 index: t
             }) {
@@ -18144,8 +18164,8 @@
                 }
             }
             const k = (0, f.default)(C.default)({
-                    alignSelf: "flex-start"
-                }),
+                alignSelf: "flex-start"
+            }),
                 x = (0, f.default)(p.default)(e => ({
                     flexDirection: "row",
                     alignItems: "center",
@@ -18168,17 +18188,17 @@
                 height: 12
             })
         },
-        599: function(e, t, r) {
+        599: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.getChevronContextMenu = d, t.getTextMessageContextMenu = function(e, t, r, n) {
+            }), t.getChevronContextMenu = d, t.getTextMessageContextMenu = function (e, t, r, n) {
                 const a = window.getSelection(),
                     o = [];
                 n && (o.push(_(n)), o.push(b(n)), o.push({
                     type: "separator"
                 }));
-                o.push(function(e, t) {
+                o.push(function (e, t) {
                     return {
                         id: "copy_text",
                         label: l.default._("Copy", null, {
@@ -18189,7 +18209,7 @@
                         }
                     }
                 }(r, null != a && "Range" === a.type));
-                const s = function(e) {
+                const s = function (e) {
                     return e.target instanceof Node ? {
                         id: "select_all",
                         label: l.default._("Select All", null, {
@@ -18208,7 +18228,7 @@
                 return o.push({
                     type: "separator"
                 }), o.push(...d(e)), o
-            }, t.getMediaMessageContextMenu = function(e, t, r, n, l, i) {
+            }, t.getMediaMessageContextMenu = function (e, t, r, n, l, i) {
                 const s = [],
                     u = t.attachmentType === o.AttachmentType.Video || t.attachmentType === o.AttachmentType.AnimatedImage,
                     c = t.attachmentType === o.AttachmentType.Image,
@@ -18229,7 +18249,7 @@
                     type: "separator"
                 }));
                 return s.push(...d(e)), s
-            }, t.getMediaContextMenu = function(e, t, r, n) {
+            }, t.getMediaContextMenu = function (e, t, r, n) {
                 const l = [];
                 if (e.attachmentType === o.AttachmentType.Image) {
                     const t = (0, a.default)(e.playableUrlInfo) || (0, a.default)(e.previewUrlInfo);
@@ -18276,39 +18296,39 @@
                 } = e;
                 if (x) return [];
                 const O = E ? [h(_, () => w(a.messageOTID))] : [];
-                if (function(e) {
-                        return Boolean(e && (0, u.default)(o.ThreadCapabilities.MESSAGE_REPLY, e.capabilities))
-                    }(r) && O.push(function(e, t) {
-                        return {
-                            id: "reply",
-                            label: l.default._("Reply", null, {
-                                hk: "1zoDHb"
-                            }).toString(),
-                            onClick: () => {
-                                t(e.messageOTID)
-                            }
+                if (function (e) {
+                    return Boolean(e && (0, u.default)(o.ThreadCapabilities.MESSAGE_REPLY, e.capabilities))
+                }(r) && O.push(function (e, t) {
+                    return {
+                        id: "reply",
+                        label: l.default._("Reply", null, {
+                            hk: "1zoDHb"
+                        }).toString(),
+                        onClick: () => {
+                            t(e.messageOTID)
                         }
-                    }(a, c)), function(e) {
-                        return Boolean(e && function(e = []) {
-                            return e.filter(e => function(e) {
-                                switch (e.attachmentType) {
-                                    case o.AttachmentType.Image:
-                                    case o.AttachmentType.AnimatedImage:
-                                    case o.AttachmentType.Video:
-                                    case o.AttachmentType.File:
-                                    case o.AttachmentType.Audio:
-                                    case o.AttachmentType.Sticker:
-                                        return !0;
-                                    case o.AttachmentType.XMA:
-                                        return e.isSharable;
-                                    default:
-                                        return !1
-                                }
-                            }(e)).length > 0 || 0 === e.length
-                        }(e.attachments) && e.message.messageId)
-                    }(t) && O.push(p({
-                        message: t
-                    }, k)), y) {
+                    }
+                }(a, c)), function (e) {
+                    return Boolean(e && function (e = []) {
+                        return e.filter(e => function (e) {
+                            switch (e.attachmentType) {
+                                case o.AttachmentType.Image:
+                                case o.AttachmentType.AnimatedImage:
+                                case o.AttachmentType.Video:
+                                case o.AttachmentType.File:
+                                case o.AttachmentType.Audio:
+                                case o.AttachmentType.Sticker:
+                                    return !0;
+                                case o.AttachmentType.XMA:
+                                    return e.isSharable;
+                                default:
+                                    return !1
+                            }
+                        }(e)).length > 0 || 0 === e.length
+                    }(e.attachments) && e.message.messageId)
+                }(t) && O.push(p({
+                    message: t
+                }, k)), y) {
                     const e = (0, s.getUnpinMessageContextItem)(() => b(a.threadKey, a.messageId));
                     e && (O.push({
                         type: "separator"
@@ -18319,7 +18339,7 @@
                         type: "separator"
                     }), O.push(e))
                 }
-                M && r && O.push(function(e, t, r, n) {
+                M && r && O.push(function (e, t, r, n) {
                     return {
                         id: e ? "unsave_message" : "save_message",
                         label: e ? l.default._("Unsave message", null, {
@@ -18333,7 +18353,7 @@
                 const T = (0, n.getRemindMeContextItem)(a, k);
                 return T && O.push(T), O.push({
                     type: "separator"
-                }), O.push(m(a, d)), C && O.push(function(e, t) {
+                }), O.push(m(a, d)), C && O.push(function (e, t) {
                     return {
                         id: "remove_global",
                         label: l.default._("Remove for Everyone", null, {
@@ -18490,11 +18510,11 @@
                 }
             }
         },
-        600: function(e, t, r) {
+        600: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -18520,30 +18540,30 @@
                 default: n
             }
         },
-        614: function(e, t, r) {
+        614: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const t = (0, a.useRef)(null),
                     r = (0, a.useRef)(e.atSentinel);
                 r.current = e.atSentinel;
                 const o = (0, a.useRef)(e.leftSentinel);
                 return o.current = e.leftSentinel, (0, a.useEffect)(() => {
-                    const e = new IntersectionObserver((0, n.debounce)((function(e) {
-                            if (e) {
-                                const t = e[0].intersectionRatio;
-                                1 === t && r.current ? r.current() : 0 === t && o.current && o.current()
-                            }
-                        }), 100)),
+                    const e = new IntersectionObserver((0, n.debounce)((function (e) {
+                        if (e) {
+                            const t = e[0].intersectionRatio;
+                            1 === t && r.current ? r.current() : 0 === t && o.current && o.current()
+                        }
+                    }), 100)),
                         a = t.current;
-                    return a ? (e.observe(a), () => e.unobserve(a)) : () => {}
+                    return a ? (e.observe(a), () => e.unobserve(a)) : () => { }
                 }, []), a.default.createElement("div", {
                     ref: t
                 })
             };
             var n = r(117),
-                a = function(e) {
+                a = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -18563,16 +18583,16 @@
             function o() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return o = function() {
+                return o = function () {
                     return e
                 }, e
             }
         },
-        615: function(e, t, r) {
+        615: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     renderDetail: t,
                     renderMaster: r,
@@ -18608,10 +18628,10 @@
                     k.localStorage.setItem("is_master_container_collapsed", JSON.stringify(M.isMasterCollapsed))
                 }, [M.isMasterCollapsed, k.localStorage]);
                 const R = (0, o.useCallback)(() => {
-                        S({
-                            type: "activate master"
-                        })
-                    }, []),
+                    S({
+                        type: "activate master"
+                    })
+                }, []),
                     A = (0, o.useCallback)(() => {
                         S({
                             type: "activate details"
@@ -18620,7 +18640,7 @@
                 (0, o.useEffect)(() => {
                     const e = T.current;
                     if (!e) throw new Error("Could not find the containing element for MasterDetailContainer.");
-                    if (void 0 === k.ResizeObserver) return () => {};
+                    if (void 0 === k.ResizeObserver) return () => { };
                     const t = new k.ResizeObserver(e => {
                         const t = e[0].target.clientWidth;
                         S({
@@ -18644,7 +18664,7 @@
                         isCompactMode: j,
                         activateMasterView: R
                     })),
-                    z = function(e) {
+                    z = function (e) {
                         let t = e.screenX - _.current;
                         if (O.current) {
                             O.current === E.current && (t *= -1);
@@ -18729,7 +18749,7 @@
             };
             var n = c(r(1)),
                 a = r(46),
-                o = function(e) {
+                o = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -18752,7 +18772,7 @@
             function u() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return u = function() {
+                return u = function () {
                     return e
                 }, e
             }
@@ -18767,9 +18787,9 @@
                 return e ? 68 : 80
             }
             const f = (0, n.default)(l.default)({
-                    flex: 1,
-                    flexDirection: "row"
-                }),
+                flex: 1,
+                flexDirection: "row"
+            }),
                 h = (0, a.animated)((0, n.default)(l.default)(e => ({
                     backgroundColor: e.theme.semanticColors.bgSurfaceSecondary,
                     flexDirection: "row",
@@ -18791,7 +18811,7 @@
                     textAlign: "center",
                     WebkitUserDrag: "none",
                     border: "2px solid transparent",
-                    height: `calc(100% - ${(0,s.getTitleBarHeight)(e.theme)}px - 10px)`,
+                    height: `calc(100% - ${(0, s.getTitleBarHeight)(e.theme)}px - 10px)`,
                     cursor: "col-resize",
                     position: "absolute",
                     bottom: 0,
@@ -18856,11 +18876,11 @@
                 return e
             }
         },
-        627: function(e, t, r) {
+        627: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     nullstate: t,
                     sendPostback: r
@@ -18888,19 +18908,19 @@
                 }
             }
             const u = (0, o.default)(l.default)({
-                    flexDirection: "column",
-                    alignItems: "center",
-                    marginBottom: 24
-                }),
+                flexDirection: "column",
+                alignItems: "center",
+                marginBottom: 24
+            }),
                 c = (0, o.default)(l.default)({
                     marginBottom: 12
                 })
         },
-        628: function(e, t, r) {
+        628: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -18917,7 +18937,7 @@
                 default: n
             }
         },
-        630: function(e, t, r) {
+        630: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -18956,11 +18976,11 @@
                 }).toString()
             }), o)
         },
-        631: function(e, t, r) {
+        631: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -18977,11 +18997,12 @@
                 default: n
             }
         },
-        632: function(e, t, r) {
+        632: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.getURLMatches = function(e) {
+                // [URL:REGEX]#1
+            }), t.getURLMatches = function (e) {
                 return l.match(e)
             };
             var n = o(r(1616)),
@@ -18996,11 +19017,11 @@
                 fuzzyIP: !0
             })
         },
-        633: function(e, t, r) {
+        633: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -19017,11 +19038,11 @@
                 default: n
             }
         },
-        634: function(e, t, r) {
+        634: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -19047,11 +19068,11 @@
                 default: n
             }
         },
-        638: function(e, t, r) {
+        638: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function({
+            }), t.default = function ({
                 message: e,
                 onClose: t,
                 wrapText: r,
@@ -19114,12 +19135,12 @@
                 }
             }
             const p = (0, o.default)(s.default)(e => ({
-                    background: e.color,
-                    marginBottom: "8px",
-                    padding: 5,
-                    flexDirection: "row",
-                    justifyContent: "center"
-                })),
+                background: e.color,
+                marginBottom: "8px",
+                padding: 5,
+                flexDirection: "row",
+                justifyContent: "center"
+            })),
                 m = (0, o.default)(s.default)({
                     flexGrow: 1,
                     flexShrink: 1,
@@ -19141,11 +19162,11 @@
                     }
                 }))
         },
-        639: function(e, t, r) {
+        639: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e, t) {
+            }), t.default = function (e, t) {
                 const r = (0, a.useRef)(),
                     [o, l] = (0, a.useState)("");
                 return (0, a.useEffect)(() => {
@@ -19165,11 +19186,11 @@
             var n = r(115),
                 a = r(0)
         },
-        640: function(e, t, r) {
+        640: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     authData: t,
                     compact: r,
@@ -19215,7 +19236,7 @@
                     inChatCell: !0,
                     mentionCount: E
                 }))))
-            }, t.ChatCellShimmer = function({
+            }, t.ChatCellShimmer = function ({
                 compact: e,
                 index: t
             }) {
@@ -19249,9 +19270,9 @@
                 }
             }
             const v = (0, c.default)(g.default)(e => ({
-                    alignSelf: "flex-start",
-                    opacity: e.active ? 1 : .8
-                })),
+                alignSelf: "flex-start",
+                opacity: e.active ? 1 : .8
+            })),
                 b = (0, c.default)(f.default)(e => ({
                     flexDirection: "row",
                     alignItems: "center"
@@ -19260,11 +19281,11 @@
                 height: 12
             })
         },
-        641: function(e, t, r) {
+        641: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function() {
+            }), t.default = function () {
                 const [e, t] = (0, n.useState)(() => new Date);
                 return (0, n.useEffect)(() => {
                     const e = setInterval(() => t(new Date), 1e4);
@@ -19273,7 +19294,7 @@
             };
             var n = r(0)
         },
-        644: function(e, t, r) {
+        644: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -19323,11 +19344,11 @@
                 })).response && e()
             }
         },
-        645: function(e, t, r) {
+        645: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function({
+            }), t.default = function ({
                 initialQuery: e = "",
                 searchResultCount: t,
                 searchQueryStatus: r,
@@ -19351,10 +19372,10 @@
                     }))
                 }, [e]);
                 const M = (0, f.useCallback)(e => {
-                        x({
-                            type: "issue search query"
-                        }), h(e)
-                    }, [h]),
+                    x({
+                        type: "issue search query"
+                    }), h(e)
+                }, [h]),
                     S = (0, i.default)(_.query, 250);
                 (0, f.useEffect)(() => {
                     null != S && M(S)
@@ -19374,10 +19395,10 @@
                         type: "no search results"
                     })
                 }, [r, t]);
-                const T = (0, y.useWithSurface)("go_up_to_earlier_message", e => {}),
-                    I = (0, y.useWithSurface)("go_down_to_recent_message", e => {}),
-                    R = (0, y.useWithSurface)("close_message_search", e => {}),
-                    A = (0, y.useWithSurface)("query_changed", e => {}),
+                const T = (0, y.useWithSurface)("go_up_to_earlier_message", e => { }),
+                    I = (0, y.useWithSurface)("go_down_to_recent_message", e => { }),
+                    R = (0, y.useWithSurface)("close_message_search", e => { }),
+                    A = (0, y.useWithSurface)("query_changed", e => { }),
                     P = (0, f.useCallback)(e => {
                         switch (e.key) {
                             case "Enter":
@@ -19401,7 +19422,7 @@
                         hk: "zQl2G"
                     }).toString(), [_.state]);
                 let D = void 0;
-                "navigating" === _.state && -1 !== _.searchResultCount ? D = `${_.selectedResultIndex+1}/${_.searchResultCount}` : "empty" === _.state && (D = "0/0");
+                "navigating" === _.state && -1 !== _.searchResultCount ? D = `${_.selectedResultIndex + 1}/${_.searchResultCount}` : "empty" === _.state && (D = "0/0");
                 const z = a.KeyboardShortcuts[a.KeyboardAction.OpenMessageSearch],
                     F = b.select({
                         ...z
@@ -19419,7 +19440,7 @@
                             query: e
                         }), A({
                             type: "keydown",
-                            preventDefault: () => {}
+                            preventDefault: () => { }
                         })
                     },
                     focusShortcut: z,
@@ -19479,7 +19500,7 @@
             function v() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return v = function() {
+                return v = function () {
                     return e
                 }, e
             }
@@ -19506,10 +19527,10 @@
                 }
             }
             const w = (0, u.default)(h.default)({
-                    flexDirection: "row",
-                    alignItems: "center",
-                    padding: "12px 0"
-                }),
+                flexDirection: "row",
+                alignItems: "center",
+                padding: "12px 0"
+            }),
                 C = (0, u.default)(h.default)({
                     flex: "1 1 0px",
                     marginRight: 8
@@ -19563,11 +19584,11 @@
                 return e
             }
         },
-        651: function(e, t, r) {
+        651: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 return a.default.createElement("svg", {
                     xmlns: "http://www.w3.org/2000/svg",
                     fill: "none",
@@ -19589,7 +19610,7 @@
                 default: n
             }
         },
-        652: function(e, t, r) {
+        652: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -19606,11 +19627,11 @@
             }, n.InboxModule];
             t.RoomModule = l
         },
-        653: function(e, t, r) {
+        653: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function() {
+            }), t.default = function () {
                 return (0, s.useEffect)(() => {
                     l.default.performance.markEvent(o.PerformanceEvents.ROOMS_TRAY_SHIMMER_RENDERED)
                 }, []), s.default.createElement(d, null, s.default.createElement(a.default, null), s.default.createElement(a.default, null), s.default.createElement(a.default, null), s.default.createElement(a.default, null), s.default.createElement(a.default, null), s.default.createElement(a.default, null), s.default.createElement(a.default, null))
@@ -19620,7 +19641,7 @@
                 o = r(8),
                 l = c(r(9)),
                 i = c(r(1)),
-                s = function(e) {
+                s = function (e) {
                     if (e && e.__esModule) return e;
                     if (null === e || "object" != typeof e && "function" != typeof e) return {
                         default: e
@@ -19640,7 +19661,7 @@
             function u() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return u = function() {
+                return u = function () {
                     return e
                 }, e
             }
@@ -19656,7 +19677,7 @@
                 padding: "8px 12px"
             })
         },
-        654: function(e, t, r) {
+        654: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
@@ -19680,7 +19701,7 @@
             function v() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return v = function() {
+                return v = function () {
                     return e
                 }, e
             }
@@ -19707,18 +19728,18 @@
                 }
             }
             const w = (0, d.default)(p.FocusableView)(e => ({
-                    height: 48,
-                    flexDirection: "row",
-                    padding: "8px 12px",
-                    alignItems: "center",
-                    borderStyle: "solid",
-                    borderWidth: 4,
-                    borderColor: "transparent",
-                    "body.focus-is-visible &:focus": {
-                        outline: "none",
-                        borderColor: `${(0,i.addAlpha)(e.theme.semanticColors.primaryAccent,.2)}`
-                    }
-                })),
+                height: 48,
+                flexDirection: "row",
+                padding: "8px 12px",
+                alignItems: "center",
+                borderStyle: "solid",
+                borderWidth: 4,
+                borderColor: "transparent",
+                "body.focus-is-visible &:focus": {
+                    outline: "none",
+                    borderColor: `${(0, i.addAlpha)(e.theme.semanticColors.primaryAccent, .2)}`
+                }
+            })),
                 C = (0, d.default)(p.default)({
                     flex: 1,
                     margin: "0px 12px"
@@ -19736,10 +19757,10 @@
                 M = (0, d.default)(y.default)(e => ({
                     color: e.theme.colors.base60
                 }));
-            var S = (0, h.forwardRef)((function(e, t) {
+            var S = (0, h.forwardRef)((function (e, t) {
                 const {
                     searchResult: r,
-                    onClick: i = (() => {}),
+                    onClick: i = (() => { }),
                     participants: d,
                     viewerId: p
                 } = e, {
@@ -19814,11 +19835,11 @@
             }));
             t.default = S
         },
-        655: function(e, t, r) {
+        655: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     onSearchQueryChange: t,
                     suggestions: r,
@@ -19922,7 +19943,7 @@
             function c() {
                 if ("function" != typeof WeakMap) return null;
                 var e = new WeakMap;
-                return c = function() {
+                return c = function () {
                     return e
                 }, e
             }
@@ -19949,12 +19970,12 @@
                 }
             }
             const h = (0, a.default)(l.default)({
-                    flexDirection: "row",
-                    flex: 1
-                }).withComponent("label", {
-                    target: "e1evq9zd0",
-                    label: "OmnipickerContainer"
-                }),
+                flexDirection: "row",
+                flex: 1
+            }).withComponent("label", {
+                target: "e1evq9zd0",
+                label: "OmnipickerContainer"
+            }),
                 p = (0, a.default)(u.default)({
                     alignSelf: "start",
                     paddingTop: 2
@@ -19999,11 +20020,11 @@
                     label: "RecipientsInput"
                 })
         },
-        656: function(e, t, r) {
+        656: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     thread: t,
                     nullstate: r
@@ -20031,8 +20052,8 @@
                 }
             }
             const c = (0, o.default)(l.default)({
-                    flex: 1
-                }),
+                flex: 1
+            }),
                 d = (0, o.default)(l.default)({
                     alignItems: "center"
                 }),
@@ -20050,11 +20071,11 @@
                     margin: "auto"
                 }))
         },
-        658: function(e, t, r) {
+        658: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.default = function(e) {
+            }), t.default = function (e) {
                 const {
                     selectedSkintone: t,
                     onSkintoneSelected: r
@@ -20087,31 +20108,31 @@
                 }
             }
             const u = (0, o.default)(i.default)({
-                    flexDirection: "row"
-                }),
+                flexDirection: "row"
+            }),
                 c = (0, o.default)(n.default)({
                     margin: 5
                 })
         },
-        71: function(e, t, r) {
+        71: function (e, t, r) {
             "use strict";
-            e.exports = function(e) {
+            e.exports = function (e) {
                 return a.test("number" == typeof e ? n(e) : e.charAt(0))
             };
             var n = String.fromCharCode,
                 a = /\s/
         },
-        89: function(e, t, r) {
+        89: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
-            }), t.openContextMenuOnKeyShortcut = function(e, t, r) {
+            }), t.openContextMenuOnKeyShortcut = function (e, t, r) {
                 if (!r) return;
                 "mac" === t.os ? !e.ctrlKey || "5" !== e.key && "i" !== e.key || r() : "windows" === t.os && e.shiftKey && "F10" === e.key && r()
             }
         },
-        95: function(e, t) {
-            e.exports = function() {
+        95: function (e, t) {
+            e.exports = function () {
                 for (var e = {}, t = 0; t < arguments.length; t++) {
                     var n = arguments[t];
                     for (var a in n) r.call(n, a) && (e[a] = n[a])
