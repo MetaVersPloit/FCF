@@ -1,0 +1,5 @@
+# gitignore
+# nodemodules
+node_modules/
+*.json
+

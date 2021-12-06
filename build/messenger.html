@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  
+  <style>
+    @keyframes splash-fade {
+      0% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+    #splash {
+      position: fixed;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      background-color: white;
+      animation-name: splash-fade;
+      animation-play-state: paused;
+      animation-duration: 125ms;
+      animation-timing-function: linear;
+      animation-fill-mode: forwards;
+      z-index: 10000;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #splash {
+        background-color: #1D1E1F;
+      }
+    }
+
+
+    #splash img {
+      height: 300px;
+      width: 300px;
+    }
+
+    #splash .messengerLogo {
+      margin-top: auto;
+    }
+
+    #splash .facebookBrand {
+      margin-top: auto;
+      margin-bottom: 32px;
+    }
+
+    /* make sure the "from" in "from Facebook" shows up on the different background colors*/
+    @media(prefers-color-scheme: light) {
+      #splash .fromFacebookBrand   {
+        fill: black;
+        fill-opacity: 0.5;
+      }
+    }
+    @media(prefers-color-scheme: dark) {
+      #splash .fromFacebookBrand   {
+        fill: white;
+        opacity: 0.7;
+      }
+    }
+
+    #splash.workchat {
+      background-color: white;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #splash.workchat {
+        background-color: black;
+      }
+
+      #splash.workchat img {
+        filter: invert(0.9);
+      }
+    }
+
+    @media (min-width: 651px) {
+      #splash.workchat {
+        background-image: linear-gradient(to right, #F5F5F5 310px, white 310px);
+      }
+
+      #splash.workchat img {
+        margin-left: 310px;
+      }
+    }
+
+    @media (prefers-color-scheme: dark) and (min-width: 651px) {
+      #splash.workchat {
+        background-image: linear-gradient(to right, #212121 310px, black 310px);
+      }
+    }
+  </style>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preload" as="font" href="bundles/assets/assets/fonts/FacebookEmoji96.woff2" type="font/woff2"
+    crossorigin="anonymous">
+  
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self' 'unsafe-inline';img-src * data:;media-src * data: blob:;connect-src https://*.facebook.com https://*.workplace.com">
+  
+</head>
+
+<body>
+  <div id="root"></div>
+  
+  <div id="splash" class="workchat">
+    
+      <img src="bundles/assets/assets/splash.workchat.png" />
+    
+  </div>
+  
+  
+    
+      <script id="dclBootstrap" type="text/javascript">
+        window.addEventListener('DOMContentLoaded', () => {
+          
+            const tag0 = document.createElement("script");
+            tag0.src = "bundles/feedback~incoming_call~messenger~missed_call~native_fallback~rooms_incoming~screensharing~uiexplorer.bundle.js";
+          
+            const tag1 = document.createElement("script");
+            tag1.src = "bundles/Popover~feedback~incoming_call~messenger~missed_call~native_fallback~rooms_incoming~uiexplorer.bundle.js";
+          
+            const tag2 = document.createElement("script");
+            tag2.src = "bundles/feedback~incoming_call~messenger~missed_call~native_fallback~rooms_incoming~uiexplorer.bundle.js";
+          
+            const tag3 = document.createElement("script");
+            tag3.src = "bundles/feedback~incoming_call~messenger~missed_call~rooms_incoming~screensharing~uiexplorer.bundle.js";
+          
+            const tag4 = document.createElement("script");
+            tag4.src = "bundles/Popover.bundle.js";
+          
+            const tag5 = document.createElement("script");
+            tag5.src = "bundles/feedback~incoming_call~messenger~missed_call~rooms_incoming~uiexplorer.bundle.js";
+          
+            const tag6 = document.createElement("script");
+            tag6.src = "bundles/messenger~screensharing~uiexplorer.bundle.js";
+          
+            const tag7 = document.createElement("script");
+            tag7.src = "bundles/messenger~uiexplorer.bundle.js";
+          
+            const tag8 = document.createElement("script");
+            tag8.src = "bundles/messenger.bundle.js";
+          
+
+          
+            document.body.appendChild(tag0);
+          
+            document.body.appendChild(tag1);
+          
+            document.body.appendChild(tag2);
+          
+            document.body.appendChild(tag3);
+          
+            document.body.appendChild(tag4);
+          
+            document.body.appendChild(tag5);
+          
+            document.body.appendChild(tag6);
+          
+            document.body.appendChild(tag7);
+          
+            document.body.appendChild(tag8);
+          
+
+          const dclBootstrap = document.getElementById("dclBootstrap");
+          document.body.removeChild(dclBootstrap);
+        });
+      </script>
+    
+  
+</body>
+
+</html>

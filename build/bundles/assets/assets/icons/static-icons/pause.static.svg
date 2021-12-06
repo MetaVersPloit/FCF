@@ -1,0 +1,8 @@
+<svg width="16px" height="16px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="pause" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Fill-10" points="0 36 36 36 36 0 0 0"></polygon>
+        <path d="M9.5,7 L14.5,7 C15.3285,7 16,7.6715 16,8.5 L16,27.5 C16,28.3285 15.3285,29 14.5,29 L9.5,29 C8.6715,29 8,28.3285 8,27.5 L8,8.5 C8,7.6715 8.6715,7 9.5,7 Z M26.5,7 C27.3285,7 28,7.6715 28,8.5 L28,27.5 C28,28.3285 27.3285,29 26.5,29 L21.5,29 C20.6715,29 20,28.3285 20,27.5 L20,8.5 C20,7.6715 20.6715,7 21.5,7 L26.5,7 Z" id="Combined-Shape" fill="#000000"></path>
+    </g>
+</svg>
