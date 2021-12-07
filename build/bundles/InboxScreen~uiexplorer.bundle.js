@@ -6498,8 +6498,8 @@
                 fuzzyEmail: !0,
                 fuzzyIP: !1
             };
-            var s = {
-                "http:": {
+            var s = {   //[Security] validation schema check -> bypass!!!!!
+                "http:": {  
                     validate: function (e, t, r) {
                         var n = e.slice(t);
                         return r.re.http || (r.re.http = new RegExp("^\\/\\/" + r.re.src_auth + r.re.src_host_port_strict + r.re.src_path, "i")), r.re.http.test(n) ? n.match(r.re.http)[0].length : 0

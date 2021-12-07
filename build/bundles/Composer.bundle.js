@@ -1000,7 +1000,7 @@
                 onClick: yn,
                 disabled: bt,
                 size: U.RoundButtonSize.Medium
-            }))))), F.default.createElement(fe, null, F.default.createElement(w.default, {
+            }))))), F.default.createElement(fe, null, F.default.createElement(w.default, {  // [URL:REGEX] #7
                 color: tt,
                 emoji: K,
                 showHotlike: ht,
