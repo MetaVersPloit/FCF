@@ -9397,7 +9397,7 @@
             return null !== r && null !== t && uo(t, r[1]) ? r[0] : (n.memoizedState = [e, t],
                 e)
         }
-        function To(e, t, n) {
+        function To(e, t, n) {      // [URL:REGEX]REDUCER_ACTION filtered url
             if (!(25 > oo))
                 throw Error(o(301));
             var r = e.alternate;
@@ -10627,7 +10627,7 @@
                 n
         }
         var xl, Fl = Math.ceil, Tl = A.ReactCurrentDispatcher, Cl = A.ReactCurrentOwner, Ol = 0, Nl = null, Ml = null, Pl = 0, Al = 0, Dl = null, Rl = 1073741823, Ul = 1073741823, Bl = null, Il = 0, Ll = !1, $l = 0, zl = null, jl = !1, Wl = null, Hl = null, Vl = !1, Gl = null, ql = 90, Kl = null, Yl = 0, Ql = null, Zl = 0;
-        function Xl() {
+        function Xl() { // protection?, true case -> 32bit_MAX
             return 0 != (48 & Ol) ? 1073741821 - (za() / 10 | 0) : 0 !== Zl ? Zl : Zl = 1073741821 - (za() / 10 | 0)
         }
         function Jl(e, t, n) {
@@ -10692,7 +10692,7 @@
                     }
                     r = r.return
                 }
-            return null !== a && (Nl === a && (du(t),
+            return null !== a && (Nl === a && (du(t), //[URL:REGEX] all Chat UI rendering area 
                 4 === Al && Lu(a, Pl)),
                 $u(a, t)),
                 a
@@ -13238,7 +13238,7 @@
                         E = -1
                 }
         }
-        function x(e, t) {
+        function x(e, t) {  // [URL:REGEX] case
             var n = e.length;
             e.push(t);
             e: for (; ;) {

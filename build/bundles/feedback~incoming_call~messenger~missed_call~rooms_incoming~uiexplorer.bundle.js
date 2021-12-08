@@ -6853,9 +6853,9 @@
             var r = Array.isArray,
                 a = Object.keys,
                 l = Object.prototype.hasOwnProperty;
-            e.exports = function e(t, n) {
-                if (t === n) return !0;
-                if (t && n && "object" == typeof t && "object" == typeof n) {
+            e.exports = function e(t, n) {  // arg1: URL filtered Object
+                if (t === n) return !0; 
+                if (t && n && "object" == typeof t && "object" == typeof n) {   // [URL REGEX]# check function
                     var o, i, u, c = r(t),
                         s = r(n);
                     if (c && s) {

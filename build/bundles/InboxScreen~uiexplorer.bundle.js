@@ -6549,7 +6549,7 @@
                                 var n = t.slice(r);
                                 return e.test(n) ? n.match(e)[0].length : 0
                             }
-                        }(r.validate), void (o(r.normalize) ? n.normalize = r.normalize : r.normalize ? u(t, r) : n.normalize = function (e, t) {
+                        }(r.validate), void (o(r.normalize) ? n.normalize = r.normalize : r.normalize ? u(t, r) : n.normalize = function (e, t) {   //[URL:REGEX] normalize
                             t.normalize(e)
                         });
                         ! function (e) {
@@ -6572,14 +6572,14 @@
                         e.__index__ = -1, e.__text_cache__ = ""
                     }(e)
             }
-
+            // [URL:REGEX] XREF:f, 
             function d(e, t) {
                 var r = e.__index__,
                     n = e.__last_index__,
                     a = e.__text_cache__.slice(r, n);
                 this.schema = e.__schema__.toLowerCase(), this.index = r + t, this.lastIndex = n + t, this.raw = a, this.text = a, this.url = a
             }
-
+            // [URL:REGEX] arg0:target<Object> arg1:<number> -> XREF:h.prototype.match
             function f(e, t) {
                 var r = new d(e, t);
                 return e.__compiled__[r.schema].normalize(r, e), r
@@ -13283,7 +13283,7 @@
                     return (_.default.createElement(_.default.Fragment, null, h))
                 }(e, (0, n.messageAnnotationRanges)(e, p, w, m), v, b, t, f, d, h, g, y)
             }
-
+            // [URL:REGEX] #8 REGEX Filtering finish
             function D(e) {
                 const t = (0, m.getURLMatches)(e);
                 return null != t ? t.map(e => ({
