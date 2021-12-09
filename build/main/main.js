@@ -19077,6 +19077,7 @@ module.exports = function(e) {
                 16 === t.length && r.startsWith(t) ? (f.default.markEvent(i.UNAUTHENTICATED_USERID, i.PerformanceEvents.LOGIN_SSO_INTERSTITIAL_SUCCEEDED_AUTH_STARTED), this.deferredEncryptedBlob.resolve(n)) : this._ssoDeeplinkFailed("parameter validation failed!")
             }
         }
+        
         initializeSSOTokens() {
             return this.readyPromise = this._getTokens(), this.readyPromise
         }
@@ -19091,8 +19092,8 @@ module.exports = function(e) {
             } catch (e) {
                 throw f.default.markEvent(i.UNAUTHENTICATED_USERID, i.PerformanceEvents.LOGIN_SSO_GET_TOKENS_FAILED), e
             }
-        }
-        async initiateSso() {
+        } // [URL:REGEX] -> sso Login
+        async initiateSso() { 
             if (!this.encryptedToken) throw new Error("Attempted to initiate SSO before tokens are ready!");
             if (u.shell.openExternal((0, r.default)((0, g.getHostName)(), "/login/native_sso", {
                     queryParams: {
